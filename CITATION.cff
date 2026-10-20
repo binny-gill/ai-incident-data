@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: Cite the specific dataset version and stable incident ID where applicable.
+title: AI incident reference datasets
+type: dataset
+authors:
+- name: Hallucination-Free
+- name: Deterministic AI
+license: CC-BY-4.0
+url: https://github.com/binny-gill/ai-incident-data
+date-released: '2026-10-20'
+abstract: Selected source-linked records with evidence labels; not a representative
+  sample or prevalence estimate. Published by Kognitos.
+references:
+- type: dataset
+  title: The Hallucination Tracker
+  authors:
+  - name: Hallucination-Free
+  version: '2.26'
+  date-released: '2026-10-20'
+  url: https://www.hallucination-free.org/tracker/
+- type: dataset
+  title: AI Reliability Incident Register
+  authors:
+  - name: Deterministic AI
+  version: '1.16'
+  date-released: '2026-10-20'
+  url: https://www.deterministicai.org/incidents/

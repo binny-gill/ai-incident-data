@@ -1,0 +1,33 @@
+{
+  "title": "AI Reliability Incident Register",
+  "version": "1.0",
+  "released": "2026-10-15",
+  "url": "https://www.deterministicai.org/incidents/",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": "Deterministic AI",
+  "citation": "Deterministic AI. AI Reliability Incident Register, version 1.0, 2026-10-15. https://www.deterministicai.org/incidents/",
+  "scope": "Selected verified accounts of bias, deception without a false factual claim, and harmful conduct. Evidence labels distinguish findings, allegations, studies and first-person reports. Not exhaustive or representative; proposed controls are editorial analysis, not demonstrated prevention.",
+  "fields": [
+    "id",
+    "title",
+    "event_date",
+    "date_precision",
+    "date_basis",
+    "organization",
+    "context",
+    "system",
+    "sector",
+    "category",
+    "evidence_status",
+    "what_happened",
+    "impact",
+    "response",
+    "response_status",
+    "response_url",
+    "prevention_control",
+    "primary_source_url",
+    "source_scope",
+    "reviewed_at"
+  ],
+  "records": []
+}
