@@ -1,15 +1,22 @@
-Hallucination Tracker v2.26 — 2026-10-20
+# The Hallucination Tracker
+
+Published by Kognitos. See the [shared scope, citations and analysis links](../README.md).
+
+## Field dictionary and reuse notes
+
+```text
+Hallucination Tracker v2.27 — 2026-10-21
 https://www.hallucination-free.org/tracker/
 License: CC BY 4.0 https://creativecommons.org/licenses/by/4.0/
 Credit Hallucination-Free, link the landing page and license, and indicate changes.
 License applies to original summaries and compilation, not linked source documents.
 
-Suggested citation: Hallucination-Free. The Hallucination Tracker, version 2.26,
-2026-10-20. https://www.hallucination-free.org/tracker/ (add your access date).
-For a reproducible copy use hallucination-tracker-v2.26.csv or .json.
+Suggested citation: Hallucination-Free. The Hallucination Tracker, version 2.27,
+2026-10-21. https://www.hallucination-free.org/tracker/ (add your access date).
+For a reproducible copy use hallucination-tracker-v2.27.csv or .json.
 
 FORMATS AND ORDER
-UTF-8 CSV: one row per incident; id joins to JSON records.
+UTF-8 CSV: one row per record; id joins to JSON records.
 JSON: metadata object containing a records array. Metadata includes title, version,
 released, url, license, creator, citation and scope.
 Canonical JSON and downloadable CSV/JSON: oldest first by event_date, then id.
@@ -17,14 +24,14 @@ Tracker page index and records: newest first by event_date.
 Dates sort as recorded ISO strings. Partial dates do not imply an exact day or
 establish an exact order within overlapping date ranges.
 Unknown values are described explicitly, never replaced with zero.
-117 selected records (including fourteen controlled studies, two evaluations with external actions, two lawsuit allegations and four first-person reports) spanning documented milestones in 2022–2026 are not a
+119 selected records (including fourteen controlled studies, two evaluations with external actions, two lawsuit allegations and four first-person reports) spanning documented milestones in 2022–2026 are not a
 prevalence estimate or trend series.
 
 FIELD DEFINITIONS
 failure_type: hallucination (invented facts, citations, quotations, figures or sources)
     or false claim (other false assertions about the world or the system’s work).
     Where both descriptions apply, invented content is classified as hallucination.
-    Added in v2.8; v2.26 contains 102 hallucination records and fifteen false claim records.
+    Added in v2.8; v2.27 contains 102 hallucination records and seventeen false claim records.
 id: stable identifier, HF- + event_date at the precision known when first assigned
     + a short kebab-case slug. Date forms: YYYY, YYYY-MM, YYYY-MM-DD.
     Example: HF-2023-03-01-mata-v-avianca. Never use the ingestion date or a
@@ -199,3 +206,9 @@ Additional v2.25 repair: Mitchell source replaced with readable full USPTO order
 October 20, 2026 — Tracker v2.26: added the Oklahoma citation account and SalesBleed false blocked-status study; updated Lnu with Sethi reciprocal discipline; corrected prior scope count. Total 117. The separate SalesBleed Slack study is in the Register; these are distinct findings in one disclosure. Earlier snapshots and IDs preserved.
 
 October 20 source recovery: Booker official opinion now establishes hearing admission, court error classifications and separate merits disposition. Stable ID and admitted label unchanged.
+
+October 21, 2026 — Added two confirmed false-claim records: Grok’s false video context and OpenAI’s October 6 monitor-removal denial. Grok is linked to the same episode in the Register. Total: 119. Preserved earlier IDs and snapshots.
+Date precision analysis retains the October 20 snapshot, including the original Register duplicate; it counts stored records, not unique events.
+
+October 21 source repair: Puerto Rico Soccer League follow-up now cites Lawyer Monthly after the previous source became unreachable. A request for dismissal is not a final disposition.
+```

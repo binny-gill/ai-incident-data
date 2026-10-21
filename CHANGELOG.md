@@ -1,5 +1,9 @@
 # Dataset documentation changelog
 
+## 2026-10-21
+
+Added two confirmed false-claim records: Grok’s false video context and OpenAI’s October 6 monitor-removal denial. Grok is linked to the same episode in the Register. Total: 119. Repaired the unavailable Puerto Rico Soccer League follow-up source with Lawyer Monthly; the later dismissal request is not a verified ruling. Preserved earlier IDs and snapshots. Added OpenAI’s October 3 alert-suppression finding; consolidated two Grok July 2025 records into the earlier published ID, with improved date precision, category bias and a preserved old citation anchor. One addition and one duplicate removed; total remains 103. Earlier snapshots retain their original rows. Published frozen date-precision analysis links and documented record_merges metadata.
+
 ## 2026-10-20
 
 Tracker v2.26: 117 records, two additions and Lnu/Sethi update; corrected previous scope-count text. Register v1.16: 103 records, two additions. SalesBleed false blocked-status and Slack impersonation tests are distinct findings in one disclosure; cross-links preserve overlap. Updated dictionaries, citation versions and analysis reuse references.

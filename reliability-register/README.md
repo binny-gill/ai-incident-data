@@ -1,15 +1,15 @@
 # AI Reliability Incident Register
 
-[Published by Kognitos](https://www.kognitos.com). See the [shared scope, citations and analysis links](../README.md).
+Published by Kognitos. See the [shared scope, citations and analysis links](../README.md).
 
 ## Field dictionary and reuse notes
 
 ```text
 AI Reliability Incident Register — data dictionary and reuse notes
-Version 1.16, 2026-10-20. 103 records: 49 studies, 27 findings, ten reports, 17 allegations; 36 bias, 19 deception, 48 harmful conduct.
+Version 1.17, 2026-10-21. 103 records: 49 studies, 27 findings, ten reports, 17 allegations; 36 bias, 20 deception, 47 harmful conduct.
 Canonical page: https://www.deterministicai.org/incidents/
 License: CC BY 4.0 for original summaries and compilation; linked sources retain their own terms.
-Suggested citation: Deterministic AI. AI Reliability Incident Register, version 1.16, 2026-10-20. https://www.deterministicai.org/incidents/ (add access date).
+Suggested citation: Deterministic AI. AI Reliability Incident Register, version 1.17, 2026-10-21. https://www.deterministicai.org/incidents/ (add access date).
 Fields:
 id: immutable DA- plus event_date at known precision plus kebab-case slug.
 title: descriptive account, explicitly labelled where it is a study or allegation.
@@ -57,4 +57,9 @@ Release comparison and full field changes: https://www.deterministicai.org/topic
 October 19, 2026 — v1.15: added Sirius XM dismissed allegation and Copilot CLI study; nine older record reviews refreshed; total 101. Earlier snapshots preserved.
 
 October 20, 2026 — Register v1.16: added SalesBleed Slack impersonation study and Workday screening allegation, preserving vendor responses and limits. Total 103. The distinct SalesBleed false-status test is in the Tracker; these are not two independent customer breaches. Earlier snapshots and IDs preserved.
+
+JSON metadata record_merges: list of superseded_id, retained_id, date and reason. Resolve the old ID to the retained record for current counts; retain the original snapshot for historical citations. The retained CSV record names the merge in source_scope. The old public anchor remains available.
+
+October 21, 2026 — Added OpenAI’s October 3 alert-suppression finding; consolidated two Grok July 2025 records into the earlier published ID, with improved date precision, category bias and a preserved old citation anchor. One addition and one duplicate removed; total remains 103. Earlier snapshots retain their original rows.
+Date precision analysis retains the October 20 snapshot, including the original Register duplicate; it counts stored records, not unique events.
 ```
