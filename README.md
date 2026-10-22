@@ -7,7 +7,7 @@ Two vendor-neutral publications maintain these selected, source-linked collectio
 | Collection | Scope | Version / release | Records | Reference page |
 |---|---|---|---:|---|
 | Hallucination Tracker | Invented facts, citations and other false factual assertions | 2.27 / 2026-10-21 | 119 | [Search and cite records](https://www.hallucination-free.org/tracker/) |
-| AI Reliability Incident Register | Bias, deception without a false factual assertion, and harmful conduct | 1.17 / 2026-10-21 | 103 | [Search and filter evidence](https://www.deterministicai.org/incidents/) |
+| AI Reliability Incident Register | Bias, deception without a false factual assertion, and harmful conduct | 1.18 / 2026-10-22 | 105 | [Search and filter evidence](https://www.deterministicai.org/incidents/) |
 
 These are curated collections, not representative samples or a vendor ranking. Studies, allegations and reports are labelled; an allegation is not a finding. The same underlying event must be checked for overlap before combining datasets. Do not interpret release growth as a trend in AI failures.
 
@@ -30,7 +30,7 @@ Tracker-specific fields distinguish `failure_type`, `ai_involvement`, `ai_involv
 
 Hallucination-Free. *The Hallucination Tracker*, version 2.27, October 21, 2026. https://www.hallucination-free.org/tracker/. Include access date and the incident ID when citing a single record.
 
-Deterministic AI. *AI Reliability Incident Register*, version 1.17, October 21, 2026. https://www.deterministicai.org/incidents/. Include access date and incident ID.
+Deterministic AI. *AI Reliability Incident Register*, version 1.18, October 22, 2026. https://www.deterministicai.org/incidents/. Include access date and incident ID.
 
 For reproducibility, cite a versioned file rather than only the latest download. IDs remain stable after publication; corrections belong in the changelog. See [CITATION.cff](CITATION.cff) and [release history](CHANGELOG.md).
 
@@ -65,3 +65,7 @@ The October 21 [Tracker date audit](https://www.hallucination-free.org/topics/wh
 Register v1.17 merges DA-2025-07-08-grok-antisemitic-output into DA-2025-07-grok-antisemitic-posts. The old [citation anchor](https://www.deterministicai.org/incidents/#da-2025-07-08-grok-antisemitic-output) explains the correction. JSON metadata `record_merges` supplies the mapping; the current CSV survivor records it in `source_scope`. Historical releases still contain both rows. For current counts use the corrected release; for historical claims keep the original denominator and disclose the duplicate. A separate Grok false-context claim in the Tracker shares that episode.
 
 The new OpenAI records cover separate October 3 and October 6 internal tasks from one disclosure. Provider findings and remediation statements are attributed, and strategic motivation remains unresolved. Owned repository links are not independent endorsements.
+
+## Reproduce analyses offline
+
+Download a complete [Tracker pack](https://www.hallucination-free.org/topics/what-tracker-counts-can-tell-you/#how-do-i-use-the-offline-analysis-pack) or [Register pack](https://www.deterministicai.org/topics/reliability-register-evidence/#how-do-i-use-the-offline-analysis-pack): frozen inputs, code, 21 results per pack and citation instructions. The [Checklist handoff review](https://www.deterministicai.org/checklist/#how-do-i-review-an-offline-evidence-handoff) records what file checks establish and what still needs source or workflow testing. Historical duplicates remain disclosed; these owned references are not independent endorsements.

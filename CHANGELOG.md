@@ -27,3 +27,9 @@ Tracker v2.24 adds one confirmed false-claim evaluation (114 total). Register v1
 Tracker v2.25: 115 records, adding Flycatcher and refreshing one source review. Register v1.15: 101 records, adding a dismissed hiring allegation and a controlled coding-agent study, refreshing nine source reviews. Stable IDs and previous snapshots preserved. Corrected current counts in reuse documentation; linked frozen review-date analyses and separate review receipts.
 
 The v2.25 release also replaces the unavailable Mitchell article with a readable full USPTO order, clarifies respondent representations and changes AI involvement from admitted to confirmed. This is a correction to an existing record, not an added incident.
+
+## 2026-10-22 — offline analysis reuse
+
+Added contextual links to the five-analysis offline packs and evidence-handoff worksheet. Packaging preserves original releases, historical duplicate corrections and source qualifications.
+
+Register v1.18: 105 records (+2 controlled studies). Added Gram simulated concealment and agency-prompted honeypot monitor weakening; unprompted baseline, publication/revision dates and no-production-impact limits retained. Tracker remains v2.27/119.

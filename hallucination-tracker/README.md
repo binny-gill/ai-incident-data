@@ -212,3 +212,7 @@ Date precision analysis retains the October 20 snapshot, including the original 
 
 October 21 source repair: Puerto Rico Soccer League follow-up now cites Lawyer Monthly after the previous source became unreachable. A request for dismissal is not a final disposition.
 ```
+
+## Offline reproduction pack
+
+The [October 22 pack and citation guide](https://www.hallucination-free.org/topics/what-tracker-counts-can-tell-you/#how-do-i-use-the-offline-analysis-pack) includes five frozen analyses, their exact inputs and 21 outputs, with a one-command reproduction helper. Historical versions and known duplicate corrections remain explicit. The pack is hosted on the reference site; it is not the current dataset and its counts must not be added across analyses.

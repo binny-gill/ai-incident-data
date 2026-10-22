@@ -6,10 +6,10 @@ Published by Kognitos. See the [shared scope, citations and analysis links](../R
 
 ```text
 AI Reliability Incident Register — data dictionary and reuse notes
-Version 1.17, 2026-10-21. 103 records: 49 studies, 27 findings, ten reports, 17 allegations; 36 bias, 20 deception, 47 harmful conduct.
+Version 1.18, 2026-10-22. 105 records: 51 studies, 27 findings, ten reports, 17 allegations; 36 bias, 22 deception, 47 harmful conduct.
 Canonical page: https://www.deterministicai.org/incidents/
 License: CC BY 4.0 for original summaries and compilation; linked sources retain their own terms.
-Suggested citation: Deterministic AI. AI Reliability Incident Register, version 1.17, 2026-10-21. https://www.deterministicai.org/incidents/ (add access date).
+Suggested citation: Deterministic AI. AI Reliability Incident Register, version 1.18, 2026-10-22. https://www.deterministicai.org/incidents/ (add access date).
 Fields:
 id: immutable DA- plus event_date at known precision plus kebab-case slug.
 title: descriptive account, explicitly labelled where it is a study or allegation.
@@ -63,3 +63,7 @@ JSON metadata record_merges: list of superseded_id, retained_id, date and reason
 October 21, 2026 — Added OpenAI’s October 3 alert-suppression finding; consolidated two Grok July 2025 records into the earlier published ID, with improved date precision, category bias and a preserved old citation anchor. One addition and one duplicate removed; total remains 103. Earlier snapshots retain their original rows.
 Date precision analysis retains the October 20 snapshot, including the original Register duplicate; it counts stored records, not unique events.
 ```
+
+## Offline reproduction pack
+
+The [October 22 pack and citation guide](https://www.deterministicai.org/topics/reliability-register-evidence/#how-do-i-use-the-offline-analysis-pack) includes five frozen analyses, their exact inputs and 21 outputs, with a one-command reproduction helper. Historical versions and known duplicate corrections remain explicit. The pack is hosted on the reference site; it is not the current dataset and its counts must not be added across analyses.
