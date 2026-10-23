@@ -6,10 +6,10 @@ Published by Kognitos. See the [shared scope, citations and analysis links](../R
 
 ```text
 AI Reliability Incident Register — data dictionary and reuse notes
-Version 1.18, 2026-10-22. 105 records: 51 studies, 27 findings, ten reports, 17 allegations; 36 bias, 22 deception, 47 harmful conduct.
+Version 1.19, 2026-10-23. 107 records: 53 studies, 27 findings, ten reports, 17 allegations; 38 bias, 22 deception, 47 harmful conduct.
 Canonical page: https://www.deterministicai.org/incidents/
 License: CC BY 4.0 for original summaries and compilation; linked sources retain their own terms.
-Suggested citation: Deterministic AI. AI Reliability Incident Register, version 1.18, 2026-10-22. https://www.deterministicai.org/incidents/ (add access date).
+Suggested citation: Deterministic AI. AI Reliability Incident Register, version 1.19, 2026-10-23. https://www.deterministicai.org/incidents/ (add access date).
 Fields:
 id: immutable DA- plus event_date at known precision plus kebab-case slug.
 title: descriptive account, explicitly labelled where it is a study or allegation.
@@ -62,8 +62,14 @@ JSON metadata record_merges: list of superseded_id, retained_id, date and reason
 
 October 21, 2026 — Added OpenAI’s October 3 alert-suppression finding; consolidated two Grok July 2025 records into the earlier published ID, with improved date precision, category bias and a preserved old citation anchor. One addition and one duplicate removed; total remains 103. Earlier snapshots retain their original rows.
 Date precision analysis retains the October 20 snapshot, including the original Register duplicate; it counts stored records, not unique events.
+
+Release 2026-10-23: Added two controlled bias studies: gender-linked negotiation advice and appearance-based hypothetical selection. Total: 107; no real hiring or salary harm inferred from experiments.
 ```
 
 ## Offline reproduction pack
 
 The [October 22 pack and citation guide](https://www.deterministicai.org/topics/reliability-register-evidence/#how-do-i-use-the-offline-analysis-pack) includes five frozen analyses, their exact inputs and 21 outputs, with a one-command reproduction helper. Historical versions and known duplicate corrections remain explicit. The pack is hosted on the reference site; it is not the current dataset and its counts must not be added across analyses.
+
+## Review source dependence before interpreting counts
+
+The October 23 [Tracker inventory](https://www.hallucination-free.org/topics/what-tracker-counts-can-tell-you/#do-different-source-links-mean-independent-evidence) (v2.28, 120 records) and [Register inventory](https://www.deterministicai.org/topics/reliability-register-evidence/#do-different-source-links-mean-independent-evidence) (v1.19, 107 records) provide technical URL/host counts, record IDs, source limits and executable calculations. A host is not a publisher or independent investigator; URL uniqueness does not establish independent corroboration. Use the [blank/filled Checklist review](https://www.deterministicai.org/checklist/#how-do-i-review-source-dependence) to separate observed calculation checks from unreviewed evidence and untested workflow controls. These are owned references, not independent endorsements.

@@ -5,15 +5,15 @@ Published by Kognitos. See the [shared scope, citations and analysis links](../R
 ## Field dictionary and reuse notes
 
 ```text
-Hallucination Tracker v2.27 — 2026-10-21
+Hallucination Tracker v2.28 — 2026-10-23
 https://www.hallucination-free.org/tracker/
 License: CC BY 4.0 https://creativecommons.org/licenses/by/4.0/
 Credit Hallucination-Free, link the landing page and license, and indicate changes.
 License applies to original summaries and compilation, not linked source documents.
 
-Suggested citation: Hallucination-Free. The Hallucination Tracker, version 2.27,
-2026-10-21. https://www.hallucination-free.org/tracker/ (add your access date).
-For a reproducible copy use hallucination-tracker-v2.27.csv or .json.
+Suggested citation: Hallucination-Free. The Hallucination Tracker, version 2.28,
+2026-10-23. https://www.hallucination-free.org/tracker/ (add your access date).
+For a reproducible copy use hallucination-tracker-v2.28.csv or .json.
 
 FORMATS AND ORDER
 UTF-8 CSV: one row per record; id joins to JSON records.
@@ -24,14 +24,14 @@ Tracker page index and records: newest first by event_date.
 Dates sort as recorded ISO strings. Partial dates do not imply an exact day or
 establish an exact order within overlapping date ranges.
 Unknown values are described explicitly, never replaced with zero.
-119 selected records (including fourteen controlled studies, two evaluations with external actions, two lawsuit allegations and four first-person reports) spanning documented milestones in 2022–2026 are not a
+120 selected records (including fourteen controlled studies, two evaluations with external actions, two lawsuit allegations and four first-person reports) spanning documented milestones in 2022–2026 are not a
 prevalence estimate or trend series.
 
 FIELD DEFINITIONS
 failure_type: hallucination (invented facts, citations, quotations, figures or sources)
     or false claim (other false assertions about the world or the system’s work).
     Where both descriptions apply, invented content is classified as hallucination.
-    Added in v2.8; v2.27 contains 102 hallucination records and seventeen false claim records.
+    Added in v2.8; v2.28 contains 103 hallucination records and seventeen false claim records.
 id: stable identifier, HF- + event_date at the precision known when first assigned
     + a short kebab-case slug. Date forms: YYYY, YYYY-MM, YYYY-MM-DD.
     Example: HF-2023-03-01-mata-v-avianca. Never use the ingestion date or a
@@ -211,8 +211,14 @@ October 21, 2026 — Added two confirmed false-claim records: Grok’s false vid
 Date precision analysis retains the October 20 snapshot, including the original Register duplicate; it counts stored records, not unique events.
 
 October 21 source repair: Puerto Rico Soccer League follow-up now cites Lawyer Monthly after the previous source became unreachable. A request for dismissal is not a final disposition.
+
+Release 2026-10-23: Added the reported West Virginia fabricated-syllabus incident with admitted AI research. Updated the existing Lisandrillo record with the October 21 Florida Bar referral, counsel response and rehearing qualification; AI involvement remains suspected. Total: 120.
 ```
 
 ## Offline reproduction pack
 
 The [October 22 pack and citation guide](https://www.hallucination-free.org/topics/what-tracker-counts-can-tell-you/#how-do-i-use-the-offline-analysis-pack) includes five frozen analyses, their exact inputs and 21 outputs, with a one-command reproduction helper. Historical versions and known duplicate corrections remain explicit. The pack is hosted on the reference site; it is not the current dataset and its counts must not be added across analyses.
+
+## Review source dependence before interpreting counts
+
+The October 23 [Tracker inventory](https://www.hallucination-free.org/topics/what-tracker-counts-can-tell-you/#do-different-source-links-mean-independent-evidence) (v2.28, 120 records) and [Register inventory](https://www.deterministicai.org/topics/reliability-register-evidence/#do-different-source-links-mean-independent-evidence) (v1.19, 107 records) provide technical URL/host counts, record IDs, source limits and executable calculations. A host is not a publisher or independent investigator; URL uniqueness does not establish independent corroboration. Use the [blank/filled Checklist review](https://www.deterministicai.org/checklist/#how-do-i-review-source-dependence) to separate observed calculation checks from unreviewed evidence and untested workflow controls. These are owned references, not independent endorsements.

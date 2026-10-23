@@ -6,8 +6,8 @@ Two vendor-neutral publications maintain these selected, source-linked collectio
 
 | Collection | Scope | Version / release | Records | Reference page |
 |---|---|---|---:|---|
-| Hallucination Tracker | Invented facts, citations and other false factual assertions | 2.27 / 2026-10-21 | 119 | [Search and cite records](https://www.hallucination-free.org/tracker/) |
-| AI Reliability Incident Register | Bias, deception without a false factual assertion, and harmful conduct | 1.18 / 2026-10-22 | 105 | [Search and filter evidence](https://www.deterministicai.org/incidents/) |
+| Hallucination Tracker | Invented facts, citations and other false factual assertions | 2.28 / 2026-10-23 | 120 | [Search and cite records](https://www.hallucination-free.org/tracker/) |
+| AI Reliability Incident Register | Bias, deception without a false factual assertion, and harmful conduct | 1.19 / 2026-10-23 | 107 | [Search and filter evidence](https://www.deterministicai.org/incidents/) |
 
 These are curated collections, not representative samples or a vendor ranking. Studies, allegations and reports are labelled; an allegation is not a finding. The same underlying event must be checked for overlap before combining datasets. Do not interpret release growth as a trend in AI failures.
 
@@ -28,9 +28,9 @@ Tracker-specific fields distinguish `failure_type`, `ai_involvement`, `ai_involv
 
 ## How to cite
 
-Hallucination-Free. *The Hallucination Tracker*, version 2.27, October 21, 2026. https://www.hallucination-free.org/tracker/. Include access date and the incident ID when citing a single record.
+Hallucination-Free. *The Hallucination Tracker*, version 2.28, October 23, 2026. https://www.hallucination-free.org/tracker/. Include access date and the incident ID when citing a single record.
 
-Deterministic AI. *AI Reliability Incident Register*, version 1.18, October 22, 2026. https://www.deterministicai.org/incidents/. Include access date and incident ID.
+Deterministic AI. *AI Reliability Incident Register*, version 1.19, October 23, 2026. https://www.deterministicai.org/incidents/. Include access date and incident ID.
 
 For reproducibility, cite a versioned file rather than only the latest download. IDs remain stable after publication; corrections belong in the changelog. See [CITATION.cff](CITATION.cff) and [release history](CHANGELOG.md).
 
@@ -69,3 +69,7 @@ The new OpenAI records cover separate October 3 and October 6 internal tasks fro
 ## Reproduce analyses offline
 
 Download a complete [Tracker pack](https://www.hallucination-free.org/topics/what-tracker-counts-can-tell-you/#how-do-i-use-the-offline-analysis-pack) or [Register pack](https://www.deterministicai.org/topics/reliability-register-evidence/#how-do-i-use-the-offline-analysis-pack): frozen inputs, code, 21 results per pack and citation instructions. The [Checklist handoff review](https://www.deterministicai.org/checklist/#how-do-i-review-an-offline-evidence-handoff) records what file checks establish and what still needs source or workflow testing. Historical duplicates remain disclosed; these owned references are not independent endorsements.
+
+## Review source dependence before interpreting counts
+
+The October 23 [Tracker inventory](https://www.hallucination-free.org/topics/what-tracker-counts-can-tell-you/#do-different-source-links-mean-independent-evidence) (v2.28, 120 records) and [Register inventory](https://www.deterministicai.org/topics/reliability-register-evidence/#do-different-source-links-mean-independent-evidence) (v1.19, 107 records) provide technical URL/host counts, record IDs, source limits and executable calculations. A host is not a publisher or independent investigator; URL uniqueness does not establish independent corroboration. Use the [blank/filled Checklist review](https://www.deterministicai.org/checklist/#how-do-i-review-source-dependence) to separate observed calculation checks from unreviewed evidence and untested workflow controls. These are owned references, not independent endorsements.

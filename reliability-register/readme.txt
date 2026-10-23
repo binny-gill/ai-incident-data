@@ -1,8 +1,8 @@
 AI Reliability Incident Register — data dictionary and reuse notes
-Version 1.18, 2026-10-22. 105 records: 51 studies, 27 findings, ten reports, 17 allegations; 36 bias, 22 deception, 47 harmful conduct.
+Version 1.19, 2026-10-23. 107 records: 53 studies, 27 findings, ten reports, 17 allegations; 38 bias, 22 deception, 47 harmful conduct.
 Canonical page: https://www.deterministicai.org/incidents/
 License: CC BY 4.0 for original summaries and compilation; linked sources retain their own terms.
-Suggested citation: Deterministic AI. AI Reliability Incident Register, version 1.18, 2026-10-22. https://www.deterministicai.org/incidents/ (add access date).
+Suggested citation: Deterministic AI. AI Reliability Incident Register, version 1.19, 2026-10-23. https://www.deterministicai.org/incidents/ (add access date).
 Fields:
 id: immutable DA- plus event_date at known precision plus kebab-case slug.
 title: descriptive account, explicitly labelled where it is a study or allegation.
@@ -55,3 +55,5 @@ JSON metadata record_merges: list of superseded_id, retained_id, date and reason
 
 October 21, 2026 — Added OpenAI’s October 3 alert-suppression finding; consolidated two Grok July 2025 records into the earlier published ID, with improved date precision, category bias and a preserved old citation anchor. One addition and one duplicate removed; total remains 103. Earlier snapshots retain their original rows.
 Date precision analysis retains the October 20 snapshot, including the original Register duplicate; it counts stored records, not unique events.
+
+Release 2026-10-23: Added two controlled bias studies: gender-linked negotiation advice and appearance-based hypothetical selection. Total: 107; no real hiring or salary harm inferred from experiments.
