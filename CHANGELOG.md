@@ -1,5 +1,11 @@
 # Dataset documentation changelog
 
+## 2026-10-24
+
+- Tracker v2.29: 121 records, adding Jackson Federation's July 2025 order and October 2026 appellate disposition.
+- Register v1.20: 108 records, adding a labelled developer deletion report and updating the existing AISI July incident.
+- Current frozen composition refreshes, executable synthetic evaluation examples and matching Checklist review links added. Earlier release counts remain historical; no population trend inferred.
+
 ## 2026-10-23
 
 Tracker v2.28: 120 records (+1), West Virginia reported fabricated syllabus points and Lisandrillo referral update. Register v1.19: 107 records (+2), negotiation-advice and face-judgment bias studies. Added contextual source-inventory and review links; no independent corroboration inferred from host counts.
