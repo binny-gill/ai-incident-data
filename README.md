@@ -6,8 +6,8 @@ Two vendor-neutral publications maintain these selected, source-linked collectio
 
 | Collection | Scope | Version / release | Records | Reference page |
 |---|---|---|---:|---|
-| Hallucination Tracker | Invented facts, citations and other false factual assertions | 2.29 / 2026-10-24 | 121 | [Search and cite records](https://www.hallucination-free.org/tracker/) |
-| AI Reliability Incident Register | Bias, deception without a false factual assertion, and harmful conduct | 1.20 / 2026-10-24 | 108 | [Search and filter evidence](https://www.deterministicai.org/incidents/) |
+| Hallucination Tracker | Invented facts, citations and other false factual assertions | 2.30 / 2026-10-25 | 122 | [Search and cite records](https://www.hallucination-free.org/tracker/) |
+| AI Reliability Incident Register | Bias, deception without a false factual assertion, and harmful conduct | 1.21 / 2026-10-25 | 109 | [Search and filter evidence](https://www.deterministicai.org/incidents/) |
 
 These are curated collections, not representative samples or a vendor ranking. Studies, allegations and reports are labelled; an allegation is not a finding. The same underlying event must be checked for overlap before combining datasets. Do not interpret release growth as a trend in AI failures.
 
@@ -80,3 +80,9 @@ The October 23 [Tracker inventory](https://www.hallucination-free.org/topics/wha
 The October 24 [Tracker composition](https://www.hallucination-free.org/topics/what-tracker-counts-can-tell-you/#what-does-the-october-24-release-contain) (v2.29, 121 records) and [Register composition](https://www.deterministicai.org/topics/reliability-register-evidence/#what-does-the-october-24-release-contain) (v1.20, 108 records) retain distinct attribution and evidence categories. These are collection counts, not model error rates.
 
 For evaluation, use the separate synthetic [claim-and-abstention example](https://www.hallucination-free.org/topics/how-to-measure-hallucinations/#what-does-a-worked-example-look-like) and [repeatable-but-wrong rule example](https://www.deterministicai.org/topics/deterministic-vs-probabilistic-ai/#can-a-repeatable-rule-still-fail-the-policy). Both include inputs, executable code, expected results and limits; the [Checklist review](https://www.deterministicai.org/checklist/#how-do-i-record-a-repeatable-but-wrong-result) keeps passing, failed and untested properties separate. Teaching fixtures are not incident records or tests of a deployed model. These links are owned references, not independent endorsements.
+
+## Does a response pointer establish a correction?
+
+The October 25 [Tracker response inventory](https://www.hallucination-free.org/topics/what-tracker-counts-can-tell-you/#does-a-response-link-mean-the-incident-was-fixed) (frozen v2.29, 121 records) and [Register response inventory](https://www.deterministicai.org/topics/reliability-register-evidence/#does-a-response-link-mean-the-incident-was-fixed) (frozen v1.20, 108) retain source qualifications, exact metadata counts, input hashes and code. A response URL is not a verified fix, and a missing URL does not establish organizational silence. These analyses deliberately preserve yesterday's releases, while the table above identifies the latest data.
+
+Use the [blank/filled correction review](https://www.deterministicai.org/checklist/#what-evidence-supports-a-correction-claim) to record a claimed change, fresh regression evidence and production follow-up separately. These are owned reference links, not independent endorsements.

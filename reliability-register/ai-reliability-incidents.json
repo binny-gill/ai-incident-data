@@ -1,11 +1,11 @@
 {
   "title": "AI Reliability Incident Register",
-  "version": "1.20",
-  "released": "2026-10-24",
+  "version": "1.21",
+  "released": "2026-10-25",
   "url": "https://www.deterministicai.org/incidents/",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "creator": "Deterministic AI",
-  "citation": "Deterministic AI. AI Reliability Incident Register, version 1.20, 2026-10-24. https://www.deterministicai.org/incidents/",
+  "citation": "Deterministic AI. AI Reliability Incident Register, version 1.21, 2026-10-25. https://www.deterministicai.org/incidents/",
   "scope": "Selected verified accounts of bias, deception without a false factual claim, and harmful conduct. Evidence labels distinguish findings, allegations, studies and first-person reports. Not exhaustive or representative; proposed controls are editorial analysis, not demonstrated prevention.",
   "fields": [
     "id",
@@ -1723,6 +1723,28 @@
       "primary_source_url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
       "source_scope": "Primary company assessment read with fetch_page through the introduction, incident summaries and part of the analysis; later text truncated. The assessment updates the same incident cluster as the July operational disclosure; they are not separate incident counts. September 9 is the assessment date; the report dates the fourth incident to January 2026. Full July operational disclosure re-read in batch 8: https://www.anthropic.com/research/investigating-incidents-cybersecurity-evals . It identifies Irregular and the package exposure. The September assessment and its revised interpretation remain controlling here; the ID and event-date milestone are preserved.",
       "reviewed_at": "2026-10-15"
+    },
+    {
+      "id": "DA-2026-09-10-cfa-investment-framing-bias",
+      "title": "CFA Institute study: positive and negative framing changed investment evaluations",
+      "event_date": "2026-09-10",
+      "date_precision": "day",
+      "date_basis": "Report publication date verified in publisher metadata and page; experiment dates not established by the passages read.",
+      "organization": "CFA Institute Research and Policy Center; OpenAI models evaluated",
+      "context": "Controlled investment-evaluation experiment",
+      "system": "Nine OpenAI models in the publisher’s summary; exact model configurations and complete methods not recovered",
+      "sector": "finance",
+      "category": "bias",
+      "evidence_status": "study",
+      "what_happened": "CFA Institute reports a controlled experiment sending 900 prompts to each of nine OpenAI models across ten investment scenarios. Positive and negative presentations of equivalent financial information changed evaluations, with the strongest and most consistent framing effects in drawdown performance and client retention. This is a study of framing-dependent judgments, not a finding of demographic discrimination, fabricated financial facts or actual trading losses.",
+      "impact": "The authors report context-dependent evaluation differences in their test and compare mitigation approaches. No deployed investment decision, customer harm or financial loss is established by the reviewed material; no numerical effect size or population bias rate is asserted here.",
+      "response": "The researchers report that manually restructuring prompts to include both perspectives reduced framing effects most in their sample. A separate bias-detection model also helped in most cases, while defining bias in a prompt had little effect. These are attributed study findings, not verified corrections to a deployed product. No case-specific OpenAI response was identified in the sources read.",
+      "response_status": "Researcher mitigation findings available; no separate provider response identified",
+      "response_url": "https://rpc.cfainstitute.org/research/reports/2026/managing-llm-bias-in-investing",
+      "prevention_control": "Use a fixed factual record and explicit decision criteria, then compare matched positive/negative framing variants against a predeclared acceptance rule. Preserve inputs, outputs and versions; escalate consequential disagreements for human review. Repeatability alone would not establish framing neutrality. The reported prompt interventions were tested only within the study’s scope.",
+      "primary_source_url": "https://rpc.cfainstitute.org/research/reports/2026/managing-llm-bias-in-investing",
+      "source_scope": "Full publisher overview read, including its 900-prompts-per-model/nine-model/ten-scenario setup and qualified findings; September 10 date verified in static citation metadata. Report PDF executive summary and opening sections recovered through page 10 before truncation: https://rpc.cfainstitute.org/sites/default/files/docs/research-reports/rpc_tait_managing-llm-bias-in-investing_online.pdf . Full case-study methods, tables and appendices were not recovered; do not infer unreviewed effect sizes or configurations.",
+      "reviewed_at": "2026-10-25"
     },
     {
       "id": "DA-2026-09-16-housing-dialect-association-study",

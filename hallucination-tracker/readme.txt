@@ -1,12 +1,12 @@
-Hallucination Tracker v2.29 — 2026-10-24
+Hallucination Tracker v2.30 — 2026-10-25
 https://www.hallucination-free.org/tracker/
 License: CC BY 4.0 https://creativecommons.org/licenses/by/4.0/
 Credit Hallucination-Free, link the landing page and license, and indicate changes.
 License applies to original summaries and compilation, not linked source documents.
 
-Suggested citation: Hallucination-Free. The Hallucination Tracker, version 2.29,
-2026-10-24. https://www.hallucination-free.org/tracker/ (add your access date).
-For a reproducible copy use hallucination-tracker-v2.29.csv or .json.
+Suggested citation: Hallucination-Free. The Hallucination Tracker, version 2.30,
+2026-10-25. https://www.hallucination-free.org/tracker/ (add your access date).
+For a reproducible copy use hallucination-tracker-v2.30.csv or .json.
 
 FORMATS AND ORDER
 UTF-8 CSV: one row per record; id joins to JSON records.
@@ -17,14 +17,14 @@ Tracker page index and records: newest first by event_date.
 Dates sort as recorded ISO strings. Partial dates do not imply an exact day or
 establish an exact order within overlapping date ranges.
 Unknown values are described explicitly, never replaced with zero.
-121 selected records (including fourteen controlled studies, two evaluations with external actions, two lawsuit allegations and four first-person reports) spanning documented milestones in 2022–2026 are not a
+122 selected records (including fourteen controlled studies, two evaluations with external actions, two lawsuit allegations and four first-person reports) spanning documented milestones in 2022–2026 are not a
 prevalence estimate or trend series.
 
 FIELD DEFINITIONS
 failure_type: hallucination (invented facts, citations, quotations, figures or sources)
     or false claim (other false assertions about the world or the system’s work).
     Where both descriptions apply, invented content is classified as hallucination.
-    Added in v2.8; v2.29 contains 104 hallucination records and seventeen false claim records.
+    Added in v2.8; v2.30 contains 105 hallucination records and seventeen false claim records.
 id: stable identifier, HF- + event_date at the precision known when first assigned
     + a short kebab-case slug. Date forms: YYYY, YYYY-MM, YYYY-MM-DD.
     Example: HF-2023-03-01-mata-v-avianca. Never use the ingestion date or a
@@ -208,3 +208,5 @@ October 21 source repair: Puerto Rico Soccer League follow-up now cites Lawyer M
 Release 2026-10-23: Added the reported West Virginia fabricated-syllabus incident with admitted AI research. Updated the existing Lisandrillo record with the October 21 Florida Bar referral, counsel response and rehearing qualification; AI involvement remains suspected. Total: 120.
 
 Release 2026-10-24: Added Jackson Federation’s July 20, 2025 order with fabricated material and the October 22, 2026 appellate reassignment. Total: 121 records; a later disposition is not a new event date.
+
+Release 2026-10-25: Added Paananen quotation finding with suspected AI involvement. Total: 122 records.
