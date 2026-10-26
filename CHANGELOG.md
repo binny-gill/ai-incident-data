@@ -1,5 +1,9 @@
 # Dataset documentation changelog
 
+## 2026-10-26
+
+Tracker v2.31: one judicial citation finding, 123 records. Register v1.22: one controlled disability-representation study, 110 records; ten oldest source reviews and a provider follow-up added. Updated current prose citations and contextual freshness-review references. Historical versions and IDs preserved.
+
 ## 2026-10-25
 
 Tracker v2.30 adds one court-documented quotation finding with suspected AI involvement (122 records). Register v1.21 adds one controlled investment-framing study (109 records). Added response-inventory and correction-review references; analyses remain pinned to earlier v2.29/v1.20 inputs. Earlier snapshots and IDs unchanged.

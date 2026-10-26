@@ -6,8 +6,8 @@ Two vendor-neutral publications maintain these selected, source-linked collectio
 
 | Collection | Scope | Version / release | Records | Reference page |
 |---|---|---|---:|---|
-| Hallucination Tracker | Invented facts, citations and other false factual assertions | 2.30 / 2026-10-25 | 122 | [Search and cite records](https://www.hallucination-free.org/tracker/) |
-| AI Reliability Incident Register | Bias, deception without a false factual assertion, and harmful conduct | 1.21 / 2026-10-25 | 109 | [Search and filter evidence](https://www.deterministicai.org/incidents/) |
+| Hallucination Tracker | Invented facts, citations and other false factual assertions | 2.31 / 2026-10-26 | 123 | [Search and cite records](https://www.hallucination-free.org/tracker/) |
+| AI Reliability Incident Register | Bias, deception without a false factual assertion, and harmful conduct | 1.22 / 2026-10-26 | 110 | [Search and filter evidence](https://www.deterministicai.org/incidents/) |
 
 These are curated collections, not representative samples or a vendor ranking. Studies, allegations and reports are labelled; an allegation is not a finding. The same underlying event must be checked for overlap before combining datasets. Do not interpret release growth as a trend in AI failures.
 
@@ -28,9 +28,9 @@ Tracker-specific fields distinguish `failure_type`, `ai_involvement`, `ai_involv
 
 ## How to cite
 
-Hallucination-Free. *The Hallucination Tracker*, version 2.29, October 24, 2026. https://www.hallucination-free.org/tracker/. Include access date and the incident ID when citing a single record.
+Hallucination-Free. *The Hallucination Tracker*, version 2.31, October 26, 2026. https://www.hallucination-free.org/tracker/. Include access date and the incident ID when citing a single record.
 
-Deterministic AI. *AI Reliability Incident Register*, version 1.20, October 24, 2026. https://www.deterministicai.org/incidents/. Include access date and incident ID.
+Deterministic AI. *AI Reliability Incident Register*, version 1.22, October 26, 2026. https://www.deterministicai.org/incidents/. Include access date and incident ID.
 
 For reproducibility, cite a versioned file rather than only the latest download. IDs remain stable after publication; corrections belong in the changelog. See [CITATION.cff](CITATION.cff) and [release history](CHANGELOG.md).
 
@@ -86,3 +86,7 @@ For evaluation, use the separate synthetic [claim-and-abstention example](https:
 The October 25 [Tracker response inventory](https://www.hallucination-free.org/topics/what-tracker-counts-can-tell-you/#does-a-response-link-mean-the-incident-was-fixed) (frozen v2.29, 121 records) and [Register response inventory](https://www.deterministicai.org/topics/reliability-register-evidence/#does-a-response-link-mean-the-incident-was-fixed) (frozen v1.20, 108) retain source qualifications, exact metadata counts, input hashes and code. A response URL is not a verified fix, and a missing URL does not establish organizational silence. These analyses deliberately preserve yesterday's releases, while the table above identifies the latest data.
 
 Use the [blank/filled correction review](https://www.deterministicai.org/checklist/#what-evidence-supports-a-correction-claim) to record a claimed change, fresh regression evidence and production follow-up separately. These are owned reference links, not independent endorsements.
+
+## Evidence freshness — October 26, 2026
+
+The [weekly source-review audit](https://www.deterministicai.org/topics/reliability-register-evidence/#what-did-the-october-26-source-review-establish) preserves 231 pre-review records, the ten selected IDs and a separate source-access receipt. All ten selected records were in the Register because of date/ID ordering. Current downloads include subsequent additions; use the pinned baseline for reproduction. The [worked and blank Checklist supplement](https://www.deterministicai.org/checklist/#when-does-evidence-need-a-fresh-review) distinguishes a recent check from complete evidence or a verified fix.

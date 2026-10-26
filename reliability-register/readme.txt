@@ -1,8 +1,8 @@
 AI Reliability Incident Register — data dictionary and reuse notes
-Version 1.21, 2026-10-25. 109 records: 54 studies, 27 findings, 11 reports, 17 allegations; 39 bias, 22 deception, 48 harmful conduct.
+Version 1.22, 2026-10-26. 110 records: 55 studies, 27 findings, 11 reports, 17 allegations; 40 bias, 22 deception, 48 harmful conduct.
 Canonical page: https://www.deterministicai.org/incidents/
 License: CC BY 4.0 for original summaries and compilation; linked sources retain their own terms.
-Suggested citation: Deterministic AI. AI Reliability Incident Register, version 1.21, 2026-10-25. https://www.deterministicai.org/incidents/ (add access date).
+Suggested citation: Deterministic AI. AI Reliability Incident Register, version 1.22, 2026-10-26. https://www.deterministicai.org/incidents/ (add access date).
 Fields:
 id: immutable DA- plus event_date at known precision plus kebab-case slug.
 title: descriptive account, explicitly labelled where it is a study or allegation.
@@ -60,4 +60,7 @@ Release 2026-10-23: Added two controlled bias studies: gender-linked negotiation
 
 Release 2026-10-24: Added one explicitly labelled developer report of model-artifact deletion. Updated the existing July AISI incident with its October 23 alignment/security follow-up. Total: 108 records; the follow-up is not a new incident.
 
-Release 2026-10-25: Added CFA Institute controlled investment-framing study. Total: 109 records.
+Release 2026-10-26: Added CFA Institute controlled investment-framing study. Total: 110 records.
+
+October 26 source-review audit (frozen pre-review baseline): https://www.deterministicai.org/topics/reliability-register-evidence/#what-did-the-october-26-source-review-establish
+Freshness worksheet: https://www.deterministicai.org/checklist/#when-does-evidence-need-a-fresh-review
