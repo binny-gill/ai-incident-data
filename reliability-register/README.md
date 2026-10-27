@@ -73,3 +73,7 @@ Release 2026-10-26: Added CFA Institute controlled investment-framing study. Tot
 See the [response inventory and correction review](https://github.com/binny-gill/ai-incident-data#does-a-response-pointer-establish-a-correction) for frozen metadata counts and evidence limits.
 
 [October 26 source-review audit](https://www.deterministicai.org/topics/reliability-register-evidence/#what-did-the-october-26-source-review-establish) preserves the pre-review snapshot, exact queue and access limits. Use the [evidence-freshness worksheet](https://www.deterministicai.org/checklist/#when-does-evidence-need-a-fresh-review) to keep unresolved checks visible.
+
+## Sector-specific evidence reuse
+
+The [October 27 sector/evidence table](https://www.deterministicai.org/topics/reliability-register-evidence/#what-evidence-is-recorded-for-each-sector) includes every zero cell and a [membership CSV preserving all source fields](https://www.deterministicai.org/analysis/2026-10-27/members.csv). Retain evidence labels, date basis and source limits when selecting a sector. These curated counts do not compare industry risk.

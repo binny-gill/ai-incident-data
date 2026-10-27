@@ -222,3 +222,7 @@ Release 2026-10-26: Added Paananen quotation finding with suspected AI involveme
 See the [response inventory and correction review](https://github.com/binny-gill/ai-incident-data#does-a-response-pointer-establish-a-correction) for frozen metadata counts and evidence limits.
 
 [October 26 source-review audit](https://www.hallucination-free.org/topics/what-tracker-counts-can-tell-you/#what-did-the-october-26-source-review-establish) preserves the pre-review snapshot, exact queue and access limits. Use the [evidence-freshness worksheet](https://www.deterministicai.org/checklist/#when-does-evidence-need-a-fresh-review) to keep unresolved checks visible.
+
+## Sector-specific evidence reuse
+
+The [October 27 sector/evidence table](https://www.hallucination-free.org/topics/what-tracker-counts-can-tell-you/#what-evidence-is-recorded-for-each-sector) includes every zero cell and a [membership CSV preserving all source fields](https://www.hallucination-free.org/analysis/2026-10-27/members.csv). Retain evidence labels, date basis and source limits when selecting a sector. These curated counts do not compare industry risk.

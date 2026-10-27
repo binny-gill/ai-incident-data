@@ -90,3 +90,9 @@ Use the [blank/filled correction review](https://www.deterministicai.org/checkli
 ## Evidence freshness — October 26, 2026
 
 The [weekly source-review audit](https://www.deterministicai.org/topics/reliability-register-evidence/#what-did-the-october-26-source-review-establish) preserves 231 pre-review records, the ten selected IDs and a separate source-access receipt. All ten selected records were in the Register because of date/ID ordering. Current downloads include subsequent additions; use the pinned baseline for reproduction. The [worked and blank Checklist supplement](https://www.deterministicai.org/checklist/#when-does-evidence-need-a-fresh-review) distinguishes a recent check from complete evidence or a verified fix.
+
+## Find evidence for a sector or control
+
+Use the [Tracker sector table](https://www.hallucination-free.org/topics/what-tracker-counts-can-tell-you/#what-evidence-is-recorded-for-each-sector) and [Register sector table](https://www.deterministicai.org/topics/reliability-register-evidence/#what-evidence-is-recorded-for-each-sector) to inspect evidence composition, explicit zeros and all source fields behind a count. They pin the October 26 releases; sector counts are not comparative failure rates and the two collections can overlap.
+
+For a workflow review, the [Checklist chooser](https://www.deterministicai.org/checklist/#which-download-should-i-use) and [downloadable directory](https://www.deterministicai.org/data/checklist-worksheet-directory-2026-10-27.csv) explain which test or supplement applies, what it covers and what evidence to retain. Teaching results do not certify a production workflow.

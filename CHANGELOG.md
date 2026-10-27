@@ -1,5 +1,9 @@
 # Dataset documentation changelog
 
+## 2026-10-27
+
+Added contextual links to sector/evidence analyses with preserved record membership and the Checklist worksheet directory. Dataset versions remain Tracker v2.31 (123 records) and Register v1.22 (110 records); no new incidents or source-review dates asserted.
+
 ## 2026-10-26
 
 Tracker v2.31: one judicial citation finding, 123 records. Register v1.22: one controlled disability-representation study, 110 records; ten oldest source reviews and a provider follow-up added. Updated current prose citations and contextual freshness-review references. Historical versions and IDs preserved.
