@@ -1,4 +1,8 @@
 # Dataset documentation changelog
+## 2026-10-28 — Cross-dataset interpretation
+
+Added contextual links to the reproducible companion-reference inventory and join-review worksheet. No incident data or version changed; Tracker remains v2.31 (123), Register v1.22 (110). Relations do not supply an independent-event total.
+
 
 ## 2026-10-27
 

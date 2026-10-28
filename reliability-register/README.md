@@ -77,3 +77,9 @@ See the [response inventory and correction review](https://github.com/binny-gill
 ## Sector-specific evidence reuse
 
 The [October 27 sector/evidence table](https://www.deterministicai.org/topics/reliability-register-evidence/#what-evidence-is-recorded-for-each-sector) includes every zero cell and a [membership CSV preserving all source fields](https://www.deterministicai.org/analysis/2026-10-27/members.csv). Retain evidence labels, date basis and source limits when selecting a sector. These curated counts do not compare industry risk.
+
+## Compare related records across the datasets
+
+The October 28 [companion-reference inventory](https://www.hallucination-free.org/topics/what-tracker-counts-can-tell-you/#can-i-add-the-two-dataset-totals) finds three explicitly linked pairs in Tracker v2.31 and Register v1.22. Their relationships differ: the same episode, distinct study findings, and separate tasks in one disclosure. Do not add the totals or subtract the pair count to claim independent events. Both complete inputs, exact reference fields, retained full records and a reproducible calculation are available from the [Register analysis](https://www.deterministicai.org/topics/reliability-register-evidence/#can-i-add-the-two-dataset-totals).
+
+Use the [blank and filled join review](https://www.deterministicai.org/checklist/#how-do-i-review-a-cross-dataset-join) to preserve the counted unit, both versions, target-resolution checks and remaining limits. This inventory is not an exhaustive overlap audit or a fresh verification of source truth. These are owned reference links, not independent endorsements.
