@@ -1,8 +1,8 @@
 AI Reliability Incident Register — data dictionary and reuse notes
-Version 1.22, 2026-10-26. 110 records: 55 studies, 27 findings, 11 reports, 17 allegations; 40 bias, 22 deception, 48 harmful conduct.
+Version 1.23, 2026-10-29. 111 records: 55 studies, 28 findings, 11 reports, 17 allegations; 40 bias, 22 deception, 49 harmful conduct.
 Canonical page: https://www.deterministicai.org/incidents/
 License: CC BY 4.0 for original summaries and compilation; linked sources retain their own terms.
-Suggested citation: Deterministic AI. AI Reliability Incident Register, version 1.22, 2026-10-26. https://www.deterministicai.org/incidents/ (add access date).
+Suggested citation: Deterministic AI. AI Reliability Incident Register, version 1.23, 2026-10-29. https://www.deterministicai.org/incidents/ (add access date).
 Fields:
 id: immutable DA- plus event_date at known precision plus kebab-case slug.
 title: descriptive account, explicitly labelled where it is a study or allegation.
@@ -64,3 +64,6 @@ Release 2026-10-26: Added CFA Institute controlled investment-framing study. Tot
 
 October 26 source-review audit (frozen pre-review baseline): https://www.deterministicai.org/topics/reliability-register-evidence/#what-did-the-october-26-source-review-establish
 Freshness worksheet: https://www.deterministicai.org/checklist/#when-does-evidence-need-a-fresh-review
+
+October 29: Added the provider-confirmed October 6 destructive grading attempt, with uncertain deletion extent and the later retry kept separate. Shared episode with the companion dataset; do not add as independent events.
+Date-window analysis preserves the earlier v1.22 baseline: https://www.deterministicai.org/topics/reliability-register-evidence/#which-records-fall-in-a-recent-date-window

@@ -6,8 +6,8 @@ Two vendor-neutral publications maintain these selected, source-linked collectio
 
 | Collection | Scope | Version / release | Records | Reference page |
 |---|---|---|---:|---|
-| Hallucination Tracker | Invented facts, citations and other false factual assertions | 2.31 / 2026-10-26 | 123 | [Search and cite records](https://www.hallucination-free.org/tracker/) |
-| AI Reliability Incident Register | Bias, deception without a false factual assertion, and harmful conduct | 1.22 / 2026-10-26 | 110 | [Search and filter evidence](https://www.deterministicai.org/incidents/) |
+| Hallucination Tracker | Invented facts, citations and other false factual assertions | 2.32 / 2026-10-29 | 124 | [Search and cite records](https://www.hallucination-free.org/tracker/) |
+| AI Reliability Incident Register | Bias, deception without a false factual assertion, and harmful conduct | 1.23 / 2026-10-29 | 111 | [Search and filter evidence](https://www.deterministicai.org/incidents/) |
 
 These are curated collections, not representative samples or a vendor ranking. Studies, allegations and reports are labelled; an allegation is not a finding. The same underlying event must be checked for overlap before combining datasets. Do not interpret release growth as a trend in AI failures.
 
@@ -102,3 +102,9 @@ For a workflow review, the [Checklist chooser](https://www.deterministicai.org/c
 The October 28 [companion-reference inventory](https://www.hallucination-free.org/topics/what-tracker-counts-can-tell-you/#can-i-add-the-two-dataset-totals) finds three explicitly linked pairs in Tracker v2.31 and Register v1.22. Their relationships differ: the same episode, distinct study findings, and separate tasks in one disclosure. Do not add the totals or subtract the pair count to claim independent events. Both complete inputs, exact reference fields, retained full records and a reproducible calculation are available from the [Register analysis](https://www.deterministicai.org/topics/reliability-register-evidence/#can-i-add-the-two-dataset-totals).
 
 Use the [blank and filled join review](https://www.deterministicai.org/checklist/#how-do-i-review-a-cross-dataset-join) to preserve the counted unit, both versions, target-resolution checks and remaining limits. This inventory is not an exhaustive overlap audit or a fresh verification of source truth. These are owned reference links, not independent endorsements.
+
+## Select a date window without inventing days
+
+The October 29 [Tracker analysis](https://www.hallucination-free.org/topics/what-tracker-counts-can-tell-you/#which-records-fall-in-a-recent-date-window) and [Register analysis](https://www.deterministicai.org/topics/reliability-register-evidence/#which-records-fall-in-a-recent-date-window) freeze v2.31/123 and v1.22/110 records. For August 1–October 29 inclusive, they distinguish complete interval matches (54/53), boundary candidates (2/5) and outside records (67/52). Boundary overlap is a metadata review flag; retained date notes can already rule out recent occurrence. These are dated milestones, not occurrence rates or independent-event totals.
+
+Each offline pack contains the complete frozen input, executable calculation, exact record membership, chart and validation receipt. Reuse the [Checklist date review](https://www.deterministicai.org/checklist/#how-do-you-review-date-precision) for declared boundary cases and separate source verification. Today's current releases include subsequent additions; do not silently substitute them for the frozen inputs. These are owned reference links, not independent endorsements.

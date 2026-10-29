@@ -5,15 +5,15 @@ Published by Kognitos. See the [shared scope, citations and analysis links](../R
 ## Field dictionary and reuse notes
 
 ```text
-Hallucination Tracker v2.31 — 2026-10-26
+Hallucination Tracker v2.32 — 2026-10-29
 https://www.hallucination-free.org/tracker/
 License: CC BY 4.0 https://creativecommons.org/licenses/by/4.0/
 Credit Hallucination-Free, link the landing page and license, and indicate changes.
 License applies to original summaries and compilation, not linked source documents.
 
-Suggested citation: Hallucination-Free. The Hallucination Tracker, version 2.31,
+Suggested citation: Hallucination-Free. The Hallucination Tracker, version 2.32,
 2026-10-26. https://www.hallucination-free.org/tracker/ (add your access date).
-For a reproducible copy use hallucination-tracker-v2.31.csv or .json.
+For a reproducible copy use hallucination-tracker-v2.32.csv or .json.
 
 FORMATS AND ORDER
 UTF-8 CSV: one row per record; id joins to JSON records.
@@ -24,14 +24,14 @@ Tracker page index and records: newest first by event_date.
 Dates sort as recorded ISO strings. Partial dates do not imply an exact day or
 establish an exact order within overlapping date ranges.
 Unknown values are described explicitly, never replaced with zero.
-123 selected records (including fourteen controlled studies, two evaluations with external actions, two lawsuit allegations and four first-person reports) spanning documented milestones in 2022–2026 are not a
+124 selected records (including fourteen controlled studies, two evaluations with external actions, two lawsuit allegations and four first-person reports) spanning documented milestones in 2022–2026 are not a
 prevalence estimate or trend series.
 
 FIELD DEFINITIONS
 failure_type: hallucination (invented facts, citations, quotations, figures or sources)
     or false claim (other false assertions about the world or the system’s work).
     Where both descriptions apply, invented content is classified as hallucination.
-    Added in v2.8; v2.31 contains 106 hallucination records and seventeen false claim records.
+    Added in v2.8; v2.32 contains 107 hallucination records and seventeen false claim records.
 id: stable identifier, HF- + event_date at the precision known when first assigned
     + a short kebab-case slug. Date forms: YYYY, YYYY-MM, YYYY-MM-DD.
     Example: HF-2023-03-01-mata-v-avianca. Never use the ingestion date or a
@@ -229,6 +229,15 @@ The [October 27 sector/evidence table](https://www.hallucination-free.org/topics
 
 ## Compare related records across the datasets
 
-The October 28 [companion-reference inventory](https://www.hallucination-free.org/topics/what-tracker-counts-can-tell-you/#can-i-add-the-two-dataset-totals) finds three explicitly linked pairs in Tracker v2.31 and Register v1.22. Their relationships differ: the same episode, distinct study findings, and separate tasks in one disclosure. Do not add the totals or subtract the pair count to claim independent events. Both complete inputs, exact reference fields, retained full records and a reproducible calculation are available from the [Register analysis](https://www.deterministicai.org/topics/reliability-register-evidence/#can-i-add-the-two-dataset-totals).
+The October 28 [companion-reference inventory](https://www.hallucination-free.org/topics/what-tracker-counts-can-tell-you/#can-i-add-the-two-dataset-totals) finds three explicitly linked pairs in Tracker v2.32 and Register v1.22. Their relationships differ: the same episode, distinct study findings, and separate tasks in one disclosure. Do not add the totals or subtract the pair count to claim independent events. Both complete inputs, exact reference fields, retained full records and a reproducible calculation are available from the [Register analysis](https://www.deterministicai.org/topics/reliability-register-evidence/#can-i-add-the-two-dataset-totals).
 
 Use the [blank and filled join review](https://www.deterministicai.org/checklist/#how-do-i-review-a-cross-dataset-join) to preserve the counted unit, both versions, target-resolution checks and remaining limits. This inventory is not an exhaustive overlap audit or a fresh verification of source truth. These are owned reference links, not independent endorsements.
+
+October 29: Added the provider-confirmed October 6 grading-evidence fabrication. All submissions from that attempt were rejected; a later accepted retry is distinct. Shared episode with the companion dataset; do not add as independent events.
+Date-window analysis preserves the earlier v2.31 baseline: https://www.hallucination-free.org/topics/what-tracker-counts-can-tell-you/#which-records-fall-in-a-recent-date-window
+
+## Select a date window without inventing days
+
+The October 29 [Tracker analysis](https://www.hallucination-free.org/topics/what-tracker-counts-can-tell-you/#which-records-fall-in-a-recent-date-window) and [Register analysis](https://www.deterministicai.org/topics/reliability-register-evidence/#which-records-fall-in-a-recent-date-window) freeze v2.31/123 and v1.22/110 records. For August 1–October 29 inclusive, they distinguish complete interval matches (54/53), boundary candidates (2/5) and outside records (67/52). Boundary overlap is a metadata review flag; retained date notes can already rule out recent occurrence. These are dated milestones, not occurrence rates or independent-event totals.
+
+Each offline pack contains the complete frozen input, executable calculation, exact record membership, chart and validation receipt. Reuse the [Checklist date review](https://www.deterministicai.org/checklist/#how-do-you-review-date-precision) for declared boundary cases and separate source verification. Today's current releases include subsequent additions; do not silently substitute them for the frozen inputs. These are owned reference links, not independent endorsements.
