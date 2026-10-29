@@ -12,7 +12,7 @@ Credit Hallucination-Free, link the landing page and license, and indicate chang
 License applies to original summaries and compilation, not linked source documents.
 
 Suggested citation: Hallucination-Free. The Hallucination Tracker, version 2.32,
-2026-10-26. https://www.hallucination-free.org/tracker/ (add your access date).
+2026-10-29. https://www.hallucination-free.org/tracker/ (add your access date).
 For a reproducible copy use hallucination-tracker-v2.32.csv or .json.
 
 FORMATS AND ORDER

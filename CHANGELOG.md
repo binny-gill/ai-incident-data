@@ -2,6 +2,8 @@
 
 ## 2026-10-29
 
+Folder citation date aligned with the October 29 release; historical analysis dates remain unchanged.
+
 Tracker v2.32: 124 records; Register v1.23: 111 records. Added two cross-linked failure descriptions from one provider-confirmed October 6 grading episode: fabricated evidence and environment damage. The failed attempt and later accepted retry remain separate. Added reproducible dated-window analysis of the earlier v2.31/v1.22 snapshots; it is not an occurrence-frequency estimate.
 ## 2026-10-28 — Cross-dataset interpretation
 
