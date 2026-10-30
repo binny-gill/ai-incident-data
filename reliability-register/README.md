@@ -6,10 +6,10 @@ Published by Kognitos. See the [shared scope, citations and analysis links](../R
 
 ```text
 AI Reliability Incident Register — data dictionary and reuse notes
-Version 1.23, 2026-10-29. 111 records: 55 studies, 28 findings, 11 reports, 17 allegations; 40 bias, 22 deception, 49 harmful conduct.
+Version 1.24, 2026-10-30. 112 records: 55 studies, 28 findings, 12 reports, 17 allegations; 40 bias, 22 deception, 50 harmful conduct.
 Canonical page: https://www.deterministicai.org/incidents/
 License: CC BY 4.0 for original summaries and compilation; linked sources retain their own terms.
-Suggested citation: Deterministic AI. AI Reliability Incident Register, version 1.23, 2026-10-29. https://www.deterministicai.org/incidents/ (add access date).
+Suggested citation: Deterministic AI. AI Reliability Incident Register, version 1.24, 2026-10-30. https://www.deterministicai.org/incidents/ (add access date).
 Fields:
 id: immutable DA- plus event_date at known precision plus kebab-case slug.
 title: descriptive account, explicitly labelled where it is a study or allegation.
@@ -92,3 +92,7 @@ Date-window analysis preserves the earlier v1.22 baseline: https://www.determini
 The October 29 [Tracker analysis](https://www.hallucination-free.org/topics/what-tracker-counts-can-tell-you/#which-records-fall-in-a-recent-date-window) and [Register analysis](https://www.deterministicai.org/topics/reliability-register-evidence/#which-records-fall-in-a-recent-date-window) freeze v2.31/123 and v1.22/110 records. For August 1–October 29 inclusive, they distinguish complete interval matches (54/53), boundary candidates (2/5) and outside records (67/52). Boundary overlap is a metadata review flag; retained date notes can already rule out recent occurrence. These are dated milestones, not occurrence rates or independent-event totals.
 
 Each offline pack contains the complete frozen input, executable calculation, exact record membership, chart and validation receipt. Reuse the [Checklist date review](https://www.deterministicai.org/checklist/#how-do-you-review-date-precision) for declared boundary cases and separate source verification. Today's current releases include subsequent additions; do not silently substitute them for the frozen inputs. These are owned reference links, not independent endorsements.
+
+October 30 — v1.24: Added the operator’s February 26 DataTalks.Club deletion and recovery report. Preserved first-person status, operator approvals and reported restoration. Rechecked the compaction-concealment source without changing its scope.
+
+October 30 companion-reference review: https://www.deterministicai.org/topics/reliability-register-evidence/#what-does-the-updated-companion-review-show . Frozen v2.32/v1.23 inputs contain four explicit pairs; this is not an exhaustive independent-event count.

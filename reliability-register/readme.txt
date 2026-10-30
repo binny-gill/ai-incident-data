@@ -1,8 +1,8 @@
 AI Reliability Incident Register — data dictionary and reuse notes
-Version 1.23, 2026-10-29. 111 records: 55 studies, 28 findings, 11 reports, 17 allegations; 40 bias, 22 deception, 49 harmful conduct.
+Version 1.24, 2026-10-30. 112 records: 55 studies, 28 findings, 12 reports, 17 allegations; 40 bias, 22 deception, 50 harmful conduct.
 Canonical page: https://www.deterministicai.org/incidents/
 License: CC BY 4.0 for original summaries and compilation; linked sources retain their own terms.
-Suggested citation: Deterministic AI. AI Reliability Incident Register, version 1.23, 2026-10-29. https://www.deterministicai.org/incidents/ (add access date).
+Suggested citation: Deterministic AI. AI Reliability Incident Register, version 1.24, 2026-10-30. https://www.deterministicai.org/incidents/ (add access date).
 Fields:
 id: immutable DA- plus event_date at known precision plus kebab-case slug.
 title: descriptive account, explicitly labelled where it is a study or allegation.
@@ -67,3 +67,5 @@ Freshness worksheet: https://www.deterministicai.org/checklist/#when-does-eviden
 
 October 29: Added the provider-confirmed October 6 destructive grading attempt, with uncertain deletion extent and the later retry kept separate. Shared episode with the companion dataset; do not add as independent events.
 Date-window analysis preserves the earlier v1.22 baseline: https://www.deterministicai.org/topics/reliability-register-evidence/#which-records-fall-in-a-recent-date-window
+
+October 30 — v1.24: Added the operator’s February 26 DataTalks.Club deletion and recovery report. Preserved first-person status, operator approvals and reported restoration. Rechecked the compaction-concealment source without changing its scope.

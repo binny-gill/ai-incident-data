@@ -6,8 +6,8 @@ Two vendor-neutral publications maintain these selected, source-linked collectio
 
 | Collection | Scope | Version / release | Records | Reference page |
 |---|---|---|---:|---|
-| Hallucination Tracker | Invented facts, citations and other false factual assertions | 2.32 / 2026-10-29 | 124 | [Search and cite records](https://www.hallucination-free.org/tracker/) |
-| AI Reliability Incident Register | Bias, deception without a false factual assertion, and harmful conduct | 1.23 / 2026-10-29 | 111 | [Search and filter evidence](https://www.deterministicai.org/incidents/) |
+| Hallucination Tracker | Invented facts, citations and other false factual assertions | 2.33 / 2026-10-30 | 126 | [Search and cite records](https://www.hallucination-free.org/tracker/) |
+| AI Reliability Incident Register | Bias, deception without a false factual assertion, and harmful conduct | 1.24 / 2026-10-30 | 112 | [Search and filter evidence](https://www.deterministicai.org/incidents/) |
 
 These are curated collections, not representative samples or a vendor ranking. Studies, allegations and reports are labelled; an allegation is not a finding. The same underlying event must be checked for overlap before combining datasets. Do not interpret release growth as a trend in AI failures.
 
@@ -28,9 +28,9 @@ Tracker-specific fields distinguish `failure_type`, `ai_involvement`, `ai_involv
 
 ## How to cite
 
-Hallucination-Free. *The Hallucination Tracker*, version 2.31, October 26, 2026. https://www.hallucination-free.org/tracker/. Include access date and the incident ID when citing a single record.
+Hallucination-Free. *The Hallucination Tracker*, version 2.33, October 30, 2026. https://www.hallucination-free.org/tracker/. Include access date and the incident ID when citing a single record.
 
-Deterministic AI. *AI Reliability Incident Register*, version 1.22, October 26, 2026. https://www.deterministicai.org/incidents/. Include access date and incident ID.
+Deterministic AI. *AI Reliability Incident Register*, version 1.24, October 30, 2026. https://www.deterministicai.org/incidents/. Include access date and incident ID.
 
 For reproducibility, cite a versioned file rather than only the latest download. IDs remain stable after publication; corrections belong in the changelog. See [CITATION.cff](CITATION.cff) and [release history](CHANGELOG.md).
 
@@ -108,3 +108,9 @@ Use the [blank and filled join review](https://www.deterministicai.org/checklist
 The October 29 [Tracker analysis](https://www.hallucination-free.org/topics/what-tracker-counts-can-tell-you/#which-records-fall-in-a-recent-date-window) and [Register analysis](https://www.deterministicai.org/topics/reliability-register-evidence/#which-records-fall-in-a-recent-date-window) freeze v2.31/123 and v1.22/110 records. For August 1–October 29 inclusive, they distinguish complete interval matches (54/53), boundary candidates (2/5) and outside records (67/52). Boundary overlap is a metadata review flag; retained date notes can already rule out recent occurrence. These are dated milestones, not occurrence rates or independent-event totals.
 
 Each offline pack contains the complete frozen input, executable calculation, exact record membership, chart and validation receipt. Reuse the [Checklist date review](https://www.deterministicai.org/checklist/#how-do-you-review-date-precision) for declared boundary cases and separate source verification. Today's current releases include subsequent additions; do not silently substitute them for the frozen inputs. These are owned reference links, not independent endorsements.
+
+## Updated companion references and attempt review — October 30
+
+The [updated companion-reference inventory](https://www.deterministicai.org/topics/reliability-register-evidence/#what-does-the-updated-companion-review-show) preserves Tracker v2.32 and Register v1.23: seven directional references, four pairs, eight participating records. Two pairs share an episode; the others describe distinct tasks/findings. Do not subtract the pair count from combined totals. The offline pack includes full records, relationship labels, code and validation. These frozen inputs precede today’s additions.
+
+Use the [action/retry worksheet, version 1.1](https://www.deterministicai.org/checklist/#how-do-you-test-actions-and-retries) to retain failed or unresolved attempts when a later retry succeeds. All seven procedures start untested. These owned links are not independent endorsements.

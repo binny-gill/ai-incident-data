@@ -1,5 +1,9 @@
 # Dataset documentation changelog
 
+## 2026-10-30
+
+Tracker v2.33: 126 records; Register v1.24: 112 records. Added Boyd and Glenn court cases and the DataTalks.Club first-person deletion/recovery report. Rechecked Lisandrillo and compaction concealment. Corrected stale current citation suggestions in this README. Updated companion analysis retains older v2.32/v1.23 inputs; action/retry worksheet v1.1 adds failed-attempt retention.
+
 ## 2026-10-29
 
 Folder citation date aligned with the October 29 release; historical analysis dates remain unchanged.
