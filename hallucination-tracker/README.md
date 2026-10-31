@@ -5,7 +5,7 @@ Published by Kognitos. See the [shared scope, citations and analysis links](../R
 ## Field dictionary and reuse notes
 
 ```text
-Hallucination Tracker v2.33 — 2026-10-30
+Hallucination Tracker v2.34 — 2026-10-31
 Version 2.34, 2026-10-31. 127 selected records: 46 confirmed, 47 admitted, 34 suspected AI involvement; 110 hallucination records and 17 false claims.
 License: CC BY 4.0 https://creativecommons.org/licenses/by/4.0/
 Credit Hallucination-Free, link the landing page and license, and indicate changes.
