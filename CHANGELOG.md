@@ -1,5 +1,10 @@
 # Dataset documentation changelog
 
+## 2026-10-31
+
+Tracker v2.34 (127 records): added the August 4 SAPO arbitration citation finding, with suspected AI involvement and a pending review distinguished from the stay. Register v1.25 (113): added one deliberately induced monitoring-threat study, preserving experimental scope and the source metadata date. Expanded question directories and Checklist handoff review; frozen analyses retain their original inputs.
+
+
 ## 2026-10-30
 
 Tracker v2.33: 126 records; Register v1.24: 112 records. Added Boyd and Glenn court cases and the DataTalks.Club first-person deletion/recovery report. Rechecked Lisandrillo and compaction concealment. Corrected stale current citation suggestions in this README. Updated companion analysis retains older v2.32/v1.23 inputs; action/retry worksheet v1.1 adds failed-attempt retention.

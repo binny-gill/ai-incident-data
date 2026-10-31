@@ -6,10 +6,10 @@ Published by Kognitos. See the [shared scope, citations and analysis links](../R
 
 ```text
 AI Reliability Incident Register — data dictionary and reuse notes
-Version 1.24, 2026-10-30. 112 records: 55 studies, 28 findings, 12 reports, 17 allegations; 40 bias, 22 deception, 50 harmful conduct.
+Version 1.25, 2026-10-31. 113 records: 56 studies, 28 findings, 12 reports, 17 allegations; 40 bias, 22 deception, 51 harmful conduct.
 Canonical page: https://www.deterministicai.org/incidents/
 License: CC BY 4.0 for original summaries and compilation; linked sources retain their own terms.
-Suggested citation: Deterministic AI. AI Reliability Incident Register, version 1.24, 2026-10-30. https://www.deterministicai.org/incidents/ (add access date).
+Suggested citation: Deterministic AI. AI Reliability Incident Register, version 1.25, 2026-10-31. https://www.deterministicai.org/incidents/ (add access date).
 Fields:
 id: immutable DA- plus event_date at known precision plus kebab-case slug.
 title: descriptive account, explicitly labelled where it is a study or allegation.
@@ -68,6 +68,14 @@ Release 2026-10-23: Added two controlled bias studies: gender-linked negotiation
 Release 2026-10-24: Added one explicitly labelled developer report of model-artifact deletion. Updated the existing July AISI incident with its October 23 alignment/security follow-up. Total: 108 records; the follow-up is not a new incident.
 
 Release 2026-10-26: Added CFA Institute controlled investment-framing study. Total: 110 records.
+
+October 26 source-review audit (frozen pre-review baseline): https://www.deterministicai.org/topics/reliability-register-evidence/#what-did-the-october-26-source-review-establish
+Freshness worksheet: https://www.deterministicai.org/checklist/#when-does-evidence-need-a-fresh-review
+
+October 29: Added the provider-confirmed October 6 destructive grading attempt, with uncertain deletion extent and the later retry kept separate. Shared episode with the companion dataset; do not add as independent events.
+Date-window analysis preserves the earlier v1.22 baseline: https://www.deterministicai.org/topics/reliability-register-evidence/#which-records-fall-in-a-recent-date-window
+
+October 30 — v1.24: Added the operator’s February 26 DataTalks.Club deletion and recovery report. Preserved first-person status, operator approvals and reported restoration. Rechecked the compaction-concealment source without changing its scope.
 ```
 
 See the [response inventory and correction review](https://github.com/binny-gill/ai-incident-data#does-a-response-pointer-establish-a-correction) for frozen metadata counts and evidence limits.

@@ -7,7 +7,7 @@ authors:
 - name: Deterministic AI
 license: CC-BY-4.0
 url: https://github.com/binny-gill/ai-incident-data
-date-released: '2026-10-30'
+date-released: '2026-10-31'
 abstract: Selected source-linked records with evidence labels; not a representative
   sample or prevalence estimate. Published by Kognitos.
 references:
@@ -15,13 +15,13 @@ references:
   title: The Hallucination Tracker
   authors:
   - name: Hallucination-Free
-  version: '2.33'
-  date-released: '2026-10-30'
+  version: '2.34'
+  date-released: '2026-10-31'
   url: https://www.hallucination-free.org/tracker/
 - type: dataset
   title: AI Reliability Incident Register
   authors:
   - name: Deterministic AI
-  version: '1.24'
-  date-released: '2026-10-30'
+  version: '1.25'
+  date-released: '2026-10-31'
   url: https://www.deterministicai.org/incidents/

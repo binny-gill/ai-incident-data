@@ -1,10 +1,10 @@
 Hallucination Tracker v2.33 — 2026-10-30
-https://www.hallucination-free.org/tracker/
+Version 2.34, 2026-10-31. 127 selected records: 46 confirmed, 47 admitted, 34 suspected AI involvement; 110 hallucination records and 17 false claims.
 License: CC BY 4.0 https://creativecommons.org/licenses/by/4.0/
 Credit Hallucination-Free, link the landing page and license, and indicate changes.
 License applies to original summaries and compilation, not linked source documents.
 
-Suggested citation: Hallucination-Free. The Hallucination Tracker, version 2.33,
+Suggested citation: Hallucination-Free. The Hallucination Tracker, version 2.34, 2026-10-31. https://www.hallucination-free.org/tracker/ (add access date).
 2026-10-30. https://www.hallucination-free.org/tracker/ (add your access date).
 For a reproducible copy use hallucination-tracker-v2.33.csv or .json.
 
@@ -17,14 +17,14 @@ Tracker page index and records: newest first by event_date.
 Dates sort as recorded ISO strings. Partial dates do not imply an exact day or
 establish an exact order within overlapping date ranges.
 Unknown values are described explicitly, never replaced with zero.
-126 selected records (including fourteen controlled studies, two evaluations with external actions, two lawsuit allegations and four first-person reports) spanning documented milestones in 2022–2026 are not a
+127 selected records (including fourteen controlled studies, two evaluations with external actions, two lawsuit allegations and four first-person reports) spanning documented milestones in 2022–2026 are not a
 prevalence estimate or trend series.
 
 FIELD DEFINITIONS
 failure_type: hallucination (invented facts, citations, quotations, figures or sources)
     or false claim (other false assertions about the world or the system’s work).
     Where both descriptions apply, invented content is classified as hallucination.
-    Added in v2.8; v2.32 contains 109 hallucination records and seventeen false claim records.
+    Added in v2.8; v2.32 contains 110 hallucination records and seventeen false claim records.
 id: stable identifier, HF- + event_date at the precision known when first assigned
     + a short kebab-case slug. Date forms: YYYY, YYYY-MM, YYYY-MM-DD.
     Example: HF-2023-03-01-mata-v-avianca. Never use the ingestion date or a
