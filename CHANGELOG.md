@@ -1,5 +1,9 @@
 # Dataset documentation changelog
 
+## 2026-11-01
+
+Tracker v2.35 (128): added simulated refund false excuses and corrected stale scope/FAQ counts. Register v1.26 (115): added the related simulated private disclosure and Kiro Powers security study, with discovery chronology and Amazon response. Published precise release comparisons and version 1.1 Checklist review forms; historical inputs and IDs preserved.
+
 ## 2026-10-31
 
 Tracker v2.34 (127 records): added the August 4 SAPO arbitration citation finding, with suspected AI involvement and a pending review distinguished from the stay. Register v1.25 (113): added one deliberately induced monitoring-threat study, preserving experimental scope and the source metadata date. Expanded question directories and Checklist handoff review; frozen analyses retain their original inputs.

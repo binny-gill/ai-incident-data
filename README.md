@@ -6,8 +6,8 @@ Two vendor-neutral publications maintain these selected, source-linked collectio
 
 | Collection | Scope | Version / release | Records | Reference page |
 |---|---|---|---:|---|
-| Hallucination Tracker | Invented facts, citations and other false factual assertions | 2.34 / 2026-10-31 | 127 | [Search and cite records](https://www.hallucination-free.org/tracker/) |
-| AI Reliability Incident Register | Bias, deception without a false factual assertion, and harmful conduct | 1.25 / 2026-10-31 | 113 | [Search and filter evidence](https://www.deterministicai.org/incidents/) |
+| Hallucination Tracker | Invented facts, citations and other false factual assertions | 2.35 / 2026-11-01 | 128 | [Search and cite records](https://www.hallucination-free.org/tracker/) |
+| AI Reliability Incident Register | Bias, deception without a false factual assertion, and harmful conduct | 1.26 / 2026-11-01 | 115 | [Search and filter evidence](https://www.deterministicai.org/incidents/) |
 
 These are curated collections, not representative samples or a vendor ranking. Studies, allegations and reports are labelled; an allegation is not a finding. The same underlying event must be checked for overlap before combining datasets. Do not interpret release growth as a trend in AI failures.
 
@@ -28,9 +28,9 @@ Tracker-specific fields distinguish `failure_type`, `ai_involvement`, `ai_involv
 
 ## How to cite
 
-Hallucination-Free. *The Hallucination Tracker*, version 2.34, October 31, 2026. https://www.hallucination-free.org/tracker/. Include access date and the incident ID when citing a single record.
+Hallucination-Free. *The Hallucination Tracker*, version 2.35, November 1, 2026. https://www.hallucination-free.org/tracker/. Include access date and the incident ID when citing a single record.
 
-Deterministic AI. *AI Reliability Incident Register*, version 1.25, October 31, 2026. https://www.deterministicai.org/incidents/. Include access date and incident ID.
+Deterministic AI. *AI Reliability Incident Register*, version 1.26, November 1, 2026. https://www.deterministicai.org/incidents/. Include access date and incident ID.
 
 For reproducibility, cite a versioned file rather than only the latest download. IDs remain stable after publication; corrections belong in the changelog. See [CITATION.cff](CITATION.cff) and [release history](CHANGELOG.md).
 
@@ -118,3 +118,11 @@ Use the [action/retry worksheet, version 1.1](https://www.deterministicai.org/ch
 ## Find the right analysis
 
 The [Tracker directory](https://www.hallucination-free.org/topics/what-tracker-counts-can-tell-you/#which-analysis-should-i-use) and [Register directory](https://www.deterministicai.org/topics/reliability-register-evidence/#which-analysis-should-i-use) each connect 12 selected questions to frozen inputs, code and results. October 31 checks reran three calculations per site (14 matching outputs); the other nine retain historical verification dates. Download only the evidence needed for your claim. Use the [blank and filled handoff review](https://www.deterministicai.org/checklist/#how-do-i-review-an-offline-evidence-handoff) to distinguish file identity, calculation results and untested source or workflow evidence. These are owned references, not independent endorsements.
+
+## Compare the November 1 releases
+
+The [Tracker comparison](https://www.hallucination-free.org/topics/what-tracker-counts-can-tell-you/#what-changed-from-october-26-to-november-1) (v2.31 → v2.35) and [Register comparison](https://www.deterministicai.org/topics/reliability-register-evidence/#what-changed-from-october-26-to-november-1) (v1.22 → v1.26) each identify five additions, zero removals and one existing-record review update. Each includes both frozen inputs, all changed fields, separate metadata changes, code and nine local validation checks. These are publication edits, not event-frequency trends.
+
+Tracker v2.34 contains 127 records despite its stale scope text saying 126; v2.35 corrects the description and adds one study, for 128. The original snapshot remains available. Register v1.26 adds two studies, for 115. The two Vals refund records describe distinct findings from one simulated study; do not count them as separate real-world events.
+
+Use the [version 1.1 release-review forms](https://www.deterministicai.org/checklist/#how-do-you-check-a-release-comparison) to distinguish record edits, metadata changes and untested source/workflow controls. These are owned reference links, not independent endorsements.
