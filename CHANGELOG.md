@@ -1,5 +1,9 @@
 # Dataset documentation changelog
 
+## 2026-11-02
+
+Tracker v2.36: one specific fabricated-result training record, 129 total. Register v1.27: one controlled multimodal smartphone-action study, 116 total; ten oldest source reviews and one principal-link repair retaining complaint provenance. Updated contextual source-review and Checklist references. Old IDs and released snapshots preserved.
+
 ## 2026-11-01
 
 Tracker v2.35 (128): added simulated refund false excuses and corrected stale scope/FAQ counts. Register v1.26 (115): added the related simulated private disclosure and Kiro Powers security study, with discovery chronology and Amazon response. Published precise release comparisons and version 1.1 Checklist review forms; historical inputs and IDs preserved.
