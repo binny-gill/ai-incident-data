@@ -82,3 +82,8 @@ The v2.25 release also replaces the unavailable Mitchell article with a readable
 Added contextual links to the five-analysis offline packs and evidence-handoff worksheet. Packaging preserves original releases, historical duplicate corrections and source qualifications.
 
 Register v1.18: 105 records (+2 controlled studies). Added Gram simulated concealment and agency-prompted honeypot monitor weakening; unprompted baseline, publication/revision dates and no-production-impact limits retained. Tracker remains v2.27/119.
+
+## 2026-11-03
+
+- Register v1.28: 118 records, adding two separately dated file-loss reports; no company finding or verified fix inferred. Tracker remains v2.36/129.
+- Added the six-pair companion-reference inventory and matching join-review links; frozen inputs are November2 releases, not the new Register release.
