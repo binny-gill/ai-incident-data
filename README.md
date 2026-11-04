@@ -7,7 +7,7 @@ Two vendor-neutral publications maintain these selected, source-linked collectio
 | Collection | Scope | Version / release | Records | Reference page |
 |---|---|---|---:|---|
 | Hallucination Tracker | Invented facts, citations and other false factual assertions | 2.36 / 2026-11-02 | 129 | [Search and cite records](https://www.hallucination-free.org/tracker/) |
-| AI Reliability Incident Register | Bias, deception without a false factual assertion, and harmful conduct | 1.28 / 2026-11-03 | 118 | [Search and filter evidence](https://www.deterministicai.org/incidents/) |
+| AI Reliability Incident Register | Bias, deception without a false factual assertion, and harmful conduct | 1.29 / 2026-11-04 | 120 | [Search and filter evidence](https://www.deterministicai.org/incidents/) |
 
 These are curated collections, not representative samples or a vendor ranking. Studies, allegations and reports are labelled; an allegation is not a finding. The same underlying event must be checked for overlap before combining datasets. Do not interpret release growth as a trend in AI failures.
 
@@ -22,6 +22,8 @@ Tracker-specific fields distinguish `failure_type`, `ai_involvement`, `ai_involv
 
 ## Reproduce the published analyses
 
+The November 4 evidence profiles provide current labelled composition, full member records and runnable packs: [Tracker v2.36 / 129 records](https://www.hallucination-free.org/topics/what-tracker-counts-can-tell-you/#what-do-the-current-evidence-labels-count) and [Register v1.29 / 120 records](https://www.deterministicai.org/topics/reliability-register-evidence/#what-do-the-current-evidence-labels-count). Preserve both Tracker attribution and record-type labels. The [evidence-coverage worksheet](https://www.deterministicai.org/checklist/#how-do-you-test-for-missing-audit-records) separates missing audit records from successful or failed actions.
+
 - [Tracker composition](https://www.hallucination-free.org/topics/what-tracker-counts-can-tell-you/): v2.23 counts by AI involvement and failure type, with record-type totals, frozen input, hash, code, chart and aggregate tables.
 - [Register evidence](https://www.deterministicai.org/topics/reliability-register-evidence/): v1.12 counts by category and evidence status, with the same reproducibility artifacts.
 - [Deterministic AI Checklist](https://www.deterministicai.org/checklist/): a reusable ten-check worksheet, action/approval procedures and a filled review tied to actual toy-run outputs. Tests of a toy function do not certify a deployed AI system.
@@ -30,7 +32,7 @@ Tracker-specific fields distinguish `failure_type`, `ai_involvement`, `ai_involv
 
 Hallucination-Free. *The Hallucination Tracker*, version 2.36, November 2, 2026. https://www.hallucination-free.org/tracker/. Include access date and the incident ID when citing a single record.
 
-Deterministic AI. *AI Reliability Incident Register*, version 1.28, November 3, 2026. https://www.deterministicai.org/incidents/. Include access date and incident ID.
+Deterministic AI. *AI Reliability Incident Register*, version 1.29, November 4, 2026. https://www.deterministicai.org/incidents/. Include access date and incident ID.
 
 For reproducibility, cite a versioned file rather than only the latest download. IDs remain stable after publication; corrections belong in the changelog. See [CITATION.cff](CITATION.cff) and [release history](CHANGELOG.md).
 

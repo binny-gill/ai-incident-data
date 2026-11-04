@@ -1,5 +1,9 @@
 # Dataset documentation changelog
 
+## 2026-11-04
+
+Register v1.29 reaches120 records: one Cursor cleanup-loss report with partial-recovery follow-up and one controlled sponsorship-bias study. Tracker remains v2.36/129. Added contextual links to current evidence profiles and the missing-audit-record worksheet. Preserve study/report labels; no prevalence or independent-endorsement claim.
+
 ## 2026-11-02
 
 Tracker v2.36: one specific fabricated-result training record, 129 total. Register v1.27: one controlled multimodal smartphone-action study, 116 total; ten oldest source reviews and one principal-link repair retaining complaint provenance. Updated contextual source-review and Checklist references. Old IDs and released snapshots preserved.
