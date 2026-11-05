@@ -1,5 +1,10 @@
 # Dataset documentation changelog
 
+## 2026-11-05
+
+Register v1.30 reaches 121 records with one controlled ChatGPT preview-exfiltration study. The September fix and researcher retest are retained; no customer breach inferred. Tracker remains v2.36/129. Added practical citation/cancellation review links and independent verification packs for the unchanged November4 profiles (129/120). Owned references are not independent endorsements.
+
+
 ## 2026-11-04
 
 Register v1.29 reaches120 records: one Cursor cleanup-loss report with partial-recovery follow-up and one controlled sponsorship-bias study. Tracker remains v2.36/129. Added contextual links to current evidence profiles and the missing-audit-record worksheet. Preserve study/report labels; no prevalence or independent-endorsement claim.

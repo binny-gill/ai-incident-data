@@ -1,11 +1,11 @@
 {
   "title": "AI Reliability Incident Register",
-  "version": "1.29",
-  "released": "2026-11-04",
+  "version": "1.30",
+  "released": "2026-11-05",
   "url": "https://www.deterministicai.org/incidents/",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "creator": "Deterministic AI",
-  "citation": "Deterministic AI. AI Reliability Incident Register, version 1.29, 2026-11-04. https://www.deterministicai.org/incidents/",
+  "citation": "Deterministic AI. AI Reliability Incident Register, version 1.30, 2026-11-05. https://www.deterministicai.org/incidents/",
   "scope": "Selected verified accounts of bias, deception without a false factual claim, and harmful conduct. Evidence labels distinguish findings, allegations, studies and first-person reports. Not exhaustive or representative; proposed controls are editorial analysis, not demonstrated prevention.",
   "fields": [
     "id",
@@ -2669,6 +2669,28 @@
       "primary_source_url": "https://arxiv.org/html/2609.17989v3",
       "source_scope": "Primary v3 HTML read through the first 40,000 characters, including full Study 1 design, main results and beneficiary condition; later sections and appendices truncated. Abstract/submission history independently read at https://arxiv.org/abs/2609.17989 . Raw trials not downloaded or reproduced. This record is limited to the inspected main experiment and is not a cross-vendor ranking.",
       "reviewed_at": "2026-11-04"
+    },
+    {
+      "id": "DA-2026-11-05-chatgpt-preview-exfiltration-study",
+      "title": "ChatGPT preview study: researchers demonstrated a Lockdown Mode bypass and verified a fix",
+      "event_date": "2026-11-05",
+      "date_precision": "day",
+      "date_basis": "Public disclosure date of the Check Point Research article. Individual experiment dates were not stated. The article says OpenAI reported a fix on September 18, 2026 and researchers subsequently confirmed it; November 5 is not the date of exploitation or repair.",
+      "organization": "Check Point Research; OpenAI",
+      "context": "Controlled security research on generated HTML previews in ChatGPT and the Electron-based ChatGPT Classic client",
+      "system": "ChatGPT HTML preview and ChatGPT Classic; exact tested client and model versions not established",
+      "sector": "consumer",
+      "category": "harmful conduct",
+      "evidence_status": "study",
+      "what_happened": "Check Point Research reports a sandbox-isolation flaw in generated HTML previews that allowed outbound activity despite Lockdown Mode. Its described demonstration used a malicious GPT in ChatGPT Classic to transmit chat messages to a researcher-controlled server without an additional user gesture. This record covers the demonstrated data-exfiltration path; phishing and malware-delivery scenarios are discussed as possible abuses, not separately established victim incidents.",
+      "impact": "The report establishes a controlled security demonstration, not a confirmed customer breach or a count of affected users. Browser interaction requirements differed from the Classic client. The researchers report that the described technique no longer worked after remediation; this is not evidence of a currently exploitable bypass.",
+      "response": "According to Check Point Research, OpenAI informed it on September 18, 2026 that a fix had been deployed to the outer HTML-preview sandbox. The researchers then retested and confirmed that the described exploitation technique no longer worked. The OpenAI notification is reported by the researchers; no separate provider statement or our own retest was inspected.",
+      "response_status": "Researcher-reported OpenAI fix notification and researcher-confirmed retest",
+      "response_url": "https://research.checkpoint.com/2026/chatgpt-lockdown-mode-bypass-phishing-malware-delivery-and-silent-data-exfiltration/",
+      "prevention_control": "Enforce preview isolation and outbound restrictions at the browser or application boundary, including child contexts and clients, rather than relying on generated content to honor restrictions. In an authorized sandbox, observe actual outbound traffic and test the repaired path plus permitted rendering. Deterministic execution alone cannot repair a client isolation flaw. These are proposed controls; only the researchers’ described fix retest is reported as observed.",
+      "primary_source_url": "https://research.checkpoint.com/2026/chatgpt-lockdown-mode-bypass-phishing-malware-delivery-and-silent-data-exfiltration/",
+      "source_scope": "Full 9,698-character primary research article read with fetch_page, including the Classic-client demonstration description, browser interaction distinction, September 18 fix notification and researcher retest. Embedded videos and raw server logs were not separately inspected. No exploit payloads reproduced or run. Exact experiment dates, affected user count and independent provider statement not established.",
+      "reviewed_at": "2026-11-05"
     }
   ],
   "record_merges": [
