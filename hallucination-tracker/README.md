@@ -1,20 +1,15 @@
-# The Hallucination Tracker
+# Hallucination Tracker field guide
 
-Published by Kognitos. See the [shared scope, citations and analysis links](../README.md).
-
-## Field dictionary and reuse notes
-
-```text
-Hallucination Tracker v2.36 — 2026-11-02
-129 selected records: 48 confirmed, 47 admitted and 34 suspected AI involvement.
-110 hallucination records; 19 false claims.
+Hallucination Tracker v2.37 — 2026-11-06
+130 selected records: 48 confirmed, 47 admitted and 35 suspected AI involvement.
+111 hallucination records; 19 false claims.
 Canonical page: https://www.hallucination-free.org/tracker/
 License: CC BY 4.0 https://creativecommons.org/licenses/by/4.0/
 Credit Hallucination-Free, link the landing page and license, and identify changes.
 License applies to original summaries and compilation, not linked source documents.
 
-Suggested citation: Hallucination-Free. The Hallucination Tracker, version 2.36, 2026-11-02. https://www.hallucination-free.org/tracker/ (add access date).
-For a reproducible copy use hallucination-tracker-v2.36.csv or .json.
+Suggested citation: Hallucination-Free. The Hallucination Tracker, version 2.37, 2026-11-06. https://www.hallucination-free.org/tracker/ (add access date).
+For a reproducible copy use hallucination-tracker-v2.37.csv or .json.
 
 FORMATS AND ORDER
 UTF-8 CSV: one row per record; id joins to JSON records.
@@ -254,3 +249,7 @@ Each offline pack contains the complete frozen input, executable calculation, ex
 October 30 — v2.33: Added Boyd (suspected AI; no sanctions at this stage) and Glenn (admitted AI research; voluntary remediation, not a fine). Rechecked the existing Lisandrillo follow-up without changing its stable ID.
 
 October 30 companion-reference review: https://www.hallucination-free.org/topics/what-tracker-counts-can-tell-you/#what-does-the-updated-companion-review-show . Frozen v2.32/v1.23 inputs contain four explicit pairs; this is not an exhaustive independent-event count.
+
+### November 6 reuse note
+
+The [November 1–6 comparison](https://www.hallucination-free.org/topics/what-tracker-counts-can-tell-you/#what-changed-from-november-1-to-november-6) preserves added membership, full changed fields and metadata separately. An entry added during this publication window may describe an older event or disclosure. Retain its date basis and evidence qualifications; do not interpret release growth as increasing real-world failure frequency.

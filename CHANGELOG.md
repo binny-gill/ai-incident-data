@@ -1,5 +1,12 @@
 # Dataset documentation changelog
 
+## 2026-11-06
+
+- Tracker v2.37: 130 records; added directly checked ContextEcho v2 reference mismatch, with suspected AI attribution and scoped response evidence.
+- Register v1.31 and source repair v1.32: 122 records; added historical CircumEval protected-file research with observed transcript examples and study limits.
+- Repaired the unavailable Grok Build principal source with contemporaneous reporting, retaining original-source provenance and limits.
+- Linked reproducible November 1–6 release comparisons and the fictional human-resolution worksheet; owned reference links, not independent endorsements.
+
 ## 2026-11-05
 
 Register v1.30 reaches 121 records with one controlled ChatGPT preview-exfiltration study. The September fix and researcher retest are retained; no customer breach inferred. Tracker remains v2.36/129. Added practical citation/cancellation review links and independent verification packs for the unchanged November4 profiles (129/120). Owned references are not independent endorsements.

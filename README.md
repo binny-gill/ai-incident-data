@@ -6,10 +6,16 @@ Two vendor-neutral publications maintain these selected, source-linked collectio
 
 | Collection | Scope | Version / release | Records | Reference page |
 |---|---|---|---:|---|
-| Hallucination Tracker | Invented facts, citations and other false factual assertions | 2.36 / 2026-11-02 | 129 | [Search and cite records](https://www.hallucination-free.org/tracker/) |
-| AI Reliability Incident Register | Bias, deception without a false factual assertion, and harmful conduct | 1.30 / 2026-11-05 | 121 | [Search and filter evidence](https://www.deterministicai.org/incidents/) |
+| Hallucination Tracker | Invented facts, citations and other false factual assertions | 2.37 / 2026-11-06 | 130 | [Search and cite records](https://www.hallucination-free.org/tracker/) |
+| AI Reliability Incident Register | Bias, deception without a false factual assertion, and harmful conduct | 1.32 / 2026-11-06 | 122 | [Search and filter evidence](https://www.deterministicai.org/incidents/) |
 
 These are curated collections, not representative samples or a vendor ranking. Studies, allegations and reports are labelled; an allegation is not a finding. The same underlying event must be checked for overlap before combining datasets. Do not interpret release growth as a trend in AI failures.
+
+## Review the latest changes and human-assisted outcomes
+
+The [November 1–6 Tracker comparison](https://www.hallucination-free.org/topics/what-tracker-counts-can-tell-you/#what-changed-from-november-1-to-november-6) and [Register comparison](https://www.deterministicai.org/topics/reliability-register-evidence/#what-changed-from-november-1-to-november-6) include frozen inputs, exact added membership, field changes and separate metadata changes. These are publication changes, not an incident-frequency trend. Keep evidence labels and date-basis fields with a citation.
+
+For control reviews, use the [human-resolution worksheet](https://www.deterministicai.org/checklist/#how-do-you-record-human-resolution) and [abstention worked example](https://www.hallucination-free.org/topics/when-should-ai-abstain/#how-do-you-report-work-completed-after-human-review). Six fictional cases preserve the automated baseline while recording later human-assisted completion. The calculator tests the accounting only; no model, production workflow or external action was tested.
 
 ## Downloads and field definitions
 
@@ -24,7 +30,7 @@ Tracker-specific fields distinguish `failure_type`, `ai_involvement`, `ai_involv
 
 - [Verify an AI-generated citation](https://www.hallucination-free.org/topics/how-to-verify-ai-generated-citations/#what-is-the-quickest-review-you-can-document): blank and fictional filled forms keep identity, passage support, publication status, access and use decisions separate.
 - [Test cancellation and action outcomes](https://www.deterministicai.org/checklist/#what-does-a-cancellation-request-prove): eleven proposed action procedures, including cancellation timing and a permitted-action positive control. All are untested against a deployed system.
-- Check the November 4 profile calculations independently: [Tracker pack](https://www.hallucination-free.org/analysis/2026-11-05/profile-audit.zip) / [Register pack](https://www.deterministicai.org/analysis/2026-11-05/profile-audit.zip). The November 5 checks preserve the original 129/120-record inputs; Register v1.30's additional record is outside that frozen profile.
+- Check the November 4 profile calculations independently: [Tracker pack](https://www.hallucination-free.org/analysis/2026-11-05/profile-audit.zip) / [Register pack](https://www.deterministicai.org/analysis/2026-11-05/profile-audit.zip). The November 5 checks preserve the original 129/120-record inputs; Later additions to both datasets remain outside those frozen profiles.
 
 ## Reproduce the published analyses
 
@@ -36,9 +42,9 @@ The November 4 evidence profiles provide frozen labelled composition, full membe
 
 ## How to cite
 
-Hallucination-Free. *The Hallucination Tracker*, version 2.36, November 2, 2026. https://www.hallucination-free.org/tracker/. Include access date and the incident ID when citing a single record.
+Hallucination-Free. *The Hallucination Tracker*, version 2.37, November 6, 2026. https://www.hallucination-free.org/tracker/. Include access date and the incident ID when citing a single record.
 
-Deterministic AI. *AI Reliability Incident Register*, version 1.30, November 5, 2026. https://www.deterministicai.org/incidents/. Include access date and incident ID.
+Deterministic AI. *AI Reliability Incident Register*, version 1.32, November 6, 2026. https://www.deterministicai.org/incidents/. Include access date and incident ID.
 
 For reproducibility, cite a versioned file rather than only the latest download. IDs remain stable after publication; corrections belong in the changelog. See [CITATION.cff](CITATION.cff) and [release history](CHANGELOG.md).
 

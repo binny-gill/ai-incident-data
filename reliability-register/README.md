@@ -6,10 +6,10 @@ Published by Kognitos. See the [shared scope, citations and analysis links](../R
 
 ```text
 AI Reliability Incident Register — data dictionary and reuse notes
-Version 1.30, 2026-11-05. 121 records: 61 studies, 28 findings, 15 reports, 17 allegations; 41 bias, 22 deception, 58 harmful conduct.
+Version 1.32, 2026-11-06. 122 records: 62 studies, 28 findings, 15 reports, 17 allegations; 41 bias, 22 deception, 59 harmful conduct.
 Canonical page: https://www.deterministicai.org/incidents/
 License: CC BY 4.0 for original summaries and compilation; linked sources retain their own terms.
-Suggested citation: Deterministic AI. AI Reliability Incident Register, version 1.30, 2026-11-05. https://www.deterministicai.org/incidents/ (add access date).
+Suggested citation: Deterministic AI. AI Reliability Incident Register, version 1.32, 2026-11-06. https://www.deterministicai.org/incidents/ (add access date).
 Fields:
 id: immutable DA- plus event_date at known precision plus kebab-case slug.
 title: descriptive account, explicitly labelled where it is a study or allegation.
@@ -104,3 +104,7 @@ Each offline pack contains the complete frozen input, executable calculation, ex
 October 30 — v1.24: Added the operator’s February 26 DataTalks.Club deletion and recovery report. Preserved first-person status, operator approvals and reported restoration. Rechecked the compaction-concealment source without changing its scope.
 
 October 30 companion-reference review: https://www.deterministicai.org/topics/reliability-register-evidence/#what-does-the-updated-companion-review-show . Frozen v2.32/v1.23 inputs contain four explicit pairs; this is not an exhaustive independent-event count.
+
+### November 6 reuse note
+
+The [November 1–6 comparison](https://www.deterministicai.org/topics/reliability-register-evidence/#what-changed-from-november-1-to-november-6) preserves added membership, full changed fields and metadata separately. An entry added during this publication window may describe an older event or disclosure. Retain its date basis and evidence qualifications; do not interpret release growth as increasing real-world failure frequency.
