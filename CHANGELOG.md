@@ -1,5 +1,12 @@
 # Dataset documentation changelog
 
+## 2026-11-07
+
+- Tracker v2.38: 132 records; specific OverclaimBench false claim and reported CPS fictitious citation with suspected AI involvement. ContextEcho v3 correction remains unresolved.
+- Register v1.33: 123 records; WorkOS company finding with first-access chronology and separate completed/pending repairs. OverclaimBench omissions retain their scope and link the related Tracker finding.
+- Added seven-pair companion inventory and changed-evidence review references. Owned documentation links are not independent editorial endorsements.
+
+
 ## 2026-11-06
 
 - Tracker v2.37: 130 records; added directly checked ContextEcho v2 reference mismatch, with suspected AI attribution and scoped response evidence.

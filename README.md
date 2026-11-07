@@ -6,12 +6,18 @@ Two vendor-neutral publications maintain these selected, source-linked collectio
 
 | Collection | Scope | Version / release | Records | Reference page |
 |---|---|---|---:|---|
-| Hallucination Tracker | Invented facts, citations and other false factual assertions | 2.37 / 2026-11-06 | 130 | [Search and cite records](https://www.hallucination-free.org/tracker/) |
-| AI Reliability Incident Register | Bias, deception without a false factual assertion, and harmful conduct | 1.32 / 2026-11-06 | 122 | [Search and filter evidence](https://www.deterministicai.org/incidents/) |
+| Hallucination Tracker | Invented facts, citations and other false factual assertions | 2.38 / 2026-11-07 | 132 | [Search and cite records](https://www.hallucination-free.org/tracker/) |
+| AI Reliability Incident Register | Bias, deception without a false factual assertion, and harmful conduct | 1.33 / 2026-11-07 | 123 | [Search and filter evidence](https://www.deterministicai.org/incidents/) |
 
 These are curated collections, not representative samples or a vendor ranking. Studies, allegations and reports are labelled; an allegation is not a finding. The same underlying event must be checked for overlap before combining datasets. Do not interpret release growth as a trend in AI failures.
 
-## Review the latest changes and human-assisted outcomes
+## Review shared studies and changed evidence
+
+The [November 7 companion inventory](https://www.hallucination-free.org/topics/what-tracker-counts-can-tell-you/#how-are-the-seven-record-pairs-related) groups 13 directional references into seven record pairs. Its new OverclaimBench pair links a specific false completion claim with separately counted omission-only findings from the same study. The [Register analysis](https://www.deterministicai.org/topics/reliability-register-evidence/#how-are-the-seven-record-pairs-related) provides the same full records, frozen inputs and runnable pack. These are curated relationships, not an independent-event count.
+
+The [changed-evidence worksheet](https://www.deterministicai.org/checklist/#what-if-the-evidence-or-request-changes-after-review) and [citation version review](https://www.hallucination-free.org/topics/how-to-verify-ai-generated-citations/#what-does-a-new-version-change-about-your-citation) explain how to preserve an original review when sources, requests or runtimes change. Five fictional cases include blank and filled CSV/JSON; every production control remains untested.
+
+## Review the November 1–6 changes and human-assisted outcomes
 
 The [November 1–6 Tracker comparison](https://www.hallucination-free.org/topics/what-tracker-counts-can-tell-you/#what-changed-from-november-1-to-november-6) and [Register comparison](https://www.deterministicai.org/topics/reliability-register-evidence/#what-changed-from-november-1-to-november-6) include frozen inputs, exact added membership, field changes and separate metadata changes. These are publication changes, not an incident-frequency trend. Keep evidence labels and date-basis fields with a citation.
 
@@ -42,9 +48,9 @@ The November 4 evidence profiles provide frozen labelled composition, full membe
 
 ## How to cite
 
-Hallucination-Free. *The Hallucination Tracker*, version 2.37, November 6, 2026. https://www.hallucination-free.org/tracker/. Include access date and the incident ID when citing a single record.
+Hallucination-Free. *The Hallucination Tracker*, version 2.38, November 7, 2026. https://www.hallucination-free.org/tracker/. Include access date and the incident ID when citing a single record.
 
-Deterministic AI. *AI Reliability Incident Register*, version 1.32, November 6, 2026. https://www.deterministicai.org/incidents/. Include access date and incident ID.
+Deterministic AI. *AI Reliability Incident Register*, version 1.33, November 7, 2026. https://www.deterministicai.org/incidents/. Include access date and incident ID.
 
 For reproducibility, cite a versioned file rather than only the latest download. IDs remain stable after publication; corrections belong in the changelog. See [CITATION.cff](CITATION.cff) and [release history](CHANGELOG.md).
 

@@ -1,15 +1,15 @@
 # Hallucination Tracker field guide
 
-Hallucination Tracker v2.37 — 2026-11-06
-130 selected records: 48 confirmed, 47 admitted and 35 suspected AI involvement.
-111 hallucination records; 19 false claims.
+Hallucination Tracker v2.38 — 2026-11-07
+132 selected records: 49 confirmed, 47 admitted and 36 suspected AI involvement.
+112 hallucination records; 20 false claims.
 Canonical page: https://www.hallucination-free.org/tracker/
 License: CC BY 4.0 https://creativecommons.org/licenses/by/4.0/
 Credit Hallucination-Free, link the landing page and license, and identify changes.
 License applies to original summaries and compilation, not linked source documents.
 
-Suggested citation: Hallucination-Free. The Hallucination Tracker, version 2.37, 2026-11-06. https://www.hallucination-free.org/tracker/ (add access date).
-For a reproducible copy use hallucination-tracker-v2.37.csv or .json.
+Suggested citation: Hallucination-Free. The Hallucination Tracker, version 2.38, 2026-11-07. https://www.hallucination-free.org/tracker/ (add access date).
+For a reproducible copy use hallucination-tracker-v2.38.csv or .json.
 
 FORMATS AND ORDER
 UTF-8 CSV: one row per record; id joins to JSON records.
@@ -151,6 +151,76 @@ All earlier records, IDs and frozen snapshots remain unchanged. The separate all
 
 FINAL RETRY — v2.11 (2026-10-16)
 Final alternative-source retry completed for all 86 held files: 4 additional records, no new merges and 82 remaining holds. Overall archive review: all 145 files reviewed; 59 published, 4 merged and 82 held; none awaiting review. The Tracker now contains 64 records, including six controlled studies, two labelled lawsuit allegations, one first-person report and one separate current-news record. Every remaining hold has an individual reason in the review ledger.
+
+## Reliability archive setup, 2026-10-16 — v2.12
+The existing failure_type field and filter distinguish hallucination (invented facts, citations, quotes, figures or sources) from false claim (other false assertions about the world or the system’s work). The existing backfill is retained, including the already reviewed Quebec false-claim classification. Bias, deception without a false factual claim and harmful conduct are covered by https://www.deterministicai.org/incidents/. No record or ID was added or renumbered in this setup release.
+
+Current release: v2.13, 2026-10-16, 69 records. 5 verified false-claim records added from 15 lying briefs. 7 other records routed to the Register; 3 held. Added AI-involvement labels, bases and a filter using prior reviewed evidence for older records. No IDs changed.
+ai_involvement: confirmed (documented output or institutional finding), admitted (acknowledged AI use), suspected (attributed inference). ai_involvement_basis states the evidence and limits. This describes AI involvement, not per-error technical causation.
+
+
+AI-INVOLVEMENT RE-REVIEW — v2.14 (2026-10-16)
+Re-reviewed the first 15 of 82 held hallucination-archive cases: 7 published (1 confirmed, 2 admitted, 4 suspected), 8 remain held, and 67 await re-review. Hallucination-folder totals: 66 published, 4 merged, 75 held. Tracker total: 76 records, including ten controlled studies, two lawsuit allegations and two first-person reports. No reliability-folder batch was taken in this run.
+A suspected label requires verified fabrication and an attributed inference from a court or credible reporting; it never establishes that a named person used AI. Calculation errors alone and accounts without a verifiable specific fabrication remain held.
+
+
+AI-INVOLVEMENT RE-REVIEW — v2.15 (2026-10-16)
+Re-reviewed the next 15 held cases: eight published (three admitted, five suspected), seven retained holds. Across both re-review batches, 30 of 82 cases have been reviewed: 15 recovered, 15 retained holds and 52 awaiting re-review. Hallucination-folder totals: 74 published, four merged and 67 held. Tracker total: 84 records; the reliability-folder queue is unchanged.
+
+
+AI-INVOLVEMENT RE-REVIEW — v2.16 (2026-10-16)
+Re-reviewed the next 15 held cases: seven published (one admitted, six suspected), eight retained holds. Across three re-review batches, 45 of 82 cases have been reviewed: 22 recovered, 23 retained holds and 37 awaiting re-review. Hallucination-folder totals: 81 published, four merged and 60 held. Tracker total: 91 records; the reliability-folder queue is unchanged.
+
+
+AI-INVOLVEMENT RE-REVIEW — v2.17 (2026-10-16)
+Re-reviewed the next 15 held cases: nine published (one admitted, eight suspected), six retained holds. Across four re-review batches, 60 of 82 cases have been reviewed: 31 recovered, 29 retained holds and 22 awaiting re-review. Hallucination-folder totals: 90 published, four merged and 51 held. Tracker total: 100 records; the reliability-folder queue is unchanged.
+
+
+AI-INVOLVEMENT RE-REVIEW — v2.18 (2026-10-16)
+Re-reviewed 15 held cases: three published (two admitted, one suspected) and 12 retained holds. Across five batches, 75 of 82 cases have been re-reviewed: 34 recovered, 41 retained holds and seven awaiting re-review. Hallucination-folder totals: 93 published, four merged and 48 held. Tracker total: 103 records; the reliability-folder queue is unchanged.
+
+
+AI-INVOLVEMENT RE-REVIEW — v2.19 (2026-10-16)
+Final re-review batch: seven cases reviewed, two published (one admitted, one suspected) and five retained holds. All 82 original holds have now been re-reviewed: 36 recovered and 46 remain held. Hallucination-folder totals: 95 published, four merged and 46 held. Tracker total: 105 records. The lying/bias/malicious queue resumes next run.
+Frozen v2.19 CSV/JSON added; earlier snapshots unchanged.
+
+RELIABILITY ARCHIVE BATCH 2 — v2.20 (2026-10-16)
+Reviewed the next 15 lying briefs after completing the Tracker re-review: two false-claim studies added here, three records added to the companion Register and ten held for evidence or scope limits. The new records document false compliance labels and an unproduced task deliverable, both with confirmed AI involvement. Tracker total: 107 records. Prior records, IDs and frozen releases remain unchanged.
+
+RELIABILITY ARCHIVE BATCH 3 — v2.21 (2026-10-16)
+Reviewed the third 15-case lying batch: two confirmed false-claim records added here, seven records added to the Register and six held for missing verifiable evidence. New records cover invented earnings and a fabricated compromise warning during training. Tracker total: 109 records. Earlier records, IDs and frozen releases preserved.
+
+RELIABILITY ARCHIVE BATCH 4 — v2.23 (2026-10-16)
+Fourth lying batch: added the affected organization’s SaaStr edit-denial account and SPINE’s verified traffic-sensor false claim. Current total: 113 records, including thirteen controlled studies. Five scoped records went to the Reliability Register and eight cases remain held. Prior records, IDs and frozen releases preserved.
+
+Release 2.24 (2026-10-18): Added one confirmed false-claim record from OpenAI’s June 17 dashboard evaluation, disclosed October 15. Total: 114. Earlier 113 records and frozen snapshots unchanged.
+Release comparison and full field changes: https://www.hallucination-free.org/topics/what-tracker-counts-can-tell-you/#what-changed-in-the-october-18-release
+
+October 19, 2026 — v2.25: added Flycatcher; refreshed the police-tip source review; current total 115. Earlier snapshots preserved.
+Additional v2.25 repair: Mitchell source replaced with readable full USPTO order; respondent representations clarified and AI involvement upgraded from admitted to confirmed. ID retained.
+
+October 20, 2026 — Tracker v2.26: added the Oklahoma citation account and SalesBleed false blocked-status study; updated Lnu with Sethi reciprocal discipline; corrected prior scope count. Total 117. The separate SalesBleed Slack study is in the Register; these are distinct findings in one disclosure. Earlier snapshots and IDs preserved.
+
+October 20 source recovery: Booker official opinion now establishes hearing admission, court error classifications and separate merits disposition. Stable ID and admitted label unchanged.
+
+October 21, 2026 — Added two confirmed false-claim records: Grok’s false video context and OpenAI’s October 6 monitor-removal denial. Grok is linked to the same episode in the Register. Total: 119. Preserved earlier IDs and snapshots.
+Date precision analysis retains the October 20 snapshot, including the original Register duplicate; it counts stored records, not unique events.
+
+October 21 source repair: Puerto Rico Soccer League follow-up now cites Lawyer Monthly after the previous source became unreachable. A request for dismissal is not a final disposition.
+
+Release 2026-10-23: Added the reported West Virginia fabricated-syllabus incident with admitted AI research. Updated the existing Lisandrillo record with the October 21 Florida Bar referral, counsel response and rehearing qualification; AI involvement remains suspected. Total: 120.
+
+Release 2026-10-24: Added Jackson Federation’s July 20, 2025 order with fabricated material and the October 22, 2026 appellate reassignment. Total: 121 records; a later disposition is not a new event date.
+
+Release 2026-10-26: Added Paananen quotation finding with suspected AI involvement. Total: 123 records.
+
+October 26 source-review audit (frozen pre-review baseline): https://www.hallucination-free.org/topics/what-tracker-counts-can-tell-you/#what-did-the-october-26-source-review-establish
+Freshness worksheet: https://www.deterministicai.org/checklist/#when-does-evidence-need-a-fresh-review
+
+October 29: Added the provider-confirmed October 6 grading-evidence fabrication. All submissions from that attempt were rejected; a later accepted retry is distinct. Shared episode with the companion dataset; do not add as independent events.
+Date-window analysis preserves the earlier v2.31 baseline: https://www.hallucination-free.org/topics/what-tracker-counts-can-tell-you/#which-records-fall-in-a-recent-date-window
+
+October 30 — v2.33: Added Boyd (suspected AI; no sanctions at this stage) and Glenn (admitted AI research; voluntary remediation, not a fine). Rechecked the existing Lisandrillo follow-up without changing its stable ID.
 
 ## Reliability archive setup, 2026-10-16 — v2.12
 The existing failure_type field and filter distinguish hallucination (invented facts, citations, quotes, figures or sources) from false claim (other false assertions about the world or the system’s work). The existing backfill is retained, including the already reviewed Quebec false-claim classification. Bias, deception without a false factual claim and harmful conduct are covered by https://www.deterministicai.org/incidents/. No record or ID was added or renumbered in this setup release.
