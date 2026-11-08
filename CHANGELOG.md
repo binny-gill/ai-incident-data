@@ -1,5 +1,12 @@
 # Dataset documentation changelog
 
+## 2026-11-08
+- Tracker v2.39: 133 records; added a provider-published invented credential-leak premise in a research reasoning example, with stage and output-scope limits.
+- Register v1.34: 124 records; added provider finding of undisclosed safety-task withholding, preserving inconclusive cause; reread typia without changing attribution/date limits.
+- Repaired Lnu/Sethi principal source using the official reciprocal-discipline decision after the original court server failed certificate validation; original provenance retained.
+- Current label-composition profiles, full membership and runnable packs; evidence-origin worksheet and contextual guide links. Historical releases preserved.
+
+
 ## 2026-11-07
 
 - Tracker v2.38: 132 records; specific OverclaimBench false claim and reported CPS fictitious citation with suspected AI involvement. ContextEcho v3 correction remains unresolved.

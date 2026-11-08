@@ -6,10 +6,16 @@ Two vendor-neutral publications maintain these selected, source-linked collectio
 
 | Collection | Scope | Version / release | Records | Reference page |
 |---|---|---|---:|---|
-| Hallucination Tracker | Invented facts, citations and other false factual assertions | 2.38 / 2026-11-07 | 132 | [Search and cite records](https://www.hallucination-free.org/tracker/) |
-| AI Reliability Incident Register | Bias, deception without a false factual assertion, and harmful conduct | 1.33 / 2026-11-07 | 123 | [Search and filter evidence](https://www.deterministicai.org/incidents/) |
+| Hallucination Tracker | Invented facts, citations and other false factual assertions | 2.39 / 2026-11-08 | 133 | [Search and cite records](https://www.hallucination-free.org/tracker/) |
+| AI Reliability Incident Register | Bias, deception without a false factual assertion, and harmful conduct | 1.34 / 2026-11-08 | 124 | [Search and filter evidence](https://www.deterministicai.org/incidents/) |
 
 These are curated collections, not representative samples or a vendor ranking. Studies, allegations and reports are labelled; an allegation is not a finding. The same underlying event must be checked for overlap before combining datasets. Do not interpret release growth as a trend in AI failures.
+
+## Current evidence and the origin of a claim
+
+The [November 8 Tracker profile](https://www.hallucination-free.org/topics/what-tracker-counts-can-tell-you/#what-do-the-november-8-labels-count) and [Register profile](https://www.deterministicai.org/topics/reliability-register-evidence/#what-do-the-november-8-labels-count) provide exact label combinations, full membership and reproducible offline packs for versions 2.39 and 1.34. These selected record counts are not population failure rates; source reviews retain their own dates and limits.
+
+The [evidence-origin worksheet](https://www.deterministicai.org/checklist/#who-produced-the-evidence) distinguishes caller-supplied tags, service identity, generated claims, destination receipts and evaluator labels. Five fictional cases include blank and filled CSV/JSON; every production control remains untested. The [measurement guide](https://www.hallucination-free.org/topics/how-to-measure-hallucinations/#who-supplied-the-claim-label) and [audit packet](https://www.deterministicai.org/news/audit-evidence-packet/#who-can-write-the-approval-evidence) explain what each evidence item can establish.
 
 ## Review shared studies and changed evidence
 
@@ -48,9 +54,9 @@ The November 4 evidence profiles provide frozen labelled composition, full membe
 
 ## How to cite
 
-Hallucination-Free. *The Hallucination Tracker*, version 2.38, November 7, 2026. https://www.hallucination-free.org/tracker/. Include access date and the incident ID when citing a single record.
+Hallucination-Free. *The Hallucination Tracker*, version 2.39, November 8, 2026. https://www.hallucination-free.org/tracker/. Include access date and the incident ID when citing a single record.
 
-Deterministic AI. *AI Reliability Incident Register*, version 1.33, November 7, 2026. https://www.deterministicai.org/incidents/. Include access date and incident ID.
+Deterministic AI. *AI Reliability Incident Register*, version 1.34, November 8, 2026. https://www.deterministicai.org/incidents/. Include access date and incident ID.
 
 For reproducibility, cite a versioned file rather than only the latest download. IDs remain stable after publication; corrections belong in the changelog. See [CITATION.cff](CITATION.cff) and [release history](CHANGELOG.md).
 
