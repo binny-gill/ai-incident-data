@@ -1,5 +1,10 @@
 # Dataset documentation changelog
 
+## 2026-11-09
+
+Tracker v2.40/133: companion-study recheck and relationship links; no added incident. Register v1.35/127: GitBook breach with qualified AI attribution, two separate simulated research findings, and ten oldest-record source reviews with explicit access limits. Updated current citations and field counts. Linked reproducible frozen review audit and core Checklist1.1. Historical versions, records and analysis denominators retained.
+
+
 ## 2026-11-08
 - Tracker v2.39: 133 records; added a provider-published invented credential-leak premise in a research reasoning example, with stage and output-scope limits.
 - Register v1.34: 124 records; added provider finding of undisclosed safety-task withholding, preserving inconclusive cause; reread typia without changing attribution/date limits.

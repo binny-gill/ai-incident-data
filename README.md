@@ -6,12 +6,20 @@ Two vendor-neutral publications maintain these selected, source-linked collectio
 
 | Collection | Scope | Version / release | Records | Reference page |
 |---|---|---|---:|---|
-| Hallucination Tracker | Invented facts, citations and other false factual assertions | 2.39 / 2026-11-08 | 133 | [Search and cite records](https://www.hallucination-free.org/tracker/) |
-| AI Reliability Incident Register | Bias, deception without a false factual assertion, and harmful conduct | 1.34 / 2026-11-08 | 124 | [Search and filter evidence](https://www.deterministicai.org/incidents/) |
+| Hallucination Tracker | Invented facts, citations and other false factual assertions | 2.40 / 2026-11-09 | 133 | [Search and cite records](https://www.hallucination-free.org/tracker/) |
+| AI Reliability Incident Register | Bias, deception without a false factual assertion, and harmful conduct | 1.35 / 2026-11-09 | 127 | [Search and filter evidence](https://www.deterministicai.org/incidents/) |
 
 These are curated collections, not representative samples or a vendor ranking. Studies, allegations and reports are labelled; an allegation is not a finding. The same underlying event must be checked for overlap before combining datasets. Do not interpret release growth as a trend in AI failures.
 
-## Current evidence and the origin of a claim
+## Source review and actual execution inputs
+
+The [November 9 source-review audit](https://www.hallucination-free.org/topics/what-tracker-counts-can-tell-you/#what-did-the-november-9-source-review-establish) and [Register companion](https://www.deterministicai.org/topics/reliability-register-evidence/#what-did-the-november-9-source-review-establish) publish a frozen 257-record metadata inventory, exact ten-record maintenance queue and separate source-reading receipts. Six outputs reproduce from pinned inputs. Source access ranges from full text to abstracts and truncated documents; a new review date does not establish a final legal outcome or complete verification.
+
+The [core Checklist version 1.1](https://www.deterministicai.org/checklist/#how-do-you-review-the-actual-inputs) keeps ten stable criteria and adds clearer instructions for actual loaded artifacts and observed versus declared runtime conditions. The complete download includes blank CSV/JSON and a filled audit example with four criteria met within local metadata scope and six untested. Matching metadata does not verify an AI system or the source claims.
+
+Current releases: Tracker 2.40 keeps 133 records and clarifies related research findings; Register 1.35 adds GitBook's provider-confirmed breach with qualified AI attribution and two distinct simulated study findings, reaching 127. Same-report findings are not independent studies. These additions are outside the audit's frozen denominator.
+
+## November 8 evidence profile and the origin of a claim
 
 The [November 8 Tracker profile](https://www.hallucination-free.org/topics/what-tracker-counts-can-tell-you/#what-do-the-november-8-labels-count) and [Register profile](https://www.deterministicai.org/topics/reliability-register-evidence/#what-do-the-november-8-labels-count) provide exact label combinations, full membership and reproducible offline packs for versions 2.39 and 1.34. These selected record counts are not population failure rates; source reviews retain their own dates and limits.
 
