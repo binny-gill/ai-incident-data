@@ -1,10 +1,10 @@
 # AI Reliability Incident Register field guide
 
 AI Reliability Incident Register — data dictionary and reuse notes
-Version 1.35, 2026-11-09. 127 records: 64 studies, 31 findings, 15 reports, 17 allegations; 41 bias, 24 deception, 62 harmful conduct.
+Version 1.36, 2026-11-10. 127 records: 64 studies, 31 findings, 15 reports, 17 allegations; 41 bias, 24 deception, 62 harmful conduct.
 Canonical page: https://www.deterministicai.org/incidents/
 License: CC BY 4.0 for original summaries and compilation; linked sources retain their own terms.
-Suggested citation: Deterministic AI. AI Reliability Incident Register, version 1.35, 2026-11-09. https://www.deterministicai.org/incidents/ (add access date).
+Suggested citation: Deterministic AI. AI Reliability Incident Register, version 1.36, 2026-11-10. https://www.deterministicai.org/incidents/ (add access date).
 Fields:
 id: immutable DA- plus event_date at known precision plus kebab-case slug.
 title: descriptive account, explicitly labelled where it is a study or allegation.
@@ -180,3 +180,5 @@ October 30 companion-reference review: https://www.deterministicai.org/topics/re
 The [November 1–6 comparison](https://www.deterministicai.org/topics/reliability-register-evidence/#what-changed-from-november-1-to-november-6) preserves added membership, full changed fields and metadata separately. An entry added during this publication window may describe an older event or disclosure. Retain its date basis and evidence qualifications; do not interpret release growth as increasing real-world failure frequency.
 
 November 9 review: retain the exact access scope with any reviewed_at date. The frozen audit and separate source receipts are at https://www.deterministicai.org/topics/reliability-register-evidence/#what-did-the-november-9-source-review-establish . The review queue is scheduling, not a risk ranking.
+
+November 10 shared-source review: inspect full record qualifications before treating URL groups as incidents or independent investigations. Reproducible grouping and 17 member records: https://www.deterministicai.org/analysis/2026-11-10/README.txt . Current citation metadata is above; older analysis snapshots remain frozen.

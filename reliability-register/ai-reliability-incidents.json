@@ -1,11 +1,11 @@
 {
   "title": "AI Reliability Incident Register",
-  "version": "1.35",
-  "released": "2026-11-09",
+  "version": "1.36",
+  "released": "2026-11-10",
   "url": "https://www.deterministicai.org/incidents/",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "creator": "Deterministic AI",
-  "citation": "Deterministic AI. AI Reliability Incident Register, version 1.35, 2026-11-09. https://www.deterministicai.org/incidents/",
+  "citation": "Deterministic AI. AI Reliability Incident Register, version 1.36, 2026-11-10. https://www.deterministicai.org/incidents/",
   "scope": "Selected verified accounts of bias, deception without a false factual claim, and harmful conduct. Evidence labels distinguish findings, allegations, studies and first-person reports. Not exhaustive or representative; proposed controls are editorial analysis, not demonstrated prevention.",
   "fields": [
     "id",
@@ -687,8 +687,8 @@
       "response_url": "https://salt.security/blog/how-we-hijacked-an-ai-agent-with-a-single-email",
       "prevention_control": "Enforce approval before executing an action, including steps labelled decoding or preprocessing. Keep email text separate from executable instructions, restrict integration tokens and inspect destination effects as well as warning messages. A deterministic approval gate needs a negative test showing that no action occurred before approval.",
       "primary_source_url": "https://salt.security/blog/how-we-hijacked-an-ai-agent-with-a-single-email",
-      "source_scope": "Full October 1 primary account read, including initial blocked attempts, successful controlled execution, later warning and reported resolution. Payloads and attack instructions omitted; exact testing chronology remains unknown.",
-      "reviewed_at": "2026-10-18"
+      "source_scope": "Full October 1 primary account read, including initial blocked attempts, successful controlled execution, later warning and reported resolution. Payloads and attack instructions omitted; exact testing chronology remains unknown. November 10, 2026: primary disclosure reread including initial blocked attempts, execution-before-warning and resolution claim. The October 1 publication date does not reveal the experiment day; year precision and stable ID retained. No new customer breach or independent retest established.",
+      "reviewed_at": "2026-11-10"
     },
     {
       "id": "DA-2026-pregnancy-source-disclosure-study",
@@ -2821,8 +2821,8 @@
       "response_url": "https://research.checkpoint.com/2026/chatgpt-lockdown-mode-bypass-phishing-malware-delivery-and-silent-data-exfiltration/",
       "prevention_control": "Enforce preview isolation and outbound restrictions at the browser or application boundary, including child contexts and clients, rather than relying on generated content to honor restrictions. In an authorized sandbox, observe actual outbound traffic and test the repaired path plus permitted rendering. Deterministic execution alone cannot repair a client isolation flaw. These are proposed controls; only the researchers’ described fix retest is reported as observed.",
       "primary_source_url": "https://research.checkpoint.com/2026/chatgpt-lockdown-mode-bypass-phishing-malware-delivery-and-silent-data-exfiltration/",
-      "source_scope": "Full 9,698-character primary research article read with fetch_page, including the Classic-client demonstration description, browser interaction distinction, September 18 fix notification and researcher retest. Embedded videos and raw server logs were not separately inspected. No exploit payloads reproduced or run. Exact experiment dates, affected user count and independent provider statement not established.",
-      "reviewed_at": "2026-11-05"
+      "source_scope": "Full 9,698-character primary research article read with fetch_page, including the Classic-client demonstration description, browser interaction distinction, September 18 fix notification and researcher retest. Embedded videos and raw server logs were not separately inspected. No exploit payloads reproduced or run. Exact experiment dates, affected user count and independent provider statement not established. November 10, 2026: full primary disclosure reread. September 18 provider fix notification and researcher retest remain distinct from November 5 publication. Browser and Classic interaction requirements remain separate. Embedded videos/raw logs and a separate provider statement were not independently inspected.",
+      "reviewed_at": "2026-11-10"
     }
   ],
   "record_merges": [

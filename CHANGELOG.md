@@ -1,5 +1,10 @@
 # Dataset documentation changelog
 
+## 2026-11-10
+
+Tracker v2.41: one financial-literature study added, 134 records; experiment July 11–13, 2025, publication September 1, 2026. Register v1.36: two existing security disclosures reread, 127 records, no additions. Stable IDs and historical downloads preserved. Added shared-principal-document analysis with complete membership and reproducible code. Refreshed current README citations and field guides from canonical data; linked Checklist 1.2 and practical source/argument checks. Prior suggested README citations were stale at 2.39/1.34 despite the current table's 2.40/1.35. Historical sections remain dated.
+
+
 ## 2026-11-09
 
 Tracker v2.40/133: companion-study recheck and relationship links; no added incident. Register v1.35/127: GitBook breach with qualified AI attribution, two separate simulated research findings, and ten oldest-record source reviews with explicit access limits. Updated current citations and field counts. Linked reproducible frozen review audit and core Checklist1.1. Historical versions, records and analysis denominators retained.

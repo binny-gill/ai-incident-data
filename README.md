@@ -6,10 +6,19 @@ Two vendor-neutral publications maintain these selected, source-linked collectio
 
 | Collection | Scope | Version / release | Records | Reference page |
 |---|---|---|---:|---|
-| Hallucination Tracker | Invented facts, citations and other false factual assertions | 2.40 / 2026-11-09 | 133 | [Search and cite records](https://www.hallucination-free.org/tracker/) |
-| AI Reliability Incident Register | Bias, deception without a false factual assertion, and harmful conduct | 1.35 / 2026-11-09 | 127 | [Search and filter evidence](https://www.deterministicai.org/incidents/) |
+| Hallucination Tracker | Invented facts, citations and other false factual assertions | 2.41 / 2026-11-10 | 134 | [Search and cite records](https://www.hallucination-free.org/tracker/) |
+| AI Reliability Incident Register | Bias, deception without a false factual assertion, and harmful conduct | 1.36 / 2026-11-10 | 127 | [Search and filter evidence](https://www.deterministicai.org/incidents/) |
 
 These are curated collections, not representative samples or a vendor ranking. Studies, allegations and reports are labelled; an allegation is not a finding. The same underlying event must be checked for overlap before combining datasets. Do not interpret release growth as a trend in AI failures.
+
+## Shared documents and precise comparison evidence
+
+The November 10 [Tracker analysis](https://www.hallucination-free.org/topics/what-tracker-counts-can-tell-you/#how-many-records-share-one-source-document) and [Register analysis](https://www.deterministicai.org/topics/reliability-register-evidence/#how-many-records-share-one-source-document) group 261 records from Tracker 2.41 and Register 1.36 by principal URL after removing fragments only. Eight shared document URLs cover 17 records; 244 records have singleton URLs. Neither 261 records nor 252 URL strings is a verified unique-event or independent-investigation total. Download full member records, exact counts, code and the offline pack from either analysis.
+
+[Checklist 1.2](https://www.deterministicai.org/checklist/#how-should-the-comparison-be-recorded) retains ten criteria, clarifies tool-name versus argument and destination comparisons, and corrects its current citation text. The completed metadata review has four scoped criteria met and six untested; it is not a model or production-workflow test. The [citation guide's financial study](https://www.hallucination-free.org/topics/how-to-verify-ai-generated-citations/#what-if-the-chatbot-supplies-more-detail-for-a-missing-paper) shows why a more detailed chatbot reply is not independent evidence.
+
+Current release: Tracker adds one study, dated to July 2025 experiments despite September 2026 publication. Register rechecks two existing security studies and preserves their remediation and experiment-date limits. The suggested citations below have been refreshed from the canonical releases; historical analyses retain their own denominators. These are owned reference links, not independent endorsements.
+
 
 ## Source review and actual execution inputs
 
@@ -62,13 +71,11 @@ The November 4 evidence profiles provide frozen labelled composition, full membe
 
 ## How to cite
 
-Hallucination-Free. *The Hallucination Tracker*, version 2.39, November 8, 2026. https://www.hallucination-free.org/tracker/. Include access date and the incident ID when citing a single record.
+Hallucination-Free. *The Hallucination Tracker*, version 2.41, November 10, 2026. https://www.hallucination-free.org/tracker/. Include access date and stable incident ID when citing one record.
 
-Deterministic AI. *AI Reliability Incident Register*, version 1.34, November 8, 2026. https://www.deterministicai.org/incidents/. Include access date and incident ID.
+Deterministic AI. *AI Reliability Incident Register*, version 1.36, November 10, 2026. https://www.deterministicai.org/incidents/. Include access date and stable incident ID.
 
-For reproducibility, cite a versioned file rather than only the latest download. IDs remain stable after publication; corrections belong in the changelog. See [CITATION.cff](CITATION.cff) and [release history](CHANGELOG.md).
-
-Only published entries belong in this repository. Private source archives, held leads and internal notes are excluded.
+For reproducibility, cite the versioned file actually used. Current versions above do not replace citations for historical analyses. See [CITATION.cff](CITATION.cff) and [release history](CHANGELOG.md). Only published entries belong here; held cases and private archives are excluded.
 
 ## Trace a count to its records
 
