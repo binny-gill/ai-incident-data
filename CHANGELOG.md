@@ -1,5 +1,10 @@
 # Dataset documentation changelog
 
+## 2026-11-11
+
+Tracker 2.42:135 records, one AI Village false-endorsement account; Puerto Rico Soccer League evidence reread. Register 1.37:128 records, one PocketOS deletion and provider-reported recovery; Workday initial filing refined to February 21, 2023 with its original ID retained. Existing frozen files preserved. Added question-led analysis navigation and an independent November 10 source-group verification: eight shared groups span both datasets, containing eight Tracker and nine Register records. Checklist core stays 1.2; current directory corrects two scope descriptions and adds verification discovery. Current citation metadata and field-guide summaries refreshed.
+
+
 ## 2026-11-10
 
 Tracker v2.41: one financial-literature study added, 134 records; experiment July 11–13, 2025, publication September 1, 2026. Register v1.36: two existing security disclosures reread, 127 records, no additions. Stable IDs and historical downloads preserved. Added shared-principal-document analysis with complete membership and reproducible code. Refreshed current README citations and field guides from canonical data; linked Checklist 1.2 and practical source/argument checks. Prior suggested README citations were stale at 2.39/1.34 despite the current table's 2.40/1.35. Historical sections remain dated.

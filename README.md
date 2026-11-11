@@ -6,18 +6,20 @@ Two vendor-neutral publications maintain these selected, source-linked collectio
 
 | Collection | Scope | Version / release | Records | Reference page |
 |---|---|---|---:|---|
-| Hallucination Tracker | Invented facts, citations and other false factual assertions | 2.41 / 2026-11-10 | 134 | [Search and cite records](https://www.hallucination-free.org/tracker/) |
-| AI Reliability Incident Register | Bias, deception without a false factual assertion, and harmful conduct | 1.36 / 2026-11-10 | 127 | [Search and filter evidence](https://www.deterministicai.org/incidents/) |
+| Hallucination Tracker | Invented facts, citations and other false factual assertions | 2.42 / 2026-11-11 | 135 | [Search and cite records](https://www.hallucination-free.org/tracker/) |
+| AI Reliability Incident Register | Bias, deception without a false factual assertion, and harmful conduct | 1.37 / 2026-11-11 | 128 | [Search and filter evidence](https://www.deterministicai.org/incidents/) |
 
 These are curated collections, not representative samples or a vendor ranking. Studies, allegations and reports are labelled; an allegation is not a finding. The same underlying event must be checked for overlap before combining datasets. Do not interpret release growth as a trend in AI failures.
 
-## Shared documents and precise comparison evidence
+## Choose an analysis and retain its evidence
 
-The November 10 [Tracker analysis](https://www.hallucination-free.org/topics/what-tracker-counts-can-tell-you/#how-many-records-share-one-source-document) and [Register analysis](https://www.deterministicai.org/topics/reliability-register-evidence/#how-many-records-share-one-source-document) group 261 records from Tracker 2.41 and Register 1.36 by principal URL after removing fragments only. Eight shared document URLs cover 17 records; 244 records have singleton URLs. Neither 261 records nor 252 URL strings is a verified unique-event or independent-investigation total. Download full member records, exact counts, code and the offline pack from either analysis.
+Use the [Tracker analysis question index](https://www.hallucination-free.org/topics/what-tracker-counts-can-tell-you/#which-evidence-do-you-need) or [Register index](https://www.deterministicai.org/topics/reliability-register-evidence/#which-evidence-do-you-need) to find source groups, evidence-label counts, source reviews, release changes and historical calculations. Each analysis retains its dated input versions and denominators; current release totals do not replace them.
 
-[Checklist 1.2](https://www.deterministicai.org/checklist/#how-should-the-comparison-be-recorded) retains ten criteria, clarifies tool-name versus argument and destination comparisons, and corrects its current citation text. The completed metadata review has four scoped criteria met and six untested; it is not a model or production-workflow test. The [citation guide's financial study](https://www.hallucination-free.org/topics/how-to-verify-ai-generated-citations/#what-if-the-chatbot-supplies-more-detail-for-a-missing-paper) shows why a more detailed chatbot reply is not independent evidence.
+The [November 11 independent source-group verification](https://www.deterministicai.org/topics/reliability-register-evidence/#what-did-the-independent-november-11-check-establish) checks the November 10 analysis of Tracker 2.41 and Register 1.36. All eight shared principal-URL groups span both datasets, covering eight Tracker and nine Register records. The calculation does not establish independent events or independent sources. Its offline pack includes the full frozen inputs, member rows, verifier, counts and validation receipt.
 
-Current release: Tracker adds one study, dated to July 2025 experiments despite September 2026 publication. Register rechecks two existing security studies and preserves their remediation and experiment-date limits. The suggested citations below have been refreshed from the canonical releases; historical analyses retain their own denominators. These are owned reference links, not independent endorsements.
+Start a workflow review with the [ten-check Checklist](https://www.deterministicai.org/checklist/#how-should-you-use-this-checklist). The current core forms remain version 1.2. Its November 11 directory corrects two mismatched scope descriptions and provides 20 routes to existing reviews and examples. A completed teaching form is not evidence that your own workflow passed.
+
+Current releases: Tracker 2.42 adds the AI Village false-endorsement account and rechecks Puerto Rico Soccer League sources; Register 1.37 adds PocketOS deletion/recovery and refines Workday's original filing date while preserving its stable ID. AI Village raw logs were not independently read; Railway recovery is provider-reported; Workday remains an allegation. These are owned references, not independent endorsements.
 
 
 ## Source review and actual execution inputs
@@ -71,9 +73,9 @@ The November 4 evidence profiles provide frozen labelled composition, full membe
 
 ## How to cite
 
-Hallucination-Free. *The Hallucination Tracker*, version 2.41, November 10, 2026. https://www.hallucination-free.org/tracker/. Include access date and stable incident ID when citing one record.
+Hallucination-Free. *The Hallucination Tracker*, version 2.42, November 11, 2026. https://www.hallucination-free.org/tracker/. Include access date and stable incident ID when citing one record.
 
-Deterministic AI. *AI Reliability Incident Register*, version 1.36, November 10, 2026. https://www.deterministicai.org/incidents/. Include access date and stable incident ID.
+Deterministic AI. *AI Reliability Incident Register*, version 1.37, November 11, 2026. https://www.deterministicai.org/incidents/. Include access date and stable incident ID.
 
 For reproducibility, cite the versioned file actually used. Current versions above do not replace citations for historical analyses. See [CITATION.cff](CITATION.cff) and [release history](CHANGELOG.md). Only published entries belong here; held cases and private archives are excluded.
 
