@@ -1,5 +1,12 @@
 # Dataset documentation changelog
 
+## 2026-11-12
+
+Source maintenance: recovered the earlier Law Commentary soccer-case report after both Lawyer Monthly host forms failed resolution; replaced a dead Morningstar lawsuit-announcement copy with counsel’s original announcement. Original source provenance and allegation qualifications retained.
+
+Tracker 2.43:136 records, one source-qualified loan-review independence study. Corrected manager false-completion event precision from revision day to year, retaining the stable ID. Register 1.38:129 records, one manager threat study; threats were not enacted harm. Linked companion findings without counting them as independent studies. New frozen source-role comparison distinguishes 19 memberships from 17 distinct records; response URLs add a group, not new distinct members. Validation-coverage supplement adds five fictional cases; actual service tests remain untested. Core Checklist 1.2 unchanged; directory has 22 entries. Current citation metadata and field-guide summaries refreshed; earlier snapshots preserved.
+
+
 ## 2026-11-11
 
 Tracker 2.42:135 records, one AI Village false-endorsement account; Puerto Rico Soccer League evidence reread. Register 1.37:128 records, one PocketOS deletion and provider-reported recovery; Workday initial filing refined to February 21, 2023 with its original ID retained. Existing frozen files preserved. Added question-led analysis navigation and an independent November 10 source-group verification: eight shared groups span both datasets, containing eight Tracker and nine Register records. Checklist core stays 1.2; current directory corrects two scope descriptions and adds verification discovery. Current citation metadata and field-guide summaries refreshed.
