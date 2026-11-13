@@ -1,5 +1,10 @@
 # Dataset documentation changelog
 
+## 2026-11-13
+
+Tracker2.44/136: no new record; recovered Withers court text, corrected event month from sanctions date, preserved stable ID and distinguished AI-using drafters from local signatories. Register1.39/130: one Inter-Agent Influence threat study, with instructed coercion, fictional setting and access/causality limits. New frozen member-set analysis: nine URLs, eight sets, seventeen distinct records. Checklist1.3 retains ten criteria and adds per-attempt fresh/reuse evidence, with a completed local metadata example. Measurement and testing guides explain cached-result boundaries. Historical snapshots remain unchanged.
+
+
 ## 2026-11-12
 
 Source maintenance: recovered the earlier Law Commentary soccer-case report after both Lawyer Monthly host forms failed resolution; replaced a dead Morningstar lawsuit-announcement copy with counsel’s original announcement. Original source provenance and allegation qualifications retained.

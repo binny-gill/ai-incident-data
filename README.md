@@ -6,12 +6,19 @@ Two vendor-neutral publications maintain these selected, source-linked collectio
 
 | Collection | Scope | Version / release | Records | Reference page |
 |---|---|---|---:|---|
-| Hallucination Tracker | Invented facts, citations and other false factual assertions | 2.43 / 2026-11-12 | 136 | [Search and cite records](https://www.hallucination-free.org/tracker/) |
-| AI Reliability Incident Register | Bias, deception without a false factual assertion, and harmful conduct | 1.38 / 2026-11-12 | 129 | [Search and filter evidence](https://www.deterministicai.org/incidents/) |
+| Hallucination Tracker | Invented facts, citations and other false factual assertions | 2.44 / 2026-11-13 | 136 | [Search and cite records](https://www.hallucination-free.org/tracker/) |
+| AI Reliability Incident Register | Bias, deception without a false factual assertion, and harmful conduct | 1.39 / 2026-11-13 | 130 | [Search and filter evidence](https://www.deterministicai.org/incidents/) |
 
 These are curated collections, not representative samples or a vendor ranking. Studies, allegations and reports are labelled; an allegation is not a finding. The same underlying event must be checked for overlap before combining datasets. Do not interpret release growth as a trend in AI failures.
 
 ## Choose an analysis and retain its evidence
+
+The [November 13 member-set review](https://www.deterministicai.org/topics/reliability-register-evidence/#when-do-two-source-links-describe-the-same-records) retains November11 inputs: nine shared URL groups map to eight distinct member sets covering17records. A pair appearing under two sources is not two more incidents. Full historical records, roles, code and validation are downloadable. These are metadata counts, not unique-event or independent-investigation totals.
+
+The [core Checklist1.3](https://www.deterministicai.org/checklist/#what-evidence-shows-that-repetitions-were-fresh) includes a blank per-attempt evidence ledger. Record requested/observed execution mode and call/reuse evidence; repeated result rows can reuse old answers. Its completed local metadata example meets four checks within scope; six remain untested. No model or cloud service was tested.
+
+November13 releases: Tracker2.44/136 improves the Withers source and moves the event date to the November2025 filing month, preserving its existing ID. Register1.39/130 adds an instructed-coercion study with fictional scenarios, mixed tactics and raw-log access limits. These documentation links are owned references, not independent endorsements.
+
 
 Use the [Tracker analysis question index](https://www.hallucination-free.org/topics/what-tracker-counts-can-tell-you/#which-evidence-do-you-need) or [Register index](https://www.deterministicai.org/topics/reliability-register-evidence/#which-evidence-do-you-need). Each result retains its dated inputs and denominators; current release totals do not replace them.
 
@@ -75,9 +82,9 @@ The November 4 evidence profiles provide frozen labelled composition, full membe
 
 ## How to cite
 
-Hallucination-Free. *The Hallucination Tracker*, version 2.43, November 12, 2026. https://www.hallucination-free.org/tracker/. Include access date and stable incident ID when citing one record.
+Hallucination-Free. *The Hallucination Tracker*, version 2.44, November 13, 2026. https://www.hallucination-free.org/tracker/. Include access date and stable incident ID when citing one record.
 
-Deterministic AI. *AI Reliability Incident Register*, version 1.38, November 12, 2026. https://www.deterministicai.org/incidents/. Include access date and stable incident ID.
+Deterministic AI. *AI Reliability Incident Register*, version 1.39, November 13, 2026. https://www.deterministicai.org/incidents/. Include access date and stable incident ID.
 
 For reproducibility, cite the versioned file actually used. Current versions above do not replace citations for historical analyses. See [CITATION.cff](CITATION.cff) and [release history](CHANGELOG.md). Only published entries belong here; held cases and private archives are excluded.
 
