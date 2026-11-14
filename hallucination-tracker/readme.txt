@@ -1,13 +1,13 @@
-Hallucination Tracker v2.44 — 2026-11-13
-136 selected records: 51 confirmed, 49 admitted and 36 suspected AI involvement.
-114 hallucination records; 22 false claims.
+Hallucination Tracker v2.45 — 2026-11-14
+137 selected records: 51 confirmed, 50 admitted and 36 suspected AI involvement.
+115 hallucination records; 22 false claims.
 Canonical page: https://www.hallucination-free.org/tracker/
 License: CC BY 4.0 https://creativecommons.org/licenses/by/4.0/
 Credit Hallucination-Free, link the landing page and license, and identify changes.
 License applies to original summaries and compilation, not linked source documents.
 
-Suggested citation: Hallucination-Free. The Hallucination Tracker, version 2.44, 2026-11-13. https://www.hallucination-free.org/tracker/ (add access date).
-For a reproducible copy use hallucination-tracker-v2.44.csv or .json.
+Suggested citation: Hallucination-Free. The Hallucination Tracker, version 2.45, 2026-11-14. https://www.hallucination-free.org/tracker/ (add access date).
+For a reproducible copy use hallucination-tracker-v2.45.csv or .json.
 
 FORMATS AND ORDER
 UTF-8 CSV: one row per record; id joins to JSON records.
@@ -219,3 +219,12 @@ October 29: Added the provider-confirmed October 6 grading-evidence fabrication.
 Date-window analysis preserves the earlier v2.31 baseline: https://www.hallucination-free.org/topics/what-tracker-counts-can-tell-you/#which-records-fall-in-a-recent-date-window
 
 October 30 — v2.33: Added Boyd (suspected AI; no sanctions at this stage) and Glenn (admitted AI research; voluntary remediation, not a fine). Rechecked the existing Lisandrillo follow-up without changing its stable ID.
+
+NOVEMBER 14 RELEASE-COMPARISON REUSE
+Join by stable ID and compare all fields; do not infer current event dates from IDs.
+The November10–13frozen comparison records five additions, five edited records and
+three existing event-date changes across the collections. Full rows and code:
+https://www.deterministicai.org/topics/reliability-register-evidence/#what-changed-between-the-november-10-and-13-releases
+Use the separate claim/evidence form for repeatability, support, correctness and completion:
+https://www.deterministicai.org/checklist/#which-evidence-supports-each-assurance
+The comparison uses earlier releases, not today’s current version.

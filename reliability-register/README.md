@@ -1,10 +1,10 @@
 # AI Reliability Incident Register field guide
 
 AI Reliability Incident Register — data dictionary and reuse notes
-Version 1.39, 2026-11-13. 130 records: 66 studies, 32 findings, 15 reports, 17 allegations; 41 bias, 24 deception, 65 harmful conduct.
+Version 1.40, 2026-11-14. 132 records: 67 studies, 32 findings, 16 reports, 17 allegations; 41 bias, 24 deception, 67 harmful conduct.
 Canonical page: https://www.deterministicai.org/incidents/
 License: CC BY 4.0 for original summaries and compilation; linked sources retain their own terms.
-Suggested citation: Deterministic AI. AI Reliability Incident Register, version 1.39, 2026-11-13. https://www.deterministicai.org/incidents/ (add access date).
+Suggested citation: Deterministic AI. AI Reliability Incident Register, version 1.40, 2026-11-14. https://www.deterministicai.org/incidents/ (add access date).
 Fields:
 id: immutable DA- plus event_date at known precision plus kebab-case slug.
 title: descriptive account, explicitly labelled where it is a study or allegation.
@@ -182,3 +182,6 @@ The [November 1–6 comparison](https://www.deterministicai.org/topics/reliabili
 November 9 review: retain the exact access scope with any reviewed_at date. The frozen audit and separate source receipts are at https://www.deterministicai.org/topics/reliability-register-evidence/#what-did-the-november-9-source-review-establish . The review queue is scheduling, not a risk ranking.
 
 November 10 shared-source review: inspect full record qualifications before treating URL groups as incidents or independent investigations. Reproducible grouping and 17 member records: https://www.deterministicai.org/analysis/2026-11-10/README.txt . Current citation metadata is above; older analysis snapshots remain frozen.
+
+
+November 14 reuse: compare full records by stable ID after date corrections; retain exact versions and source scopes. Frozen comparison and evidence form: https://www.deterministicai.org/topics/reliability-register-evidence/#what-changed-between-the-november-10-and-13-releases ; https://www.deterministicai.org/checklist/#which-evidence-supports-each-assurance . These are owned references.

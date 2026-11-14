@@ -1,15 +1,15 @@
 # Hallucination Tracker field guide
 
-Hallucination Tracker v2.44 — 2026-11-13
-136 selected records: 51 confirmed, 49 admitted and 36 suspected AI involvement.
-114 hallucination records; 22 false claims.
+Hallucination Tracker v2.45 — 2026-11-14
+137 selected records: 51 confirmed, 50 admitted and 36 suspected AI involvement.
+115 hallucination records; 22 false claims.
 Canonical page: https://www.hallucination-free.org/tracker/
 License: CC BY 4.0 https://creativecommons.org/licenses/by/4.0/
 Credit Hallucination-Free, link the landing page and license, and identify changes.
 License applies to original summaries and compilation, not linked source documents.
 
-Suggested citation: Hallucination-Free. The Hallucination Tracker, version 2.44, 2026-11-13. https://www.hallucination-free.org/tracker/ (add access date).
-For a reproducible copy use hallucination-tracker-v2.44.csv or .json.
+Suggested citation: Hallucination-Free. The Hallucination Tracker, version 2.45, 2026-11-14. https://www.hallucination-free.org/tracker/ (add access date).
+For a reproducible copy use hallucination-tracker-v2.45.csv or .json.
 
 FORMATS AND ORDER
 UTF-8 CSV: one row per record; id joins to JSON records.
@@ -327,3 +327,6 @@ The [November 1–6 comparison](https://www.hallucination-free.org/topics/what-t
 November 9 review: retain the exact access scope with any reviewed_at date. The frozen audit and separate source receipts are at https://www.hallucination-free.org/topics/what-tracker-counts-can-tell-you/#what-did-the-november-9-source-review-establish . The review queue is scheduling, not a risk ranking.
 
 November 10 shared-source review: inspect full record qualifications before treating URL groups as incidents or independent investigations. Reproducible grouping and 17 member records: https://www.hallucination-free.org/analysis/2026-11-10/README.txt . Current citation metadata is above; older analysis snapshots remain frozen.
+
+
+November 14 reuse: compare full records by stable ID after date corrections; retain exact versions and source scopes. Frozen comparison and evidence form: https://www.deterministicai.org/topics/reliability-register-evidence/#what-changed-between-the-november-10-and-13-releases ; https://www.deterministicai.org/checklist/#which-evidence-supports-each-assurance . These are owned references.

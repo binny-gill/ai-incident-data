@@ -1,5 +1,10 @@
 # Dataset documentation changelog
 
+## 2026-11-14 — reference documentation and reuse
+
+Replaced competing current-version prose with one release table and a four-task evidence chooser. Added the frozen November10–13release comparison: five additions, five edited records, three date corrections, full before/after rows and offline reproduction. Core Checklist1.3 is unchanged; optional claim/evidence form1.0 and25-entrydirectory distinguish repeatability, factual support, policy correctness and action completion. Historical dataset and worksheet versions remain available. Tracker2.45/137 adds the reported Sullivan & Cromwell filing and rechecks Full Fact. Register1.40/132 adds the Harbor Support study and Instinct tester report, and rechecks the Astra withholding disclosure. Studies and reports retain explicit evidence limits.
+
+
 ## 2026-11-13
 
 Tracker2.44/136: no new record; recovered Withers court text, corrected event month from sanctions date, preserved stable ID and distinguished AI-using drafters from local signatories. Register1.39/130: one Inter-Agent Influence threat study, with instructed coercion, fictional setting and access/causality limits. New frozen member-set analysis: nine URLs, eight sets, seventeen distinct records. Checklist1.3 retains ten criteria and adds per-attempt fresh/reuse evidence, with a completed local metadata example. Measurement and testing guides explain cached-result boundaries. Historical snapshots remain unchanged.

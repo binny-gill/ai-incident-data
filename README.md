@@ -6,30 +6,25 @@ Two vendor-neutral publications maintain these selected, source-linked collectio
 
 | Collection | Scope | Version / release | Records | Reference page |
 |---|---|---|---:|---|
-| Hallucination Tracker | Invented facts, citations and other false factual assertions | 2.44 / 2026-11-13 | 136 | [Search and cite records](https://www.hallucination-free.org/tracker/) |
-| AI Reliability Incident Register | Bias, deception without a false factual assertion, and harmful conduct | 1.39 / 2026-11-13 | 130 | [Search and filter evidence](https://www.deterministicai.org/incidents/) |
+| Hallucination Tracker | Invented facts, citations and other false factual assertions | 2.45 / 2026-11-14 | 137 | [Search and cite records](https://www.hallucination-free.org/tracker/) |
+| AI Reliability Incident Register | Bias, deception without a false factual assertion, and harmful conduct | 1.40 / 2026-11-14 | 132 | [Search and filter evidence](https://www.deterministicai.org/incidents/) |
 
 These are curated collections, not representative samples or a vendor ranking. Studies, allegations and reports are labelled; an allegation is not a finding. The same underlying event must be checked for overlap before combining datasets. Do not interpret release growth as a trend in AI failures.
 
 ## Choose an analysis and retain its evidence
 
-The [November 13 member-set review](https://www.deterministicai.org/topics/reliability-register-evidence/#when-do-two-source-links-describe-the-same-records) retains November11 inputs: nine shared URL groups map to eight distinct member sets covering17records. A pair appearing under two sources is not two more incidents. Full historical records, roles, code and validation are downloadable. These are metadata counts, not unique-event or independent-investigation totals.
+Start with one question:
 
-The [core Checklist1.3](https://www.deterministicai.org/checklist/#what-evidence-shows-that-repetitions-were-fresh) includes a blank per-attempt evidence ledger. Record requested/observed execution mode and call/reuse evidence; repeated result rows can reuse old answers. Its completed local metadata example meets four checks within scope; six remain untested. No model or cloud service was tested.
+| Review task | Evidence and instructions |
+|---|---|
+| Update a saved dataset after additions or corrections | [November 10–13 release comparison](https://www.deterministicai.org/topics/reliability-register-evidence/#what-changed-between-the-november-10-and-13-releases): five additions, five edited records, three event-date changes; full before/after rows and runnable pack |
+| Check whether shared links count the same records twice | [Shared source member sets](https://www.deterministicai.org/topics/reliability-register-evidence/#when-do-two-source-links-describe-the-same-records): frozen November 11 inputs, nine shared URLs, eight sets and seventeen distinct records |
+| Review a workflow's evidence | [Core Checklist 1.3](https://www.deterministicai.org/checklist/#how-should-you-use-this-checklist): ten stable criteria, blank downloads and per-attempt execution evidence |
+| Separate repeatability, support, correctness and completed actions | [Claim-and-evidence form 1.0](https://www.deterministicai.org/checklist/#which-evidence-supports-each-assurance): blank forms and a locally executed comparison example, with source truth and external actions untested |
 
-November13 releases: Tracker2.44/136 improves the Withers source and moves the event date to the November2025 filing month, preserving its existing ID. Register1.39/130 adds an instructed-coercion study with fictional scenarios, mixed tactics and raw-log access limits. These documentation links are owned references, not independent endorsements.
+These are owned reference links, not independent endorsements. Frozen analysis versions do not change when the current release changes. The [Tracker question index](https://www.hallucination-free.org/topics/what-tracker-counts-can-tell-you/#which-evidence-do-you-need), [Register index](https://www.deterministicai.org/topics/reliability-register-evidence/#which-evidence-do-you-need) and [25-entry worksheet directory](https://www.deterministicai.org/data/checklist-worksheet-directory-2026-11-14.csv) help find other reviews.
 
-
-Use the [Tracker analysis question index](https://www.hallucination-free.org/topics/what-tracker-counts-can-tell-you/#which-evidence-do-you-need) or [Register index](https://www.deterministicai.org/topics/reliability-register-evidence/#which-evidence-do-you-need). Each result retains its dated inputs and denominators; current release totals do not replace them.
-
-The [November 12 source-role comparison](https://www.deterministicai.org/topics/reliability-register-evidence/#what-changes-when-response-links-are-counted-too) uses the **November 11 releases**, Tracker 2.42/Register 1.37, not today's versions. Adding response links expands eight shared URL groups to nine, but both selections cover the same 17 distinct records. The expanded selection has 19 group memberships: two repeat memberships are not two more incidents. Full source roles, member records, code and an offline pack make the calculation reproducible. Neither shared URLs nor extra links prove corroboration or independent events.
-
-Start a workflow review with the [ten-check Checklist](https://www.deterministicai.org/checklist/#how-should-you-use-this-checklist). Core forms remain version 1.2. The new [validation-coverage supplement](https://www.deterministicai.org/checklist/#does-the-check-cover-the-whole-response) supplies five fictional cases and blank/filled downloads. Every actual service test is untested; a filled expected decision is not a measured result. The 22-entry directory links both new reviews.
-
-Current releases: Tracker 2.43/136 adds a loan-review independence study with explicit primary-excerpt limits and corrects the manager-completion experiment date while keeping its published ID. Register 1.38/129 adds that manager study's separate threat finding, labelled study with no enacted harm. Companion records are not independent studies. These are owned reference links, not independent endorsements.
-
-The [November 11 independent verification](https://www.deterministicai.org/topics/reliability-register-evidence/#what-did-the-independent-november-11-check-establish) remains available for the earlier November 10 inputs. Retain the actual version used in any citation.
-
+The release table at the top names the dataset versions represented by this README. The dated reviews below retain historical versions and results; they do not redefine the current versions.
 
 ## Source review and actual execution inputs
 
@@ -82,9 +77,9 @@ The November 4 evidence profiles provide frozen labelled composition, full membe
 
 ## How to cite
 
-Hallucination-Free. *The Hallucination Tracker*, version 2.44, November 13, 2026. https://www.hallucination-free.org/tracker/. Include access date and stable incident ID when citing one record.
+Hallucination-Free. *The Hallucination Tracker*, version 2.45, November 14, 2026. https://www.hallucination-free.org/tracker/. Include access date and stable incident ID when citing one record.
 
-Deterministic AI. *AI Reliability Incident Register*, version 1.39, November 13, 2026. https://www.deterministicai.org/incidents/. Include access date and stable incident ID.
+Deterministic AI. *AI Reliability Incident Register*, version 1.40, November 14, 2026. https://www.deterministicai.org/incidents/. Include access date and stable incident ID.
 
 For reproducibility, cite the versioned file actually used. Current versions above do not replace citations for historical analyses. See [CITATION.cff](CITATION.cff) and [release history](CHANGELOG.md). Only published entries belong here; held cases and private archives are excluded.
 
@@ -159,11 +154,11 @@ Use the [blank and filled join review](https://www.deterministicai.org/checklist
 
 The October 29 [Tracker analysis](https://www.hallucination-free.org/topics/what-tracker-counts-can-tell-you/#which-records-fall-in-a-recent-date-window) and [Register analysis](https://www.deterministicai.org/topics/reliability-register-evidence/#which-records-fall-in-a-recent-date-window) freeze v2.31/123 and v1.22/110 records. For August 1–October 29 inclusive, they distinguish complete interval matches (54/53), boundary candidates (2/5) and outside records (67/52). Boundary overlap is a metadata review flag; retained date notes can already rule out recent occurrence. These are dated milestones, not occurrence rates or independent-event totals.
 
-Each offline pack contains the complete frozen input, executable calculation, exact record membership, chart and validation receipt. Reuse the [Checklist date review](https://www.deterministicai.org/checklist/#how-do-you-review-date-precision) for declared boundary cases and separate source verification. Today's current releases include subsequent additions; do not silently substitute them for the frozen inputs. These are owned reference links, not independent endorsements.
+Each offline pack contains the complete frozen input, executable calculation, exact record membership, chart and validation receipt. Reuse the [Checklist date review](https://www.deterministicai.org/checklist/#how-do-you-review-date-precision) for declared boundary cases and separate source verification. Later releases include subsequent additions; do not silently substitute them for the frozen inputs. These are owned reference links, not independent endorsements.
 
 ## Updated companion references and attempt review — October 30
 
-The [updated companion-reference inventory](https://www.deterministicai.org/topics/reliability-register-evidence/#what-does-the-updated-companion-review-show) preserves Tracker v2.32 and Register v1.23: seven directional references, four pairs, eight participating records. Two pairs share an episode; the others describe distinct tasks/findings. Do not subtract the pair count from combined totals. The offline pack includes full records, relationship labels, code and validation. These frozen inputs precede today’s additions.
+The [updated companion-reference inventory](https://www.deterministicai.org/topics/reliability-register-evidence/#what-does-the-updated-companion-review-show) preserves Tracker v2.32 and Register v1.23: seven directional references, four pairs, eight participating records. Two pairs share an episode; the others describe distinct tasks/findings. Do not subtract the pair count from combined totals. The offline pack includes full records, relationship labels, code and validation. These inputs belong to the dated historical review.
 
 Use the [action/retry worksheet, version 1.1](https://www.deterministicai.org/checklist/#how-do-you-test-actions-and-retries) to retain failed or unresolved attempts when a later retry succeeds. All seven procedures start untested. These owned links are not independent endorsements.
 

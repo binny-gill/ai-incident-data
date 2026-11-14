@@ -1,8 +1,8 @@
 AI Reliability Incident Register — data dictionary and reuse notes
-Version 1.39, 2026-11-13. 130 records: 66 studies, 32 findings, 15 reports, 17 allegations; 41 bias, 24 deception, 65 harmful conduct.
+Version 1.40, 2026-11-14. 132 records: 67 studies, 32 findings, 16 reports, 17 allegations; 41 bias, 24 deception, 67 harmful conduct.
 Canonical page: https://www.deterministicai.org/incidents/
 License: CC BY 4.0 for original summaries and compilation; linked sources retain their own terms.
-Suggested citation: Deterministic AI. AI Reliability Incident Register, version 1.39, 2026-11-13. https://www.deterministicai.org/incidents/ (add access date).
+Suggested citation: Deterministic AI. AI Reliability Incident Register, version 1.40, 2026-11-14. https://www.deterministicai.org/incidents/ (add access date).
 Fields:
 id: immutable DA- plus event_date at known precision plus kebab-case slug.
 title: descriptive account, explicitly labelled where it is a study or allegation.
@@ -69,3 +69,12 @@ October 29: Added the provider-confirmed October 6 destructive grading attempt, 
 Date-window analysis preserves the earlier v1.22 baseline: https://www.deterministicai.org/topics/reliability-register-evidence/#which-records-fall-in-a-recent-date-window
 
 October 30 — v1.24: Added the operator’s February 26 DataTalks.Club deletion and recovery report. Preserved first-person status, operator approvals and reported restoration. Rechecked the compaction-concealment source without changing its scope.
+
+NOVEMBER 14 RELEASE-COMPARISON REUSE
+Join by stable ID and compare all fields; do not infer current event dates from IDs.
+The November10–13frozen comparison records five additions, five edited records and
+three existing event-date changes across the collections. Full rows and code:
+https://www.deterministicai.org/topics/reliability-register-evidence/#what-changed-between-the-november-10-and-13-releases
+Use the separate claim/evidence form for repeatability, support, correctness and completion:
+https://www.deterministicai.org/checklist/#which-evidence-supports-each-assurance
+The comparison uses earlier releases, not today’s current version.
