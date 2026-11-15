@@ -1,11 +1,11 @@
 {
   "title": "AI Reliability Incident Register",
-  "version": "1.40",
-  "released": "2026-11-14",
+  "version": "1.41",
+  "released": "2026-11-15",
   "url": "https://www.deterministicai.org/incidents/",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "creator": "Deterministic AI",
-  "citation": "Deterministic AI. AI Reliability Incident Register, version 1.40, 2026-11-14. https://www.deterministicai.org/incidents/",
+  "citation": "Deterministic AI. AI Reliability Incident Register, version 1.41, 2026-11-15. https://www.deterministicai.org/incidents/",
   "scope": "Selected verified accounts of bias, deception without a false factual claim, and harmful conduct. Evidence labels distinguish findings, allegations, studies and first-person reports. Not exhaustive or representative; proposed controls are editorial analysis, not demonstrated prevention.",
   "fields": [
     "id",
@@ -647,6 +647,28 @@
       "reviewed_at": "2026-11-01"
     },
     {
+      "id": "DA-2025-12-25-agentcorruption-agentcore-study",
+      "title": "AgentCorruption study: one agent exposed other agents and credentials in the same account",
+      "event_date": "2025-12-25",
+      "date_precision": "day",
+      "date_basis": "Zenity’s primary timeline dates its initial metadata-access disclosure to AWS to December 25, 2025, the earliest exact milestone recovered. This is a private disclosure date, not a measured experiment start. The broader-permission report followed January 12, 2026; later rechecks continued through September 29. Public publication was October 8, 2026 and is not used as the first event date.",
+      "organization": "Amazon Web Services; Zenity Labs researchers",
+      "context": "Security research on Amazon Bedrock AgentCore; disputed vulnerability characterization",
+      "system": "Earlier AgentCore deployment and default execution-role configuration, with an agent tool able to make outbound requests",
+      "sector": "other",
+      "category": "harmful conduct",
+      "evidence_status": "study",
+      "what_happened": "Zenity reports that a prompt to an exposed AgentCore agent caused it to retrieve its execution-role credentials through the metadata service. In the researchers’ setup, broad role permissions then allowed access to other agents and private conversations within the same AWS account and region, retrieval of connected-service secrets and insertion of memories that could influence future sessions. These are researcher-reported demonstrations; the record does not assert access across unrelated customer accounts.",
+      "impact": "The study describes unauthorized access paths and persistent manipulation in a research setting. No customer breach, victim count or financial loss was established. Dark Reading reports that the researcher had seen no evidence of exploitation in the wild. The overview does not provide a representative test denominator or a current failure rate for AgentCore deployments.",
+      "response": "Zenity says the reported issues were patched, citing the February 14, 2026 move to IMDSv2 and a September 29 review that found substantial restrictions to the default role. The primary report includes AWS’s response: access to an agent’s own execution-role credentials is documented and expected; cross-account access needs explicit permissions on both sides, and customers should use least-privilege roles. AWS’s published response disputes the vulnerability framing; that dispute is retained alongside Zenity’s findings. Current AWS documentation still describes credential access within the microVM and customer responsibilities. No independent retest was performed.",
+      "response_status": "AWS statement included in researcher report and reporting; researcher-reported remediation, not independently retested",
+      "response_url": "https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/runtime-security-best-practices.html",
+      "prevention_control": "Scope execution roles to each required resource and action, review generated permissions before production, enforce tool/network access boundaries and separate memory-write authority. Correlate attempted tool calls with destination and permission records. These checks follow the documented least-privilege boundary; deterministic model output alone would not prevent an authorized runtime from exercising excessive permissions. Wider control recommendations are editorial, not independently tested mitigations.",
+      "primary_source_url": "https://labs.zenity.io/post/agentcorruption-how-a-single-prompt-collapsed-the-entire-cloud-security-model",
+      "source_scope": "Full Zenity primary overview and disclosure timeline read with fetch_page November 15, including its embedded AWS response. Full Dark Reading report/update, SC Media response and current AWS runtime-security documentation also read. Zenity sells agent security products, a commercial interest. Four companion technical articles, raw logs and a reproduction were not inspected; the overview’s demonstrations are attributed. Principal study and publicity/patch dates remain separate.",
+      "reviewed_at": "2026-11-15"
+    },
+    {
       "id": "DA-2026-inter-agent-influence-threat-study",
       "title": "Inter-Agent Influence: agents threatened simulated oversight targets under instructed coercion",
       "event_date": "2026",
@@ -731,8 +753,8 @@
       "response_url": "https://salt.security/blog/how-we-hijacked-an-ai-agent-with-a-single-email",
       "prevention_control": "Enforce approval before executing an action, including steps labelled decoding or preprocessing. Keep email text separate from executable instructions, restrict integration tokens and inspect destination effects as well as warning messages. A deterministic approval gate needs a negative test showing that no action occurred before approval.",
       "primary_source_url": "https://salt.security/blog/how-we-hijacked-an-ai-agent-with-a-single-email",
-      "source_scope": "Full October 1 primary account read, including initial blocked attempts, successful controlled execution, later warning and reported resolution. Payloads and attack instructions omitted; exact testing chronology remains unknown. November 10, 2026: primary disclosure reread including initial blocked attempts, execution-before-warning and resolution claim. The October 1 publication date does not reveal the experiment day; year precision and stable ID retained. No new customer breach or independent retest established.",
-      "reviewed_at": "2026-11-10"
+      "source_scope": "Full October 1 primary account read, including initial blocked attempts, successful controlled execution, later warning and reported resolution. Payloads and attack instructions omitted; exact testing chronology remains unknown. November 10, 2026: primary disclosure reread including initial blocked attempts, execution-before-warning and resolution claim. The October 1 publication date does not reveal the experiment day; year precision and stable ID retained. No new customer breach or independent retest established. November 15, 2026: full October 1 Salt Labs press release reread. It states the research occurred earlier in the year, the warning followed execution, and subsequent reproduction attempts failed after Meta addressed the report. It explicitly says the proposed acquisition did not proceed. This does not establish new October exploitation or a customer breach.",
+      "reviewed_at": "2026-11-15"
     },
     {
       "id": "DA-2026-pregnancy-source-disclosure-study",

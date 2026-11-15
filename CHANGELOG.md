@@ -1,5 +1,10 @@
 # Dataset documentation changelog
 
+## 2026-11-15 — chronology corrections and retry evidence
+
+Tracker 2.46 retains 137 records, corrects Aguilar’s filing date with its ID preserved, strengthens full-order evidence and rechecks Flycatcher. Register 1.41 adds the AgentCorruption study with the December 2025 private-disclosure milestone, October 2026 public release, AWS response and reported remediation; 133 records total. Existing Manus disclosure reread. Added contextual links to the timeout/audit guides and fourteen-procedure action/retry supplement. Frozen November10–14comparison has eight additions and seven edited records; field presence is compared explicitly.
+
+
 ## 2026-11-14 — reference documentation and reuse
 
 Replaced competing current-version prose with one release table and a four-task evidence chooser. Added the frozen November10–13release comparison: five additions, five edited records, three date corrections, full before/after rows and offline reproduction. Core Checklist1.3 is unchanged; optional claim/evidence form1.0 and25-entrydirectory distinguish repeatability, factual support, policy correctness and action completion. Historical dataset and worksheet versions remain available. Tracker2.45/137 adds the reported Sullivan & Cromwell filing and rechecks Full Fact. Register1.40/132 adds the Harbor Support study and Instinct tester report, and rechecks the Astra withholding disclosure. Studies and reports retain explicit evidence limits.

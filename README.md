@@ -6,10 +6,16 @@ Two vendor-neutral publications maintain these selected, source-linked collectio
 
 | Collection | Scope | Version / release | Records | Reference page |
 |---|---|---|---:|---|
-| Hallucination Tracker | Invented facts, citations and other false factual assertions | 2.45 / 2026-11-14 | 137 | [Search and cite records](https://www.hallucination-free.org/tracker/) |
-| AI Reliability Incident Register | Bias, deception without a false factual assertion, and harmful conduct | 1.40 / 2026-11-14 | 132 | [Search and filter evidence](https://www.deterministicai.org/incidents/) |
+| Hallucination Tracker | Invented facts, citations and other false factual assertions | 2.46 / 2026-11-15 | 137 | [Search and cite records](https://www.hallucination-free.org/tracker/) |
+| AI Reliability Incident Register | Bias, deception without a false factual assertion, and harmful conduct | 1.41 / 2026-11-15 | 133 | [Search and filter evidence](https://www.deterministicai.org/incidents/) |
 
 These are curated collections, not representative samples or a vendor ranking. Studies, allegations and reports are labelled; an allegation is not a finding. The same underlying event must be checked for overlap before combining datasets. Do not interpret release growth as a trend in AI failures.
+
+## Review completion claims and retries
+
+The [audit-packet example](https://www.deterministicai.org/news/audit-evidence-packet/#how-do-you-reconcile-retries-with-one-business-operation) connects one authorized operation, individual attempts and independent destination evidence. The [abstention guide](https://www.hallucination-free.org/topics/when-should-ai-abstain/#what-should-an-agent-say-when-an-action-times-out) explains truthful status reporting after a timeout. These are editorial procedures and fictional examples, not observed payment or model results. [Action/retry pack 1.3](https://www.deterministicai.org/checklist/#which-retry-contract-should-the-test-record) contains fourteen untested procedures; the separate ten-check core remains version 1.3.
+
+The [November 10–14 comparison](https://www.deterministicai.org/topics/reliability-register-evidence/#what-changed-between-the-november-10-and-14-releases) retains eight additions, seven edited records and three event-date changes in frozen versions 2.41–2.45 and 1.36–1.40. It includes full records, field-presence flags and runnable evidence. Its window overlaps the earlier November 10–13 review; never add those counts. These are publication changes, not incident frequency. These owned references are not independent endorsements.
 
 ## Choose an analysis and retain its evidence
 
@@ -22,7 +28,7 @@ Start with one question:
 | Review a workflow's evidence | [Core Checklist 1.3](https://www.deterministicai.org/checklist/#how-should-you-use-this-checklist): ten stable criteria, blank downloads and per-attempt execution evidence |
 | Separate repeatability, support, correctness and completed actions | [Claim-and-evidence form 1.0](https://www.deterministicai.org/checklist/#which-evidence-supports-each-assurance): blank forms and a locally executed comparison example, with source truth and external actions untested |
 
-These are owned reference links, not independent endorsements. Frozen analysis versions do not change when the current release changes. The [Tracker question index](https://www.hallucination-free.org/topics/what-tracker-counts-can-tell-you/#which-evidence-do-you-need), [Register index](https://www.deterministicai.org/topics/reliability-register-evidence/#which-evidence-do-you-need) and [25-entry worksheet directory](https://www.deterministicai.org/data/checklist-worksheet-directory-2026-11-14.csv) help find other reviews.
+These are owned reference links, not independent endorsements. Frozen analysis versions do not change when the current release changes. The [Tracker question index](https://www.hallucination-free.org/topics/what-tracker-counts-can-tell-you/#which-evidence-do-you-need), [Register index](https://www.deterministicai.org/topics/reliability-register-evidence/#which-evidence-do-you-need) and [25-entry worksheet directory](https://www.deterministicai.org/data/checklist-worksheet-directory-2026-11-15.csv) help find other reviews.
 
 The release table at the top names the dataset versions represented by this README. The dated reviews below retain historical versions and results; they do not redefine the current versions.
 
@@ -77,9 +83,9 @@ The November 4 evidence profiles provide frozen labelled composition, full membe
 
 ## How to cite
 
-Hallucination-Free. *The Hallucination Tracker*, version 2.45, November 14, 2026. https://www.hallucination-free.org/tracker/. Include access date and stable incident ID when citing one record.
+Hallucination-Free. *The Hallucination Tracker*, version 2.46, November 15, 2026. https://www.hallucination-free.org/tracker/. Include access date and stable incident ID when citing one record.
 
-Deterministic AI. *AI Reliability Incident Register*, version 1.40, November 14, 2026. https://www.deterministicai.org/incidents/. Include access date and stable incident ID.
+Deterministic AI. *AI Reliability Incident Register*, version 1.41, November 15, 2026. https://www.deterministicai.org/incidents/. Include access date and stable incident ID.
 
 For reproducibility, cite the versioned file actually used. Current versions above do not replace citations for historical analyses. See [CITATION.cff](CITATION.cff) and [release history](CHANGELOG.md). Only published entries belong here; held cases and private archives are excluded.
 
