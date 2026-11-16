@@ -1,5 +1,10 @@
 # Dataset documentation changelog
 
+## 2026-11-16 — scoped source review and historical claims
+
+Tracker 2.47: 139 records, adding Soundslice and LiveVideo; uncertain dates, suspected AI attribution and PDF access limits retained. Register 1.42: 134 records, adding Microsoft's ARTEX credential-abuse campaign and rechecking the ten oldest selected records. Added contextual references to the frozen 270-record audit and the existing Checklist form's new completed example. Current start-review links use core 1.3; previous versions remain unchanged. These owned references are not independent endorsements.
+
+
 ## 2026-11-15 — chronology corrections and retry evidence
 
 Tracker 2.46 retains 137 records, corrects Aguilar’s filing date with its ID preserved, strengthens full-order evidence and rechecks Flycatcher. Register 1.41 adds the AgentCorruption study with the December 2025 private-disclosure milestone, October 2026 public release, AWS response and reported remediation; 133 records total. Existing Manus disclosure reread. Added contextual links to the timeout/audit guides and fourteen-procedure action/retry supplement. Frozen November10–14comparison has eight additions and seven edited records; field presence is compared explicitly.

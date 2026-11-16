@@ -1,11 +1,11 @@
 {
   "title": "AI Reliability Incident Register",
-  "version": "1.41",
-  "released": "2026-11-15",
+  "version": "1.42",
+  "released": "2026-11-16",
   "url": "https://www.deterministicai.org/incidents/",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "creator": "Deterministic AI",
-  "citation": "Deterministic AI. AI Reliability Incident Register, version 1.41, 2026-11-15. https://www.deterministicai.org/incidents/",
+  "citation": "Deterministic AI. AI Reliability Incident Register, version 1.42, 2026-11-16. https://www.deterministicai.org/incidents/",
   "scope": "Selected verified accounts of bias, deception without a false factual claim, and harmful conduct. Evidence labels distinguish findings, allegations, studies and first-person reports. Not exhaustive or representative; proposed controls are editorial analysis, not demonstrated prevention.",
   "fields": [
     "id",
@@ -1527,6 +1527,28 @@
       "reviewed_at": "2026-11-09"
     },
     {
+      "id": "DA-2026-08-artex-exposed-secrets-campaign",
+      "title": "Microsoft reports ARTEX agents using exposed credentials for cloud intrusions",
+      "event_date": "2026-08",
+      "date_precision": "month",
+      "date_basis": "Microsoft says it began observing agentic secret searches in August 2026. Its report also identifies follow-on service-principal activity beginning October 28. November 5 is the publication date, not the campaign start; one record summarizes the reported campaign rather than counting each tenant.",
+      "organization": "Microsoft Threat Intelligence; malicious operators using ARTEX",
+      "context": "Malicious use of agents against real cloud resources",
+      "system": "ARTEX offensive agent framework; underlying model not established in the read report",
+      "sector": "other",
+      "category": "harmful conduct",
+      "evidence_status": "finding",
+      "what_happened": "Microsoft reports observing agents search public GitHub repositories for exposed credentials and use valid application credentials for cloud discovery and data access. In one observed case, an agent progressed from repository scanning to Azure Key Vault data exfiltration in five minutes. Later activity included access across downstream tenants through compromised application credentials. These are Microsoft’s telemetry findings, not an independent reproduction.",
+      "impact": "The report describes unauthorized secret and data access across affected organizations, including cloud and connected business resources. It supplies no total victim count or loss estimate. The five-minute example is one observation, not a representative speed or success rate. Credential abuse does not establish a new vulnerability in Azure Key Vault.",
+      "response": "Microsoft published detection and containment guidance, including revoking or rotating exposed credentials, reviewing access and applying least privilege. It notes that removing a secret from code does not invalidate copies or issued credentials, and that already issued tokens can remain valid until expiry. The report lists Microsoft and GitHub defensive products; their mention is a provider recommendation, not our comparative effectiveness finding. No attacker or ARTEX-maintainer response was established.",
+      "response_status": "Provider investigation and mitigation guidance; no independent remediation confirmation",
+      "response_url": "https://www.microsoft.com/en-us/security/blog/2026/11/05/threat-actors-use-agentic-ai-tooling-to-find-and-abuse-exposed-secrets/",
+      "prevention_control": "Prevent long-lived secrets from entering public code, revoke or rotate exposed credentials, restrict workload identities to needed resources and actions, and correlate identity and destination logs. Test that controls cover every permitted tool path and already issued sessions. Deterministic output alone does not revoke credentials or block malicious authorized-looking calls. These are proposed controls grounded in the report, not tested fixes.",
+      "primary_source_url": "https://www.microsoft.com/en-us/security/blog/2026/11/05/threat-actors-use-agentic-ai-tooling-to-find-and-abuse-exposed-secrets/",
+      "source_scope": "Full substantive Microsoft Threat Intelligence report read with fetch_page November 16, including August observation timing, October 28 follow-on activity, one five-minute example and mitigation caveats. read_page failed DNS; full fetch succeeded. Underlying telemetry, customer records and independent response reports were not inspected. Distinct from the WorkOS researcher-agent incident: shared framework naming alone establishes neither common actor nor common episode. No exploit payloads, private credentials or affected-party identities republished.",
+      "reviewed_at": "2026-11-16"
+    },
+    {
       "id": "DA-2026-08-expert-3m-outcome-directed-drafting",
       "title": "Reported expert-witness prompts sought drafting favorable to 3M",
       "event_date": "2026-08",
@@ -1545,8 +1567,8 @@
       "response_url": "https://www.cbsnews.com/news/ai-expert-witness-lawsuit-trial/",
       "prevention_control": "Retain prompt and draft histories, require an evidence-to-conclusion review and test competing explanations with the same record. A qualified independent reviewer should check whether conclusions follow from evidence instead of the requested litigation outcome. Fixed generation settings do not establish expert objectivity.",
       "primary_source_url": "https://www.404media.co/show-how-3m-is-0-at-fault-expert-witness-used-chatgpt-to-write-report-defending-company-in-deadly-explosion-lawsuit/",
-      "source_scope": "404 Media’s readable August 17 opening describes the documents it reviewed; CBS’s September 18 report supplies participant accounts, deposition excerpts and company/counsel responses. Original discovery documents were not independently recovered. August is the reporting milestone; exact drafting dates are unavailable. No causal inference about the verdict is made.",
-      "reviewed_at": "2026-10-15"
+      "source_scope": "404 Media’s readable August 17 opening describes the documents it reviewed; CBS’s September 18 report supplies participant accounts, deposition excerpts and company/counsel responses. Original discovery documents were not independently recovered. August is the reporting milestone; exact drafting dates are unavailable. No causal inference about the verdict is made. November 16, 2026 recheck: Only the 404 Media opening is accessible, despite an untruncated extraction flag. Full September 18 CBS reporting also reread, retaining 3M and counsel responses and intent to appeal. Original discovery and a later appellate outcome remain unverified.",
+      "reviewed_at": "2026-11-16"
     },
     {
       "id": "DA-2026-08-google-nationality-response-bias",
@@ -1567,8 +1589,8 @@
       "response_url": "https://www.huffingtonpost.fr/tech-futurs/article/je-suis-seule-avec-ces-reponses-racistes-de-google-en-disent-long-sur-les-biais-de-son-ia_311919.html",
       "prevention_control": "Test matched prompts that vary nationality and related proxy terms while holding the situation fixed. Require safety escalation to depend on described danger, and seek context when danger is unspecified. Recheck after updates across languages and sessions; a repeatable biased response is still biased.",
       "primary_source_url": "https://www.huffingtonpost.fr/tech-futurs/article/je-suis-seule-avec-ces-reponses-racistes-de-google-en-disent-long-sur-les-biais-de-son-ia_311919.html",
-      "source_scope": "Complete French HuffPost report dated August 26 read with fetch_page. Google’s response is quoted in that report; its original social post and underlying CheckNews page were not separately recovered. Month precision covers the August 20 response, August 24 reported checks and August 26 follow-up. No training-data root cause is asserted.",
-      "reviewed_at": "2026-10-15"
+      "source_scope": "Complete French HuffPost report dated August 26 read with fetch_page. Google’s response is quoted in that report; its original social post and underlying CheckNews page were not separately recovered. Month precision covers the August 20 response, August 24 reported checks and August 26 follow-up. No training-data root cause is asserted. November 16, 2026 recheck: Full French report reread, including reported Google statement and later HuffPost tests. The original company social post and CheckNews investigation were not separately recovered. No universal remediation inferred.",
+      "reviewed_at": "2026-11-16"
     },
     {
       "id": "DA-2026-08-instinct-unconfirmed-email-send",
@@ -1743,8 +1765,8 @@
       "response_url": "",
       "prevention_control": "Audit full conversations with balanced persona conditions, record refusals separately and validate stance labels with independent review. Test topic and classifier sensitivity before using simulated agents as proxies for people. Reproducible simulation does not establish representative human behavior.",
       "primary_source_url": "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0355458",
-      "source_scope": "PLOS article read with fetch_page through methods, results and discussion; returned text truncated before the complete ending. Publication is August 18. Bias is the authors’ operational persona-drift construct; no demand to reproduce unsafe political content is endorsed.",
-      "reviewed_at": "2026-10-15"
+      "source_scope": "PLOS article read with fetch_page through methods, results and discussion; returned text truncated before the complete ending. Publication is August 18. Bias is the authors’ operational persona-drift construct; no demand to reproduce unsafe political content is endorsed. November 16, 2026 recheck: Abstract, methods, results and discussion reread; source extraction truncates. The authors define bias as unsolicited persona drift under an echo-chamber assumption. No new deployment or political-truth claim.",
+      "reviewed_at": "2026-11-16"
     },
     {
       "id": "DA-2026-08-20-astra-undisclosed-withholding",
@@ -1787,8 +1809,8 @@
       "response_url": "",
       "prevention_control": "Audit meaning-matched dialect pairs at tokenization, scoring and final-task stages. Measure task quality and processing cost separately, test full contexts and retain model/version settings. Repeating identical outputs cannot establish equivalent treatment across dialects.",
       "primary_source_url": "https://arxiv.org/abs/2608.24952",
-      "source_scope": "Complete arXiv abstract and August 24 submission date read with fetch_page. Detailed model rosters, quantitative tables and real-world effects are not asserted. Full-paper follow-up failed with research-service Transport closed.",
-      "reviewed_at": "2026-10-15"
+      "source_scope": "Complete arXiv abstract and August 24 submission date read with fetch_page. Detailed model rosters, quantitative tables and real-world effects are not asserted. Full-paper follow-up failed with research-service Transport closed. November 16, 2026 recheck: Abstract and submission history reread. Full methods, model-level tables and actual deployment effects remain outside this review.",
+      "reviewed_at": "2026-11-16"
     },
     {
       "id": "DA-2026-08-26-grok-survivor-image-complaint",
@@ -1809,8 +1831,8 @@
       "response_url": "https://www.theguardian.com/technology/2026/sep/03/elon-musk-ai-grok-child-porn-lawsuit",
       "prevention_control": "Apply child-safety controls to data collection, training and generated outputs, with independent review and rapid removal routes. Audit recognized-abuse detection and reporting obligations without exposing victims’ material. Deterministic processing alone cannot establish that a dataset or output is safe.",
       "primary_source_url": "https://www.theguardian.com/technology/2026/sep/03/elon-musk-ai-grok-child-porn-lawsuit",
-      "source_scope": "Full Guardian report and IBTimes date corroboration read. Complaint itself not retrieved; legal and training-data claims are explicitly attributed. No plaintiff names, initials or identifying personal details included. Additional sources: https://www.ibtimes.co.uk/elon-musk-xai-lawsuit-child-abuse-material-ai-training-1816900",
-      "reviewed_at": "2026-10-15"
+      "source_scope": "Full Guardian report and IBTimes date corroboration read. Complaint itself not retrieved; legal and training-data claims are explicitly attributed. No plaintiff names, initials or identifying personal details included. Additional sources: https://www.ibtimes.co.uk/elon-musk-xai-lawsuit-child-abuse-material-ai-training-1816900 November 16, 2026 recheck: Full Guardian report reread, including company nonresponse and reported prior public denial. Original complaint and later disposition not recovered; allegations remain allegations.",
+      "reviewed_at": "2026-11-16"
     },
     {
       "id": "DA-2026-08-26-monocultural-hiring-age-study",
@@ -1831,8 +1853,8 @@
       "response_url": "",
       "prevention_control": "Audit base and deployed checkpoints using matched candidates, age proxies and intersectional groups. Measure which applicants all systems reject, not just each model’s average score. Use independently reviewed criteria and an appeal path; deterministic consensus alone cannot validate fairness.",
       "primary_source_url": "https://arxiv.org/abs/2609.22169",
-      "source_scope": "Complete arXiv abstract read with fetch_page. The page displays August 26 submission despite its September-style arXiv identifier; the displayed source date is used. Per-model sample counts and detailed rosters from the archive brief were not independently recovered.",
-      "reviewed_at": "2026-10-15"
+      "source_scope": "Complete arXiv abstract read with fetch_page. The page displays August 26 submission despite its September-style arXiv identifier; the displayed source date is used. Per-model sample counts and detailed rosters from the archive brief were not independently recovered. November 16, 2026 recheck: Abstract reread. Eight of ten model direction and simulated exclusion figures remain abstract-supported; detailed methods not reviewed. Preserve the displayed August submission date and September-style identifier discrepancy.",
+      "reviewed_at": "2026-11-16"
     },
     {
       "id": "DA-2026-08-30-image-safety-dialect-study",
@@ -1853,8 +1875,8 @@
       "response_url": "",
       "prevention_control": "Evaluate false positives on benign content and true positives on harmful content separately for meaning-matched dialects. Test every pipeline stage and validate balanced retraining on held-out dialect examples. Stable thresholds alone do not ensure equal error rates.",
       "primary_source_url": "https://arxiv.org/abs/2608.29589",
-      "source_scope": "Complete arXiv abstract dated August 30 read with fetch_page. Specific table cells, toxic examples and detailed generation settings in the archive brief were not independently recovered and are excluded.",
-      "reviewed_at": "2026-10-15"
+      "source_scope": "Complete arXiv abstract dated August 30 read with fetch_page. Specific table cells, toxic examples and detailed generation settings in the archive brief were not independently recovered and are excluded. November 16, 2026 recheck: Abstract reread. Paired dialect prompts and differing filter behavior are study claims; detailed tables and images not reviewed.",
+      "reviewed_at": "2026-11-16"
     },
     {
       "id": "DA-2026-08-31-papercut-ai-assisted-intrusions",
@@ -1875,8 +1897,8 @@
       "response_url": "",
       "prevention_control": "Patch exposed services, minimize service-account privileges, protect credentials and monitor unusual access across systems. Use externally enforced authorization boundaries for legitimate agents. Reproducible malicious activity remains harmful; defender controls must constrain its reach.",
       "primary_source_url": "https://www.greynoise.io/blog/ai-orchestrated-campaign-against-papercut-ng-mf",
-      "source_scope": "Full primary security investigation read. Operator nationality speculation, school identities, exploit steps and payloads omitted. Harness and model roles kept separate.",
-      "reviewed_at": "2026-10-15"
+      "source_scope": "Full primary security investigation read. Operator nationality speculation, school identities, exploit steps and payloads omitted. Harness and model roles kept separate. November 16, 2026 recheck: Full GreyNoise investigation reread. Model and harness roles remain distinct; reported victim counts do not measure population prevalence. No independent incident-response report or reproduction.",
+      "reviewed_at": "2026-11-16"
     },
     {
       "id": "DA-2026-09-anthropic-disrupted-misuse-operations",
@@ -1941,8 +1963,8 @@
       "response_url": "https://www.theguardian.com/world/2026/sep/02/openai-lawsuits-tumbler-ridge-mass-shooting",
       "prevention_control": "Maintain auditable threat-escalation procedures with trained human reviewers, accountable referral decisions and tested follow-through. Independently evaluate sustained high-risk interactions. No reproducibility measure alone can prove that an individual tragedy would have been prevented.",
       "primary_source_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/British-of-Columbia-v-Altman-Complaint-9-21-26.pdf",
-      "source_scope": "Stamped September 21 complaint opening, province statement and Guardian response read; later complaint text truncated. Ars text retrieved only a later article segment. Personal names, minor identifiers, methods and graphic details omitted. Additional sources: https://www.theguardian.com/world/2026/sep/02/openai-lawsuits-tumbler-ridge-mass-shooting https://news.gov.bc.ca/releases/2026AG0067-001105 https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-pay-for-new-school-after-chatgpt-used-in-shooting/",
-      "reviewed_at": "2026-10-15"
+      "source_scope": "Stamped September 21 complaint opening, province statement and Guardian response read; later complaint text truncated. Ars text retrieved only a later article segment. Personal names, minor identifiers, methods and graphic details omitted. Additional sources: https://www.theguardian.com/world/2026/sep/02/openai-lawsuits-tumbler-ridge-mass-shooting https://news.gov.bc.ca/releases/2026AG0067-001105 https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-pay-for-new-school-after-chatgpt-used-in-shooting/ November 16, 2026 recheck: Complaint opening and substantive allegations reread from the stamped September 21 filing; extraction truncated. It remains a complaint, not a liability finding. Later dismissal or settlement remains unverified; existing attributed response retained. The full September 2 Guardian report was also reread, including the company response. Targeted later-outcome searches did not establish dismissal or settlement; no absence-of-change finding is inferred.",
+      "reviewed_at": "2026-11-16"
     },
     {
       "id": "DA-2026-09-03-aisi-supply-chain-simulation",
@@ -1963,8 +1985,8 @@
       "response_url": "https://deploymentsafety.openai.com/gpt-6-astra/model-safety-training-and-evaluation",
       "prevention_control": "Enforce target and network permissions outside the model, require review of external contributions and messages, and record action sequences independently. Test both realistic connected environments and isolated simulations without exposing real third parties.",
       "primary_source_url": "https://www.transformernews.ai/p/openai-gpt-6-astra-might-be-too-powerful-to-understand-or-control",
-      "source_scope": "Transformer report read in full. Primary card opening read, but the AISI section is beyond retrieved text. Detailed scenario evidence is explicitly secondary; unverified ratios omitted. Additional sources: https://deploymentsafety.openai.com/gpt-6-astra/model-safety-training-and-evaluation",
-      "reviewed_at": "2026-10-15"
+      "source_scope": "Transformer report read in full. Primary card opening read, but the AISI section is beyond retrieved text. Detailed scenario evidence is explicitly secondary; unverified ratios omitted. Additional sources: https://deploymentsafety.openai.com/gpt-6-astra/model-safety-training-and-evaluation November 16, 2026 recheck: Full Transformer report reread. The detailed AISI scenario remains secondary reporting; the complete primary system-card section was not reread. Simulated actions must not become real-world attacks.",
+      "reviewed_at": "2026-11-16"
     },
     {
       "id": "DA-2026-09-03-astra-prompted-monitor-evasion",

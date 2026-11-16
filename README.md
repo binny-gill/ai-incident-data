@@ -6,8 +6,8 @@ Two vendor-neutral publications maintain these selected, source-linked collectio
 
 | Collection | Scope | Version / release | Records | Reference page |
 |---|---|---|---:|---|
-| Hallucination Tracker | Invented facts, citations and other false factual assertions | 2.46 / 2026-11-15 | 137 | [Search and cite records](https://www.hallucination-free.org/tracker/) |
-| AI Reliability Incident Register | Bias, deception without a false factual assertion, and harmful conduct | 1.41 / 2026-11-15 | 133 | [Search and filter evidence](https://www.deterministicai.org/incidents/) |
+| Hallucination Tracker | Invented facts, citations and other false factual assertions | 2.47 / 2026-11-16 | 139 | [Search and cite records](https://www.hallucination-free.org/tracker/) |
+| AI Reliability Incident Register | Bias, deception without a false factual assertion, and harmful conduct | 1.42 / 2026-11-16 | 134 | [Search and filter evidence](https://www.deterministicai.org/incidents/) |
 
 These are curated collections, not representative samples or a vendor ranking. Studies, allegations and reports are labelled; an allegation is not a finding. The same underlying event must be checked for overlap before combining datasets. Do not interpret release growth as a trend in AI failures.
 
@@ -28,13 +28,13 @@ Start with one question:
 | Review a workflow's evidence | [Core Checklist 1.3](https://www.deterministicai.org/checklist/#how-should-you-use-this-checklist): ten stable criteria, blank downloads and per-attempt execution evidence |
 | Separate repeatability, support, correctness and completed actions | [Claim-and-evidence form 1.0](https://www.deterministicai.org/checklist/#which-evidence-supports-each-assurance): blank forms and a locally executed comparison example, with source truth and external actions untested |
 
-These are owned reference links, not independent endorsements. Frozen analysis versions do not change when the current release changes. The [Tracker question index](https://www.hallucination-free.org/topics/what-tracker-counts-can-tell-you/#which-evidence-do-you-need), [Register index](https://www.deterministicai.org/topics/reliability-register-evidence/#which-evidence-do-you-need) and [25-entry worksheet directory](https://www.deterministicai.org/data/checklist-worksheet-directory-2026-11-15.csv) help find other reviews.
+These are owned reference links, not independent endorsements. Frozen analysis versions do not change when the current release changes. The [Tracker question index](https://www.hallucination-free.org/topics/what-tracker-counts-can-tell-you/#which-evidence-do-you-need), [Register index](https://www.deterministicai.org/topics/reliability-register-evidence/#which-evidence-do-you-need) and [25-entry worksheet directory](https://www.deterministicai.org/data/checklist-worksheet-directory-2026-11-16.csv) help find other reviews.
 
 The release table at the top names the dataset versions represented by this README. The dated reviews below retain historical versions and results; they do not redefine the current versions.
 
 ## Source review and actual execution inputs
 
-The [November 9 source-review audit](https://www.hallucination-free.org/topics/what-tracker-counts-can-tell-you/#what-did-the-november-9-source-review-establish) and [Register companion](https://www.deterministicai.org/topics/reliability-register-evidence/#what-did-the-november-9-source-review-establish) publish a frozen 257-record metadata inventory, exact ten-record maintenance queue and separate source-reading receipts. Six outputs reproduce from pinned inputs. Source access ranges from full text to abstracts and truncated documents; a new review date does not establish a final legal outcome or complete verification.
+The [November 16 source-review audit](https://www.hallucination-free.org/topics/what-tracker-counts-can-tell-you/#what-did-the-november-16-source-review-establish) and [Register companion](https://www.deterministicai.org/topics/reliability-register-evidence/#what-did-the-november-16-source-review-establish) preserve 270 frozen pre-review records and the ten selected IDs. Four full reports, three abstracts, two partial documents and one opening have separate source receipts. Six calculated outputs reproduce; that does not verify the remaining 260 source accounts. The [Checklist worked review](https://www.deterministicai.org/checklist/#how-do-you-review-an-audit-queue) uses the existing freshness form and leaves deployed controls untested. These are owned reference links, not independent endorsements.
 
 The [core Checklist version 1.1](https://www.deterministicai.org/checklist/#how-do-you-review-the-actual-inputs) keeps ten stable criteria and adds clearer instructions for actual loaded artifacts and observed versus declared runtime conditions. The complete download includes blank CSV/JSON and a filled audit example with four criteria met within local metadata scope and six untested. Matching metadata does not verify an AI system or the source claims.
 
@@ -83,9 +83,9 @@ The November 4 evidence profiles provide frozen labelled composition, full membe
 
 ## How to cite
 
-Hallucination-Free. *The Hallucination Tracker*, version 2.46, November 15, 2026. https://www.hallucination-free.org/tracker/. Include access date and stable incident ID when citing one record.
+Hallucination-Free. *The Hallucination Tracker*, version 2.47, November 16, 2026. https://www.hallucination-free.org/tracker/. Include access date and stable incident ID when citing one record.
 
-Deterministic AI. *AI Reliability Incident Register*, version 1.41, November 15, 2026. https://www.deterministicai.org/incidents/. Include access date and stable incident ID.
+Deterministic AI. *AI Reliability Incident Register*, version 1.42, November 16, 2026. https://www.deterministicai.org/incidents/. Include access date and stable incident ID.
 
 For reproducibility, cite the versioned file actually used. Current versions above do not replace citations for historical analyses. See [CITATION.cff](CITATION.cff) and [release history](CHANGELOG.md). Only published entries belong here; held cases and private archives are excluded.
 
