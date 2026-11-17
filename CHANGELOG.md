@@ -1,5 +1,10 @@
 # Dataset documentation changelog
 
+## 2026-11-17 — Review queue reuse
+
+Added contextual references to the frozen review-policy comparison and blank/filled audit-queue handoff. Selection is separated from source verification; the November16 historical audit remains unchanged.
+
+
 ## 2026-11-16 — scoped source review and historical claims
 
 Tracker 2.47: 139 records, adding Soundslice and LiveVideo; uncertain dates, suspected AI attribution and PDF access limits retained. Register 1.42: 134 records, adding Microsoft's ARTEX credential-abuse campaign and rechecking the ten oldest selected records. Added contextual references to the frozen 270-record audit and the existing Checklist form's new completed example. Current start-review links use core 1.3; previous versions remain unchanged. These owned references are not independent endorsements.

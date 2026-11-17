@@ -6,10 +6,14 @@ Two vendor-neutral publications maintain these selected, source-linked collectio
 
 | Collection | Scope | Version / release | Records | Reference page |
 |---|---|---|---:|---|
-| Hallucination Tracker | Invented facts, citations and other false factual assertions | 2.47 / 2026-11-16 | 139 | [Search and cite records](https://www.hallucination-free.org/tracker/) |
-| AI Reliability Incident Register | Bias, deception without a false factual assertion, and harmful conduct | 1.42 / 2026-11-16 | 134 | [Search and filter evidence](https://www.deterministicai.org/incidents/) |
+| Hallucination Tracker | Invented facts, citations and other false factual assertions | 2.48 / 2026-11-17 | 141 | [Search and cite records](https://www.hallucination-free.org/tracker/) |
+| AI Reliability Incident Register | Bias, deception without a false factual assertion, and harmful conduct | 1.43 / 2026-11-17 | 135 | [Search and filter evidence](https://www.deterministicai.org/incidents/) |
 
 These are curated collections, not representative samples or a vendor ranking. Studies, allegations and reports are labelled; an allegation is not a finding. The same underlying event must be checked for overlap before combining datasets. Do not interpret release growth as a trend in AI failures.
+
+## Check review coverage before reusing an audit
+
+The [November 17 queue comparison](https://www.deterministicai.org/topics/reliability-register-evidence/#can-a-repeatable-review-queue-overlook-one-collection) shows two deterministic selections from the same 270 frozen records: ten Register records versus five from each collection. Download the full member records and offline calculation, then use the [blank or filled audit-queue review](https://www.deterministicai.org/checklist/#does-the-tie-break-match-the-review-objective) to keep scheduling, source access and untested production controls separate. Historical review receipts still apply only to the records actually read. These are owned references, not independent endorsements.
 
 ## Review completion claims and retries
 
