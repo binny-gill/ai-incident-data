@@ -1,5 +1,10 @@
 # Dataset documentation changelog
 
+## 2026-11-18 — Calculator capacity correction
+
+Linked calculator 1.1 and matching blank/filled review forms. Zero capacity now returns no rows; invalid capacities are rejected. Original ten-slot analysis remains unchanged. These are owned reference links, not independent endorsements.
+
+
 ## 2026-11-17 — Review queue reuse
 
 Added contextual references to the frozen review-policy comparison and blank/filled audit-queue handoff. Selection is separated from source verification; the November16 historical audit remains unchanged.

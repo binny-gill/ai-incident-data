@@ -6,10 +6,14 @@ Two vendor-neutral publications maintain these selected, source-linked collectio
 
 | Collection | Scope | Version / release | Records | Reference page |
 |---|---|---|---:|---|
-| Hallucination Tracker | Invented facts, citations and other false factual assertions | 2.48 / 2026-11-17 | 141 | [Search and cite records](https://www.hallucination-free.org/tracker/) |
-| AI Reliability Incident Register | Bias, deception without a false factual assertion, and harmful conduct | 1.43 / 2026-11-17 | 135 | [Search and filter evidence](https://www.deterministicai.org/incidents/) |
+| Hallucination Tracker | Invented facts, citations and other false factual assertions | 2.49 / 2026-11-18 | 141 | [Search and cite records](https://www.hallucination-free.org/tracker/) |
+| AI Reliability Incident Register | Bias, deception without a false factual assertion, and harmful conduct | 1.44 / 2026-11-18 | 137 | [Search and filter evidence](https://www.deterministicai.org/incidents/) |
 
 These are curated collections, not representative samples or a vendor ranking. Studies, allegations and reports are labelled; an allegation is not a finding. The same underlying event must be checked for overlap before combining datasets. Do not interpret release growth as a trend in AI failures.
+
+## Reuse the corrected review calculator
+
+The [review queue comparison](https://www.deterministicai.org/topics/reliability-register-evidence/#can-a-repeatable-review-queue-overlook-one-collection) now links calculator 1.1 and its regression tests. A zero-capacity defect is corrected; all original ten-slot outputs and frozen inputs are unchanged. Use the [blank or filled capacity worksheet](https://www.deterministicai.org/checklist/#how-should-a-review-queue-handle-zero-capacity) to distinguish the local calculation from source and production verification. Historical downloads retain the original implementation and its documented limits.
 
 ## Check review coverage before reusing an audit
 
@@ -32,7 +36,7 @@ Start with one question:
 | Review a workflow's evidence | [Core Checklist 1.3](https://www.deterministicai.org/checklist/#how-should-you-use-this-checklist): ten stable criteria, blank downloads and per-attempt execution evidence |
 | Separate repeatability, support, correctness and completed actions | [Claim-and-evidence form 1.0](https://www.deterministicai.org/checklist/#which-evidence-supports-each-assurance): blank forms and a locally executed comparison example, with source truth and external actions untested |
 
-These are owned reference links, not independent endorsements. Frozen analysis versions do not change when the current release changes. The [Tracker question index](https://www.hallucination-free.org/topics/what-tracker-counts-can-tell-you/#which-evidence-do-you-need), [Register index](https://www.deterministicai.org/topics/reliability-register-evidence/#which-evidence-do-you-need) and [25-entry worksheet directory](https://www.deterministicai.org/data/checklist-worksheet-directory-2026-11-16.csv) help find other reviews.
+These are owned reference links, not independent endorsements. Frozen analysis versions do not change when the current release changes. The [Tracker question index](https://www.hallucination-free.org/topics/what-tracker-counts-can-tell-you/#which-evidence-do-you-need), [Register index](https://www.deterministicai.org/topics/reliability-register-evidence/#which-evidence-do-you-need) and [25-entry worksheet directory](https://www.deterministicai.org/data/checklist-worksheet-directory-2026-11-18.csv) help find other reviews.
 
 The release table at the top names the dataset versions represented by this README. The dated reviews below retain historical versions and results; they do not redefine the current versions.
 
