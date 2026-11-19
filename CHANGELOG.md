@@ -1,5 +1,9 @@
 # Dataset documentation changelog
 
+## 2026-11-19
+
+Tracker2.50:142records, ECHR addition. Register1.45:137records, California lawsuit follow-up to existing intrusion with allegations and response retained. Contextual release comparison and comparison-contract review links added; no new independent endorsement claimed.
+
 ## 2026-11-18 — Calculator capacity correction
 
 Linked calculator 1.1 and matching blank/filled review forms. Zero capacity now returns no rows; invalid capacities are rejected. Original ten-slot analysis remains unchanged. These are owned reference links, not independent endorsements.

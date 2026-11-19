@@ -6,10 +6,14 @@ Two vendor-neutral publications maintain these selected, source-linked collectio
 
 | Collection | Scope | Version / release | Records | Reference page |
 |---|---|---|---:|---|
-| Hallucination Tracker | Invented facts, citations and other false factual assertions | 2.49 / 2026-11-18 | 141 | [Search and cite records](https://www.hallucination-free.org/tracker/) |
-| AI Reliability Incident Register | Bias, deception without a false factual assertion, and harmful conduct | 1.44 / 2026-11-18 | 137 | [Search and filter evidence](https://www.deterministicai.org/incidents/) |
+| Hallucination Tracker | Invented facts, citations and other false factual assertions | 2.50 / 2026-11-19 | 142 | [Search and cite records](https://www.hallucination-free.org/tracker/) |
+| AI Reliability Incident Register | Bias, deception without a false factual assertion, and harmful conduct | 1.45 / 2026-11-19 | 137 | [Search and filter evidence](https://www.deterministicai.org/incidents/) |
 
 These are curated collections, not representative samples or a vendor ranking. Studies, allegations and reports are labelled; an allegation is not a finding. The same underlying event must be checked for overlap before combining datasets. Do not interpret release growth as a trend in AI failures.
+
+## Compare updates even when totals stay the same
+
+The [November17–19 release comparison](https://www.deterministicai.org/topics/reliability-register-evidence/#what-changed-between-the-november-17-and-19-releases) retains three additions and two edited records with complete frozen inputs and field differences. The [comparison-contract worksheet](https://www.deterministicai.org/checklist/#does-the-comparison-preserve-the-differences-that-matter) separately tests exact string equality and character similarity with fictional local fixtures. Neither demonstrates source truth or production approval. These are owned references, not independent endorsements.
 
 ## Reuse the corrected review calculator
 
