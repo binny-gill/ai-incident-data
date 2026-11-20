@@ -6,10 +6,14 @@ Two vendor-neutral publications maintain these selected, source-linked collectio
 
 | Collection | Scope | Version / release | Records | Reference page |
 |---|---|---|---:|---|
-| Hallucination Tracker | Invented facts, citations and other false factual assertions | 2.50 / 2026-11-19 | 142 | [Search and cite records](https://www.hallucination-free.org/tracker/) |
-| AI Reliability Incident Register | Bias, deception without a false factual assertion, and harmful conduct | 1.45 / 2026-11-19 | 137 | [Search and filter evidence](https://www.deterministicai.org/incidents/) |
+| Hallucination Tracker | Invented facts, citations and other false factual assertions | 2.51 / 2026-11-20 | 143 | [Search and cite records](https://www.hallucination-free.org/tracker/) |
+| AI Reliability Incident Register | Bias, deception without a false factual assertion, and harmful conduct | 1.46 / 2026-11-20 | 139 | [Search and filter evidence](https://www.deterministicai.org/incidents/) |
 
 These are curated collections, not representative samples or a vendor ranking. Studies, allegations and reports are labelled; an allegation is not a finding. The same underlying event must be checked for overlap before combining datasets. Do not interpret release growth as a trend in AI failures.
+
+## Retain the scope as well as the records
+
+The [comparison calculator update](https://www.deterministicai.org/topics/reliability-register-evidence/#what-changed-between-the-november-17-and-19-releases) adds separate top-level metadata differences while preserving the November 19 record outputs. The [scope-statement form](https://www.deterministicai.org/checklist/#how-do-you-write-a-testable-scope-statement) is a seven-field blank/filled planning aid; its fictional example has no executed checks. Preserve these limits when citing or reusing either resource.
 
 ## Compare updates even when totals stay the same
 

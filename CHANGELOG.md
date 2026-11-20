@@ -1,5 +1,11 @@
 # Dataset documentation changelog
 
+## 2026-11-20
+
+Tracker2.51:143records (+1Couvrette, Leiske source recheck). Register1.46:139records (+2 older OpenClaw report and Claudy Day study). Dates, evidence status, later legal outcomes and source-access limits preserved.
+
+Added contextual guidance for separate metadata comparisons and a reusable, explicitly untested scope statement. Original record snapshots and historical calculations preserved.
+
 ## 2026-11-19
 
 Tracker2.50:142records, ECHR addition. Register1.45:137records, California lawsuit follow-up to existing intrusion with allegations and response retained. Contextual release comparison and comparison-contract review links added; no new independent endorsement claimed.
