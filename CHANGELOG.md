@@ -1,5 +1,11 @@
 # Dataset documentation changelog
 
+## 2026-11-21
+
+Tracker2.52:144records (+1 AI Village research-score report). Register1.47:141records (+2 studies; WorkOS source recheck). Research setups, source limits and disclosure milestones preserved.
+
+Added a contextual reference to date-precision audit1.1 and its blank/filled review. Historical November17 baselines and incomplete-date limits are explicit.
+
 ## 2026-11-20
 
 Tracker2.51:143records (+1Couvrette, Leiske source recheck). Register1.46:139records (+2 older OpenClaw report and Claudy Day study). Dates, evidence status, later legal outcomes and source-access limits preserved.

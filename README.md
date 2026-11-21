@@ -6,10 +6,14 @@ Two vendor-neutral publications maintain these selected, source-linked collectio
 
 | Collection | Scope | Version / release | Records | Reference page |
 |---|---|---|---:|---|
-| Hallucination Tracker | Invented facts, citations and other false factual assertions | 2.51 / 2026-11-20 | 143 | [Search and cite records](https://www.hallucination-free.org/tracker/) |
-| AI Reliability Incident Register | Bias, deception without a false factual assertion, and harmful conduct | 1.46 / 2026-11-20 | 139 | [Search and filter evidence](https://www.deterministicai.org/incidents/) |
+| Hallucination Tracker | Invented facts, citations and other false factual assertions | 2.52 / 2026-11-21 | 144 | [Search and cite records](https://www.hallucination-free.org/tracker/) |
+| AI Reliability Incident Register | Bias, deception without a false factual assertion, and harmful conduct | 1.47 / 2026-11-21 | 141 | [Search and filter evidence](https://www.deterministicai.org/incidents/) |
 
 These are curated collections, not representative samples or a vendor ranking. Studies, allegations and reports are labelled; an allegation is not a finding. The same underlying event must be checked for overlap before combining datasets. Do not interpret release growth as a trend in AI failures.
+
+## Preserve incomplete dates in a timeline
+
+The [date-precision audit 1.1](https://www.hallucination-free.org/topics/what-tracker-counts-can-tell-you/#how-many-records-can-be-placed-on-a-specific-day) uses published November17 baselines: Tracker2.48/141 and Register1.43/135. Each has32records without a specific day. It provides complete original-date indexes, frozen inputs, credited charts and an offline calculator. These are historical record counts, not unique-event counts or current collection totals. Read each date_basis before interpreting a day as first occurrence. The [blank and filled review](https://www.deterministicai.org/checklist/#how-do-you-review-date-precision) separates parser tests from source-date verification.
 
 ## Retain the scope as well as the records
 
