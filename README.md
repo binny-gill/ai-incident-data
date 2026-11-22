@@ -6,12 +6,15 @@ Two vendor-neutral publications maintain these selected, source-linked collectio
 
 | Collection | Scope | Version / release | Records | Reference page |
 |---|---|---|---:|---|
-| Hallucination Tracker | Invented facts, citations and other false factual assertions | 2.52 / 2026-11-21 | 144 | [Search and cite records](https://www.hallucination-free.org/tracker/) |
-| AI Reliability Incident Register | Bias, deception without a false factual assertion, and harmful conduct | 1.47 / 2026-11-21 | 141 | [Search and filter evidence](https://www.deterministicai.org/incidents/) |
+| Hallucination Tracker | Invented facts, citations and other false factual assertions | 2.53 / 2026-11-22 | 146 | [Search and cite records](https://www.hallucination-free.org/tracker/) |
+| AI Reliability Incident Register | Bias, deception without a false factual assertion, and harmful conduct | 1.48 / 2026-11-22 | 142 | [Search and filter evidence](https://www.deterministicai.org/incidents/) |
 
 These are curated collections, not representative samples or a vendor ranking. Studies, allegations and reports are labelled; an allegation is not a finding. The same underlying event must be checked for overlap before combining datasets. Do not interpret release growth as a trend in AI failures.
 
 ## Preserve incomplete dates in a timeline
+
+The [evidence/date cross-tab](https://www.deterministicai.org/topics/reliability-register-evidence/#does-an-exact-date-mean-stronger-evidence) extends the same November 17 baseline with complete cell IDs and full member records. Exact dates do not promote suspected AI involvement, allegations or reports to findings. Reuse the blank/filled review in the existing date section to keep membership checks separate from source verification.
+
 
 The [date-precision audit 1.1](https://www.hallucination-free.org/topics/what-tracker-counts-can-tell-you/#how-many-records-can-be-placed-on-a-specific-day) uses published November17 baselines: Tracker2.48/141 and Register1.43/135. Each has32records without a specific day. It provides complete original-date indexes, frozen inputs, credited charts and an offline calculator. These are historical record counts, not unique-event counts or current collection totals. Read each date_basis before interpreting a day as first occurrence. The [blank and filled review](https://www.deterministicai.org/checklist/#how-do-you-review-date-precision) separates parser tests from source-date verification.
 
@@ -103,9 +106,9 @@ The November 4 evidence profiles provide frozen labelled composition, full membe
 
 ## How to cite
 
-Hallucination-Free. *The Hallucination Tracker*, version 2.47, November 16, 2026. https://www.hallucination-free.org/tracker/. Include access date and stable incident ID when citing one record.
+Hallucination-Free. The Hallucination Tracker, version 2.53, 2026-11-22. https://www.hallucination-free.org/tracker/ Include access date and stable incident ID when citing one record.
 
-Deterministic AI. *AI Reliability Incident Register*, version 1.42, November 16, 2026. https://www.deterministicai.org/incidents/. Include access date and stable incident ID.
+Deterministic AI. AI Reliability Incident Register, version 1.48, 2026-11-22. https://www.deterministicai.org/incidents/ Include access date and stable incident ID when citing one record.
 
 For reproducibility, cite the versioned file actually used. Current versions above do not replace citations for historical analyses. See [CITATION.cff](CITATION.cff) and [release history](CHANGELOG.md). Only published entries belong here; held cases and private archives are excluded.
 

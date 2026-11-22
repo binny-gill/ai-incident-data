@@ -1,5 +1,11 @@
 # Dataset documentation changelog
 
+## 2026-11-22
+
+Tracker 2.53: 146 records (+2). Register 1.48: 142 records (+1). Lingle court record plus paired NewCore access/denial descriptions; three records cover two episodes. Source limits, provider response and prevented-effect distinction retained.
+
+Added a contextual evidence/date cross-tab reference within the existing timeline guidance; preserved historical denominators and source limitations.
+
 ## 2026-11-21
 
 Tracker2.52:144records (+1 AI Village research-score report). Register1.47:141records (+2 studies; WorkOS source recheck). Research setups, source limits and disclosure milestones preserved.

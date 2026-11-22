@@ -1,8 +1,8 @@
 AI Reliability Incident Register — data dictionary and reuse notes
-Version 1.47, 2026-11-21. 141 records: 71 studies, 34 findings, 19 reports, 17 allegations; 41 bias, 25 deception, 75 harmful conduct.
+Version 1.48, 2026-11-22. 142 records: 71 studies, 34 findings, 20 reports, 17 allegations; 41 bias, 25 deception, 76 harmful conduct.
 Canonical page: https://www.deterministicai.org/incidents/
 License: CC BY 4.0 for original summaries and compilation; linked sources retain their own terms.
-Suggested citation: Deterministic AI. AI Reliability Incident Register, version 1.47, 2026-11-21. https://www.deterministicai.org/incidents/ (add access date).
+Suggested citation: Deterministic AI. AI Reliability Incident Register, version 1.48, 2026-11-22. https://www.deterministicai.org/incidents/ (add access date).
 Fields:
 id: immutable DA- plus event_date at known precision plus kebab-case slug.
 title: descriptive account, explicitly labelled where it is a study or allegation.
