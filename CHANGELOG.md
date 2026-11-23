@@ -1,5 +1,9 @@
 # Dataset documentation changelog
 
+## 2026-11-23
+
+Tracker2.54:147records(+1). Register1.49:143records(+1). Added source-qualified BBC planted-claim experiment and Together credential disclosure. Reopened ten oldest Register sources, recovered Couvrette commentary, and added scoped source-audit reuse guidance. Historical snapshots preserved. Site source publication and public delivery are verified separately.
+
 ## 2026-11-22
 
 Tracker 2.53: 146 records (+2). Register 1.48: 142 records (+1). Lingle court record plus paired NewCore access/denial descriptions; three records cover two episodes. Source limits, provider response and prevented-effect distinction retained.

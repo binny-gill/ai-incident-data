@@ -1,13 +1,13 @@
-Hallucination Tracker v2.53 — 2026-11-22
-146 selected records: 57 confirmed, 52 admitted and 37 suspected AI involvement.
-122 hallucination records; 24 false claims.
+Hallucination Tracker v2.54 — 2026-11-23
+147 selected records: 57 confirmed, 53 admitted and 37 suspected AI involvement.
+122 hallucination records; 25 false claims.
 Canonical page: https://www.hallucination-free.org/tracker/
 License: CC BY 4.0 https://creativecommons.org/licenses/by/4.0/
 Credit Hallucination-Free, link the landing page and license, and identify changes.
 License applies to original summaries and compilation, not linked source documents.
 
-Suggested citation: Hallucination-Free. The Hallucination Tracker, version 2.53, 2026-11-22. https://www.hallucination-free.org/tracker/ (add access date).
-For a reproducible copy use hallucination-tracker-v2.53.csv or .json.
+Suggested citation: Hallucination-Free. The Hallucination Tracker, version 2.54, 2026-11-23. https://www.hallucination-free.org/tracker/ (add access date).
+For a reproducible copy use hallucination-tracker-v2.54.csv or .json.
 
 FORMATS AND ORDER
 UTF-8 CSV: one row per record; id joins to JSON records.
